@@ -37,7 +37,7 @@ bevpro/
 │       │   ├── ErrorBoundary.tsx
 │       │   ├── Map.tsx
 │       │   └── ManusDialog.tsx
-│       ├── pages/              # Route pages (8 total)
+│       ├── pages/              # Route pages (9 total)
 │       │   ├── Home.tsx        # Landing — hero, services bento, service area, FAQ, testimonials
 │       │   ├── Services.tsx    # 5 service detail sections with images
 │       │   ├── Packages.tsx    # 3-tier pricing with double-bezel cards
@@ -76,6 +76,7 @@ bevpro/
 | `/packages` | `Packages.tsx` | 3 tiers (Essential/Premium/Grand) + add-ons + comparison table |
 | `/about` | `About.tsx` | Company story, core values, stats |
 | `/contact` | `Contact.tsx` | Quote request form, direct contact, trust badges, FAQ |
+| `/intake` | `Intake.tsx` | Full event planning intake — 15 questions, 3 sections, react-hook-form + zod |
 | `/terms` | `Terms.tsx` | 11-section Terms & Conditions |
 | `/privacy` | `Privacy.tsx` | 12-section Privacy Policy |
 | `/404` | `NotFound.tsx` | Explicit 404 |

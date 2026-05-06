@@ -10,6 +10,7 @@ import Packages from "./pages/Packages";
 import Services from "./pages/Services";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Intake from "./pages/Intake";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import BartenderTraining from "./pages/BartenderTraining";
@@ -34,6 +35,7 @@ function Router() {
       <Route path={"/services"} component={Services} />
       <Route path={"/about"} component={About} />
       <Route path={"/contact"} component={Contact} />
+      <Route path={"/intake"} component={Intake} />
       <Route path={"/terms"} component={Terms} />
       <Route path={"/privacy"} component={Privacy} />
       <Route path={"/bartender-training"} component={BartenderTraining} />
