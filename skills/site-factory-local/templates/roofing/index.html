@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Roofing Pro - Premier Roofing Contractors{% endblock %}</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="apple-touch-icon" sizes="apple-touch-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="manifest" id="site-manifest" href="/site-manifest.json">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <header class="sticky top-0 z-50 bg-white shadow-lg">
+        <!-- Navigation and Hero Component goes here. Uses assets/hero-roofing-main.jpg -->
+        <section id="hero-section" style="background-image: url('assets/hero-roofing-main.jpg'); background-size: cover; height: 80vh; display: flex; align-items: center; text-align: center;">
+            <!-- Hero content overlay -->
+        </section>
+    </header>
+
+    <main id="content">
+        <!-- Service sections, utilizing image assets from the service-specific folders -->
+        <section id="services" class="py-20">
+            <h2>Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <!-- Service Card 1: ReRoofing -->
+                <article class="service-card">
+                    <h3>ReRoofs & Replacements</h3>
+                    <img src="assets/service-reroofs.jpg" alt="Rooftop replacement work" class="rounded-lg shadow-xl">
+                    <p>Detailed description...</p>
+                </article>
+                <!-- Service Card 2: Insurance Claims -->
+                <article class="service-card">
+                    <h3>Insurance Claims</h3>
+                    <img src="assets/service-claims.jpg" alt="Insurance claim documentation" class="rounded-lg shadow-xl">
+                    <p>Detailed description...</p>
+                </article>
+                <!-- Service Card 3: Maintenance -->
+                <article class="service-card">
+                    <h3>Maintenance & Repairs</h3>
+                    <img src="assets/service-maintenance.jpg" alt="Preventative maintenance on roof flashing" class="rounded-lg shadow-xl">
+                    <p>Detailed description...</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ... other sections (How It Works, Gallery, etc.) ... -->
+    </main>
+
+    <footer id="contact-footer">
+        <!-- Contact form and CTA, utilizing assets/gallery-roof-1.jpg -->
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+</html>

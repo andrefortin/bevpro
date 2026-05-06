@@ -1,0 +1,142 @@
+{
+  "_comment": "Base config for all service-business sites. Niche configs override specific sections. Business data overrides everything. Empty strings = filled by factory.",
+
+  "template": "",
+  "niche": "",
+
+  "company": {
+    "name": "",
+    "nameShort": "",
+    "nameSub": "Services",
+    "tagline": "",
+    "phone": "",
+    "phoneFormatted": "",
+    "email": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "cityState": "",
+    "cityStateCounty": "",
+    "serviceArea": "",
+    "license": "",
+    "licenseNumber": "",
+    "yearsInBusiness": "10+",
+    "yearsLabel": "Years of Experience",
+    "siteUrl": "",
+    "copyright": "",
+    "emergency": "24/7 Emergency Service"
+  },
+
+  "seo": {
+    "homeTitle": "",
+    "homeDescription": "",
+    "ogImage": ""
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Now booking —",
+    "linkText": "free estimates",
+    "linkHref": "#contact",
+    "suffix": "available this week."
+  },
+
+  "hero": {
+    "h1": ["Professional Service,", "Built to Last", "a Lifetime."],
+    "h1Highlight": 1,
+    "subtitle": "",
+    "badges": ["Licensed & Insured", "Free Estimates", "Satisfaction Guaranteed"],
+    "bgImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1920&q=80",
+    "rating": "5.0",
+    "reviewCount": "50+",
+    "stats": [
+      { "stat": "500+", "label": "Jobs Completed" },
+      { "stat": "10+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "$0 Down", "label": "Financing" }
+    ],
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "trustBadges": [
+    { "name": "Licensed & Insured", "icon": "🛡️" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Google 5★", "icon": "⭐" },
+    { "name": "Free Estimates", "icon": "🔍" },
+    { "name": "$0 Down Financing", "icon": "💰" },
+    { "name": "Satisfaction Guaranteed", "icon": "🏆" }
+  ],
+
+  "services": [],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Simple process, zero surprises.",
+    "badgeStat": "10+",
+    "badgeLabel": "Years Experience",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80",
+    "ctaText": "Schedule a Free Estimate",
+    "steps": [
+      { "num": "01", "title": "Free Estimate", "desc": "We assess your project at no charge and give you an honest, detailed quote." },
+      { "num": "02", "title": "We Plan It", "desc": "Our team handles all scheduling, permits, and prep so you don't have to." },
+      { "num": "03", "title": "We Do the Work", "desc": "Our crew shows up on time, works clean, and gets it done right the first time." },
+      { "num": "04", "title": "Guaranteed", "desc": "Every job is backed by our satisfaction guarantee and workmanship warranty." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Our recent work.",
+    "projects": []
+  },
+
+  "testimonials": {
+    "h2": "What our customers say.",
+    "reviews": []
+  },
+
+  "contact": {
+    "h2": "Get your free estimate.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Request a Free Estimate",
+    "serviceOptions": [
+      "General Service",
+      "Emergency Service",
+      "Maintenance",
+      "Not Sure — I Need an Assessment"
+    ]
+  },
+
+  "faq": {
+    "h2": "Common questions.",
+    "items": [
+      {
+        "q": "Do you offer free estimates?",
+        "a": "Yes — all estimates are completely free with no obligation. We'll assess your project and give you a detailed, honest quote."
+      },
+      {
+        "q": "Are you licensed and insured?",
+        "a": "Yes. We carry full general liability insurance and workers' compensation coverage. Certificates are available on request."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": ""
+      },
+      {
+        "q": "Do you offer financing?",
+        "a": "Yes. We offer $0 down financing with flexible payment options. Ask us about available plans during your free estimate."
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "Don't put it off — get it done right.",
+    "subtext": "Contact us today for a free, no-obligation estimate from a team you can trust.",
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "footer": {
+    "tagline": "",
+    "services": [],
+    "serviceAreas": []
+  }
+}

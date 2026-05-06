@@ -1,0 +1,118 @@
+{
+  "_comment": "HVAC niche overrides. Images placeholders added for asset integration.",
+
+  "niche": "hvac",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "HVAC",
+    "emergency": "24/7 Emergency HVAC Service"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "AC not cooling?",
+    "linkText": "Same-day service available",
+    "linkHref": "#contact",
+    "suffix": "— call us now."
+  },
+
+  "hero": {
+    "h1": ["Heating & Cooling", "Done Right,", "Done Fast."],
+    "h1Highlight": 1,
+    "badges": ["NATE Certified Technicians", "BBB Accredited", "24/7 Emergency"],
+    "bgImage": "assets/hero-hvac-main.jpg",
+    "stats": [
+      { "stat": "2000+", "label": "Systems Installed" },
+      { "stat": "10+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "24/7", "label": "Emergency Service" }
+    ],
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "trustBadges": [
+    { "name": "NATE Certified", "icon": "🏅" },
+    { "name": "Carrier Authorized", "icon": "⭐" },
+    { "name": "Trane Comfort Specialist", "icon": "🏆" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Licensed & Insured", "icon": "🛡️" },
+    { "name": "0% Financing", "icon": "💰" }
+  ],
+
+  "services": [
+    { "title": "AC Installation & Replacement", "description": "Energy-efficient central air systems sized right for your home — installed by certified techs.", "href": "#services" },
+    { "title": "Heating Installation & Replacement", "description": "Gas furnaces, heat pumps, and electric systems installed with manufacturer warranties.", "href": "#services" },
+    { "title": "AC Repair", "description": "Fast diagnosis and same-day repairs for all makes and models. No cooling — we fix it.", "href": "#services" },
+    { "title": "Heating Repair", "description": "Furnace not firing? Heat pump blowing cold? We diagnose and repair same day.", "href": "#services" },
+    { "title": "Preventive Maintenance", "description": "Seasonal tune-ups that extend equipment life and prevent costly breakdowns.", "href": "#services" },
+    { "title": "24/7 Emergency Service", "description": "No heat in winter, no AC in summer? We respond around the clock.", "href": "#services" }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Same-day service, guaranteed comfort.",
+    "image": "assets/hero-hvac-main.jpg",
+    "ctaText": "Book Service Now",
+    "steps": [
+      { "num": "01", "title": "Call or Book Online", "desc": "Available 24/7 — we'll confirm your appointment and give you an arrival window."},
+      { "num": "02", "title": "Diagnosis & Upfront Quote", "desc": "Our tech diagnoses the problem and gives you a flat-rate price before any work starts."},
+      { "num": "03", "title": "We Fix It", "desc": "NATE-certified technicians complete the repair or installation cleanly and correctly."},
+      { "num": "04", "title": "Guaranteed", "desc": "All work is backed by our parts and labor warranty — if it's not right, we make it right."}
+    ]
+  },
+
+  "gallery": {
+    "h2": "Recent installs in the area.",
+    "projects": [
+      { "title": "Central AC Replacement", "material": "Carrier 16-SEER2 Two-Stage", "image": "assets/gallery-hvac-1.jpg" },
+      { "title": "Gas Furnace Installation", "material": "Trane XV95 96% AFUE", "image": "assets/gallery-hvac-2.jpg" },
+      { "title": "Heat Pump System", "material": "Lennox XP21 21 SEER", "image": "assets/gallery-hvac-3.jpg" },
+      { "title": "Full HVAC System Replacement", "material": "Carrier Performance Series", "image": "assets/gallery-hvac-4.jpg" }
+    ]
+  },
+
+  "contact": {
+    "h2": "Book your service call.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Schedule Service",
+    "serviceOptions": [
+      "AC Repair",
+      "Heating Repair",
+      "AC Installation / Replacement",
+      "Heating Installation / Replacement",
+      "Preventive Maintenance / Tune-Up",
+      "24/7 Emergency — I Need Help Now",
+      "Not Sure — I Need a Diagnosis"
+    ]
+  },
+
+  "faq": {
+    "h2": "Common HVAC questions.",
+    "items": [
+      { "q": "How quickly can you respond to an emergency?", "a": "For HVAC emergencies we typically arrive within 1-2 hours. We're available 24/7 including holidays."},
+      { "q": "Do you service all HVAC brands?", "a": "Yes — our NATE-certified technicians are trained to service all major brands including Carrier, Trane, Lennox, Rheem, Goodman, and more."},
+      { "q": "Should I repair or replace my system?", "a": "If your system is over 10 years old and repair costs exceed 50% of replacement cost, replacement usually makes more financial sense. We'll give you an honest recommendation during your free estimate."},
+      { "q": "How often should I have my HVAC serviced?", "a": "We recommend a tune-up twice a year — once in spring before cooling season, and once in fall before heating season. This prevents breakdowns and extends equipment life."},
+      { "q": "Are you licensed and insured?", "a": "Yes. All our technicians are NATE-certified and we carry full general liability and workers' compensation insurance."},
+      { "q": "What areas do you serve?", "a": ""
+    ]
+  },
+
+  "cta": {
+    "h2": "HVAC problem? Don't sweat it — we're on call 24/7.",
+    "subtext": "Call now or book online for same-day service. Free estimates, upfront pricing, no surprises.",
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "AC Installation", "href": "#services" },
+      { "label": "Heating Installation", "href": "#services" },
+      { "label": "AC Repair", "href": "#services" },
+      { "label": "Heating Repair", "href": "#services" },
+      { "label": "Preventive Maintenance", "href": "#services" },
+      { "label": "24/7 Emergency Service", "href": "#services" }
+    ]
+  }
+}

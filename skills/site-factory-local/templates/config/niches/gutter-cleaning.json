@@ -1,0 +1,306 @@
+{
+  "niche": "gutter-cleaning",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "Gutter Services",
+    "emergency": "Storm Season Priority Service"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Clogged gutters cause foundation and roof damage.",
+    "linkText": "Schedule a cleaning",
+    "linkHref": "#contact",
+    "suffix": "— before the next storm hits."
+  },
+
+  "hero": {
+    "h1": ["Professional Gutter", "Cleaning & Repair,", "Done Right."],
+    "h1Highlight": 1,
+    "badges": ["Licensed & Insured", "Free Estimates", "Same-Season Availability"],
+    "bgImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "stat": "8,000+", "label": "Gutters Cleaned" },
+      { "stat": "10+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "100%", "label": "Satisfaction" }
+    ],
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "trustBadges": [
+    { "name": "Licensed & Insured", "icon": "🛡️" },
+    { "name": "Storm Season Priority", "icon": "⚡" },
+    { "name": "Free Estimates", "icon": "💰" },
+    { "name": "Gutter Guard Certified", "icon": "🏆" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Satisfaction Guaranteed", "icon": "⭐" }
+  ],
+
+  "services": [
+    {
+      "title": "Gutter Cleaning & Flushing",
+      "slug": "gutter-cleaning-flushing",
+      "href": "/services/gutter-cleaning-flushing",
+      "description": "Complete gutter cleaning with debris removal and downspout flushing — fully flowing guaranteed.",
+      "intro": "Clogged gutters redirect water over fascia, into soffit, and down foundation walls — causing rot, mold, and expensive structural damage. We remove all debris by hand, bag it for disposal, and flush every downspout to confirm full flow before leaving.",
+      "features": [
+        "Hand removal of all leaves, shingle grit, and organic debris",
+        "Debris bagged and removed from property",
+        "Downspout flushing and flow confirmation",
+        "Downspout extension check and adjustment",
+        "Gutter face rinsed for curb appeal",
+        "Visual inspection of hangers, seams, and pitch",
+        "Before/after documentation photos provided",
+        "Bi-annual maintenance programs available"
+      ],
+      "process": [
+        { "step": "1", "title": "Schedule & Arrive", "desc": "We confirm your appointment with a 2-hour window. Our team arrives with full equipment — no ladder rental needed." },
+        { "step": "2", "title": "Manual Debris Removal", "desc": "All debris is removed by hand and collected in bags for disposal — not blown off the roof into your landscaping." },
+        { "step": "3", "title": "Downspout Flush", "desc": "Every downspout is flushed with water to confirm full, unobstructed flow from gutter to ground." },
+        { "step": "4", "title": "Inspection Report", "desc": "We document our findings — any gutter damage, pitch issues, or downspout problems — and discuss recommendations." }
+      ],
+      "materials": ["Gutter scoops and hand tools", "Wet/dry vacuums for enclosed gutters", "High-pressure flush hose", "Inspection mirrors and cameras"],
+      "faqs": [
+        { "q": "How often should gutters be cleaned?", "a": "Twice a year is standard — once in late spring after tree pollen season and once in late fall after leaves have fallen. Homes with heavy tree coverage may need 3–4 cleanings per year." },
+        { "q": "What happens if I never clean my gutters?", "a": "Clogged gutters overflow during rain, saturating the soil against your foundation (basement leaks), rotting fascia boards, and creating ice dams in winter. The repair costs far exceed regular cleaning." },
+        { "q": "Do you clean two-story gutters?", "a": "Yes. We bring ladders and safety equipment for all heights — including two-story and three-story homes. No extra charge for height on standard properties." }
+      ]
+    },
+    {
+      "title": "Gutter Guard Installation",
+      "slug": "gutter-guard-installation",
+      "href": "/services/gutter-guard-installation",
+      "description": "Micro-mesh gutter guards that block debris while allowing full water flow.",
+      "intro": "Gutter guards don't eliminate maintenance entirely, but the best micro-mesh systems dramatically reduce how often gutters need cleaning — from twice a year to every 3–5 years. We install and endorse only systems that actually work, and we warranty the installation.",
+      "features": [
+        "Micro-mesh stainless steel guards — the most effective design",
+        "Compatible with all gutter styles and roof types",
+        "Handles high-volume rainfall without overflow",
+        "Keeps out leaves, pine needles, shingle grit, and pests",
+        "No visible gap that allows pest entry",
+        "Aluminum frame with stainless steel mesh",
+        "10-year installation warranty",
+        "Includes gutter cleaning before installation"
+      ],
+      "process": [
+        { "step": "1", "title": "Gutter Inspection", "desc": "We inspect and clean all gutters and confirm they're in good condition before guard installation." },
+        { "step": "2", "title": "Product Selection", "desc": "We recommend the right guard system for your roof type, tree coverage, and rainfall patterns." },
+        { "step": "3", "title": "Professional Installation", "desc": "Guards are measured, cut, and secured — not just snapped in loosely. Proper fit is critical to performance." },
+        { "step": "4", "title": "Flow Test", "desc": "We run water through to confirm correct pitch, full flow through the mesh, and proper downspout drainage." }
+      ],
+      "materials": ["LeafFilter Micro-Mesh", "MasterShield Gutter Guard", "HomeCraft Gutter Protection", "Raptor Micro-Mesh (DIY-grade)", "Aluminum gutter apron trim"],
+      "faqs": [
+        { "q": "Do gutter guards really work?", "a": "Micro-mesh stainless steel guards genuinely reduce maintenance. Cheaper foam or brush-style inserts are largely ineffective and can cause more problems than they solve. We only install systems we stand behind." },
+        { "q": "Will gutter guards eliminate gutter cleaning entirely?", "a": "Nearly. Well-installed micro-mesh guards may only need flushing every 3–5 years for most homes. Homes with heavy pine needle coverage may still need annual inspection." },
+        { "q": "Can gutter guards cause ice dams?", "a": "No. Ice dams are caused by poor attic insulation and ventilation — not by gutter guards. Guards have no meaningful effect on ice dam formation." }
+      ]
+    },
+    {
+      "title": "Gutter Repair & Replacement",
+      "slug": "gutter-repair-replacement",
+      "href": "/services/gutter-repair-replacement",
+      "description": "Leaking seams, sagging gutters, and damaged sections repaired or replaced.",
+      "intro": "Gutters leak at seams, pull away from fascia, and sag where hangers have failed. We repair all common gutter problems — re-sealing joints, re-hanging sagging runs, replacing damaged sections, and re-pitching gutters that no longer drain correctly.",
+      "features": [
+        "Leaking seam repair with gutter sealant",
+        "Hanger replacement and re-hanging sagging runs",
+        "Gutter re-pitching for proper water flow",
+        "Section replacement (color-matched)",
+        "End cap replacement and caulking",
+        "Corner mitre repair and sealing",
+        "Spike-and-ferrule to hidden hanger upgrade",
+        "Full gutter system replacement when repair isn't cost-effective"
+      ],
+      "process": [
+        { "step": "1", "title": "Full System Inspection", "desc": "We inspect all gutters, downspouts, and hangers to identify every issue — not just the visible leak." },
+        { "step": "2", "title": "Repair vs. Replace Assessment", "desc": "We give you an honest comparison: repair cost vs. replacement cost, and what makes the most sense given age and condition." },
+        { "step": "3", "title": "Quality Repair Work", "desc": "Repairs are done properly — seams cleaned and re-sealed, hangers screwed (not spiked), pitch corrected to code." },
+        { "step": "4", "title": "Flow Test & Documentation", "desc": "We flush the entire system after repairs to confirm every section drains correctly." }
+      ],
+      "materials": ["Geocel Pro Flex gutter sealant", "Hidden gutter hangers (Fascia Fix)", "Aluminum gutter sections (color-matched)", "Downspout elbows and connectors"],
+      "faqs": [
+        { "q": "How do I know if my gutters are leaking?", "a": "Look for water stains on fascia, paint peeling below gutters, water dripping from joints during rain, and eroded soil directly below gutter runs. Pooling near the foundation often traces back to a clogged or leaking gutter." },
+        { "q": "Can leaking seams be repaired or do I need new gutters?", "a": "Most seam leaks are repairable with professional-grade gutter sealant. If the aluminum is cracked or extensively corroded, section replacement is better than patching." },
+        { "q": "My gutters sag in the middle — is this fixable?", "a": "Yes. Sagging is typically caused by failed spike-and-ferrule hangers. We replace these with hidden screw-type hangers that are far more durable and re-set the correct pitch." }
+      ]
+    },
+    {
+      "title": "Downspout Cleaning & Repair",
+      "slug": "downspout-cleaning-repair",
+      "href": "/services/downspout-cleaning-repair",
+      "description": "Clogged and damaged downspouts cleared and repaired — complete drainage from gutter to ground.",
+      "intro": "A clogged downspout backs up an entire gutter run. We clear blockages, repair disconnected sections, and install underground discharge options to move water well away from the foundation.",
+      "features": [
+        "Downspout blockage clearing — all heights",
+        "Underground downspout connection and extension",
+        "Flexible downspout elbow installation for landscaping clearance",
+        "Downspout strainer installation to prevent future blockages",
+        "Buried drain pipe installation to move water away from foundation",
+        "Splash block and gravel bed installation",
+        "Disconnected downspout reconnection",
+        "Downspout section replacement"
+      ],
+      "process": [
+        { "step": "1", "title": "Identify Blockage", "desc": "We run water from the top and probe from the bottom to locate blockage depth and cause." },
+        { "step": "2", "title": "Clear & Flush", "desc": "Blockages are cleared with a plumber's snake or water pressure flush, then verified with a full flow test." },
+        { "step": "3", "title": "Root Cause Fix", "desc": "We address the reason for the clog — typically an elbow angle, underground connection issue, or missing strainer." },
+        { "step": "4", "title": "Extension Options", "desc": "We recommend the best discharge option: splash block, flexible extension, or buried drain pipe." }
+      ],
+      "materials": ["Amerimax downspout strainers", "Flex-A-Spout flexible extensions", "NDS drain basin systems", "ADS corrugated drain pipe"],
+      "faqs": [
+        { "q": "How do I know if my downspout is clogged?", "a": "Water overflowing from the top of a downspout during rain is a clear sign. You can also run a hose in from the top — if water backs up rather than flowing through, there's a clog." },
+        { "q": "How far from the foundation should downspout water be discharged?", "a": "At least 4–6 feet from the foundation using an extension, and ideally 10 feet or more with a buried drain pipe. Water dumping at the base of the downspout is a primary cause of foundation moisture problems." },
+        { "q": "Can buried downspout drains clog?", "a": "Yes, over time. We recommend installing a cleanout access point during burial. We also service existing buried drain systems if they're not flowing properly." }
+      ]
+    },
+    {
+      "title": "Fascia & Soffit Repair",
+      "slug": "fascia-soffit-repair",
+      "href": "/services/fascia-soffit-repair",
+      "description": "Rot repair and replacement for fascia boards and soffit panels damaged by gutter overflow.",
+      "intro": "When gutters overflow or leak, fascia boards rot and soffit panels sag — creating entry points for pests and moisture. We repair and replace damaged fascia and soffit as part of a complete gutter system restoration.",
+      "features": [
+        "Rotted fascia board replacement",
+        "Soffit panel repair and replacement",
+        "Aluminum fascia wrap installation",
+        "Vinyl soffit replacement in matching profiles",
+        "Pest entry point sealing",
+        "Wood rot treatment on adjacent framing",
+        "Paint or primer matching available",
+        "Combined with gutter reinstall for complete restoration"
+      ],
+      "process": [
+        { "step": "1", "title": "Damage Assessment", "desc": "We probe fascia and soffit for soft spots, check for pest activity, and identify all damage extent before pricing." },
+        { "step": "2", "title": "Gutter Removal", "desc": "Gutters are carefully removed to access and fully replace damaged fascia — not just patched over." },
+        { "step": "3", "title": "Fascia & Soffit Repair", "desc": "Rotted wood is replaced with pressure-treated or PVC trim board. Soffit panels are replaced with matching material." },
+        { "step": "4", "title": "Gutter Reinstall", "desc": "Gutters are rehung on fresh, solid fascia — properly pitched and sealed. System functions like new." }
+      ],
+      "materials": ["Kleer PVC trim board", "Pressure-treated fascia boards", "CertainTeed vinyl soffit panels", "Boral aluminum fascia wrap"],
+      "faqs": [
+        { "q": "How do I know if my fascia is rotting?", "a": "Press the fascia board firmly — it should be solid. Soft or spongy spots indicate rot. Paint peeling away from fascia in sheets, or gutters pulling away from the house, are also signs of rot." },
+        { "q": "Can you replace fascia without replacing the gutters?", "a": "We can replace fascia and reinstall existing gutters if they're in good condition. Often the rot is localized to specific sections and full gutter replacement isn't needed." },
+        { "q": "Is PVC or wood better for replacement fascia?", "a": "PVC (cellular trim board) is rot-proof and an excellent choice for fascia replacement, especially in damp climates. It's primed and paint-ready. We use it as our default recommendation." }
+      ]
+    },
+    {
+      "title": "Seamless Gutter Installation",
+      "slug": "seamless-gutter-installation",
+      "href": "/services/seamless-gutter-installation",
+      "description": "Custom-formed seamless aluminum gutters — no joints to leak, precise fit to your roofline.",
+      "intro": "Seamless gutters are formed on-site by a machine that rolls continuous aluminum coil into your exact gutter profile — no seams between corners and only factory-formed joints at downspout connections. Fewer seams means fewer leaks. We offer 5-inch and 6-inch K-style in over 30 colors.",
+      "features": [
+        "Custom-formed on-site with a seamless gutter machine",
+        "5-inch and 6-inch K-style profiles",
+        "30+ aluminum colors — painted to match your trim",
+        "No mid-run seams — only factory ends at downspouts",
+        "Hidden hanger installation every 24 inches",
+        "High-volume 6-inch gutters for steep or large roofs",
+        "Copper and steel options available",
+        "10-year workmanship warranty"
+      ],
+      "process": [
+        { "step": "1", "title": "Measurement & Color Selection", "desc": "We measure your full roofline and help you choose the right profile, size, and color to match your home." },
+        { "step": "2", "title": "On-Site Forming", "desc": "Our seamless gutter machine rolls aluminum coil into your exact lengths on your driveway — no cuts in the middle of runs." },
+        { "step": "3", "title": "Professional Install", "desc": "Gutters are hung with hidden hangers screwed into rafter tails, pitched correctly for drainage, and sealed at all joints." },
+        { "step": "4", "title": "Flow Test & Cleanup", "desc": "We run water through the complete system, confirm every downspout flows correctly, and remove all old gutter material." }
+      ],
+      "materials": ["0.032\" aluminum coil stock", "Aluminum K-style profile", "Hidden gutter hangers (screw-type)", "Geocel Pro Flex sealant at joints"],
+      "faqs": [
+        { "q": "What's the difference between seamless and sectional gutters?", "a": "Sectional gutters come in 10-foot pieces joined with connectors — each joint is a potential leak point. Seamless gutters are formed in one continuous piece for your full run, eliminating mid-run joints." },
+        { "q": "What size gutter do I need — 5-inch or 6-inch?", "a": "5-inch handles most standard roofs. 6-inch is recommended for steep pitches, large roof areas, or high-rainfall climates. We'll recommend the right size based on your roof's drainage load." },
+        { "q": "How long do aluminum seamless gutters last?", "a": "Properly installed aluminum seamless gutters typically last 20–30 years. Copper gutters can last 50–100 years. Regular cleaning extends the life of any gutter system." }
+      ]
+    }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Protect your home in four steps.",
+    "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
+    "ctaText": "Schedule My Free Estimate",
+    "steps": [
+      { "num": "01", "title": "Free Estimate", "desc": "We inspect your gutters and downspouts and give you a written upfront quote." },
+      { "num": "02", "title": "Scheduled Service", "desc": "We work around your schedule — storm season priority service available." },
+      { "num": "03", "title": "Professional Work", "desc": "Cleaning, repair, or installation done right — debris removed and downspouts confirmed flowing." },
+      { "num": "04", "title": "Documented Results", "desc": "We leave you with before/after photos and a report of any issues found." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Recent gutter projects in your area.",
+    "projects": [
+      { "title": "Seamless Gutter Install", "material": "6-inch K-style in Musket Brown", "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Gutter Guard Install", "material": "Micro-mesh stainless steel guards", "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Fascia Replacement", "material": "PVC trim + gutter rehang", "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Seasonal Cleaning", "material": "Full debris removal and downspout flush", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "testimonials": {
+    "h2": "Real words from real neighbors."
+  },
+
+  "contact": {
+    "h2": "Request your free gutter estimate.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Schedule My Free Estimate",
+    "serviceOptions": [
+      "Gutter Cleaning & Flushing",
+      "Gutter Guard Installation",
+      "Gutter Repair & Replacement",
+      "Downspout Cleaning & Repair",
+      "Fascia & Soffit Repair",
+      "Seamless Gutter Installation",
+      "Not Sure — I Need an Inspection"
+    ]
+  },
+
+  "faq": {
+    "h2": "Your gutter questions answered.",
+    "items": [
+      {
+        "q": "How often should gutters be cleaned?",
+        "a": "Twice a year for most homes — spring and fall. Homes under heavy tree coverage may need 3–4 cleanings per year. We offer bi-annual maintenance programs so you never have to remember."
+      },
+      {
+        "q": "Are you licensed and insured?",
+        "a": "Yes. We carry full general liability and workers' compensation insurance. Our technicians are trained and safety-certified for ladder and roof-edge work."
+      },
+      {
+        "q": "What damage can clogged gutters cause?",
+        "a": "Overflowing gutters rot fascia boards, damage soffit, saturate foundation soil causing basement leaks, and create ice dams in winter. Regular cleaning costs far less than these repairs."
+      },
+      {
+        "q": "Do gutter guards eliminate cleaning?",
+        "a": "Quality micro-mesh guards dramatically reduce cleaning frequency — to every 3–5 years for most homes. They don't eliminate all maintenance, but they protect against the most common causes of blockage."
+      },
+      {
+        "q": "How soon can you schedule service?",
+        "a": "We typically book within 1–2 weeks. During fall cleanup season, storm priority bookings are available for customers with active water infiltration issues."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": ""
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "Clogged gutters cause expensive damage.",
+    "subtext": "Protect your fascia, foundation, and roof with professional gutter service — free estimates, same-season scheduling, satisfaction guaranteed.",
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "Gutter Cleaning & Flushing", "href": "/services/gutter-cleaning-flushing" },
+      { "label": "Gutter Guard Installation", "href": "/services/gutter-guard-installation" },
+      { "label": "Gutter Repair & Replacement", "href": "/services/gutter-repair-replacement" },
+      { "label": "Downspout Cleaning & Repair", "href": "/services/downspout-cleaning-repair" },
+      { "label": "Fascia & Soffit Repair", "href": "/services/fascia-soffit-repair" },
+      { "label": "Seamless Gutter Installation", "href": "/services/seamless-gutter-installation" }
+    ]
+  }
+}

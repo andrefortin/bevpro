@@ -1,0 +1,75 @@
+[WARN] anthropic not installed, using fallback config. Traceback (most recent call last): File "/home/andre/.openclaw/workspace/sandbox/fieldlaunch/skills/site-factory-local/roofing-site-factory.py", line 1227, in <module> result = generate_site(profile, args.output_dir) File "/home/andre/.openclaw/workspace/sandbox/fieldlaunch/skills/site-factory-local/roofing-site-factory.py", line 1062, in generate_site site_config = _fallback_config(profile) File "/home/andre/.openclaw/workspace/sandbox/fieldlaunch/skills/site-factory-local/roofing-site-factory.py", line 143, in _fallback_config cfg = _load_layered_config(NICHE) File "/home/andre/.openclaw/workspace/sandbox/fieldlaunch/skills/site-factory-local/roofing-site-factory.py", line 80, in _load_layered_config niche_cfg = json.load(f) File "/usr/lib/python3.10/json/__init__.py", line 293, in load return loads(fp.read(), File "/usr/lib/python3.10/json/__init__.py", line 346, in loads return _default_decoder.decode(s) File "/usr/lib/python3.10/json/decoder.py", line 337, in decode obj, end = self.raw_decode(s, idx=_w(s, 0).end()) File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode obj, end = self.scan_once(s, idx) json.decoder.JSONDecodeError: Expecting ',' delimiter: line 44 column 2023 (char 3355)
+
+
+ ### 🏠 1. Roofing Niche: Service Images                                                                                                                  
+                                                                                                                                                          
+ Goal: Images must convey security, craftsmanship, longevity, and immediate problem-solving. The style should be architectural photography, slightly      
+ moody, with visible craftsmanship.                                                                                                                       
+                                                                                                                                                          
+ ┌──────────────────┬─────────────────────┬─────────────────────────────────────────────────────────────────────────────────────────────────────────────┐ 
+ │ Service Page     │ Image Concept       │ AI Prompt (High-End Vision)                                                                                 │ 
+ ├──────────────────┼─────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ ReRoofs &        │ The perfect         │ Architectural photo, drone view of a brand new, dark charcoal shingle roof under a blue sky. Focus on the   │ 
+ │ Replacements     │ finished roof line. │ crisp, clean lines, uniform color, and perfect ridge caps. Sunlight reflection off the clean surface.       │ 
+ │                  │                     │ Cinematic depth of field, high dynamic range. Cinematic, luxury home builder magazine.                      │ 
+ ├──────────────────┼─────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ Insurance Claims │ The professional    │ A focused, close-up shot of a roofer's gloved hands using a specialized, high-resolution camera to document │ 
+ │                  │ assessment process. │ specific damage (e.g., a curled shingle edge). The background is partially obscured by clouds/mist.         │ 
+ │                  │                     │ Emphasize precision and expert documentation. Cinematic, gritty realism, forensic photography style.        │ 
+ ├──────────────────┼─────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ Maintenance &    │ The careful,        │ Medium shot of a roofer carefully applying new, seamless sealant around a flashing penetration. Focus on    │ 
+ │ Repairs          │ targeted repair.    │ the detail of the material application and the roofer's focused, professional posture. The scene should be  │ 
+ │                  │                     │ bright and well-lit, emphasizing the high-quality, localized repair. Master craftsman aesthetic.            │ 
+ ├──────────────────┼─────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ Storm Damage     │ The immediate       │ Dramatic, wide-angle shot of a roof under the aftermath of a storm. Focus on the contrast between the       │ 
+ │ Claims           │ response to damage. │ pristine, intact sections and a defined, damaged area. Include visible tarps or a specialized assessment    │ 
+ │                  │                     │ drone. The atmosphere should be one of urgent, professional problem-solving, not panic. Moody, cinematic,   │ 
+ │                  │                     │ high contrast.                                                                                              │ 
+ ├──────────────────┼─────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ Flexible         │ The barrier to      │ A clean, stylized flat-lay graphic shot: a hand placing a "0 Down" graphic element onto a detailed          │ 
+ │ Financing        │ entry being         │ blueprint of a home's roof structure. The lighting should be bright and optimistic. Minimalist, corporate   │ 
+ │                  │ removed.            │ design aesthetic, emphasizing ease and accessibility.                                                       │ 
+ ├──────────────────┼─────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ Roofing, Siding  │ The harmonious      │ A picturesque, wide-angle view of a newly completed, multi-material exterior. The shot must show the        │ 
+ │ & Gutters        │ exterior upgrade.   │ seamless transition between new siding (e.g., fiber cement), immaculate gutters, and the dark shingles. The │ 
+ │                  │                     │ goal is to show one cohesive, unified architectural package. Golden hour lighting, hyper-realistic.         │ 
+ └──────────────────┴─────────────────────┴─────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ 
+                                                                                                                                                          
+ ────────────────────────────────────────────────────────────────────────────────                                                                         
+                                                                                                                                                          
+ ### 🌡️ 2. HVAC Niche: Service Images                                                                                                                     
+                                                                                                                                                          
+ Goal: Images must convey precision, efficiency, comfort, and reliable performance. The style should be clean, modern, and highly technical, like a       
+ premium appliance catalog meets modern residential interior design.                                                                                      
+                                                                                                                                                          
+ ┌────────────────────┬─────────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────┐ 
+ │ Service Page       │ Image Concept       │ AI Prompt (High-End Vision)                                                                               │ 
+ ├────────────────────┼─────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ AC Installation &  │ The perfect blend   │ Interior shot of a modern living room bathed in natural light, with a newly installed, sleek,             │ 
+ │ Replacement        │ of tech and         │ high-efficiency unit subtly visible. The focus should be on the ambient comfort and the cool, clean feel  │ 
+ │                    │ comfort.            │ of the space, not just the machine. Minimalist, bright, aspirational, and technically perfect.            │ 
+ │                    │                     │ Photographed at eye-level.                                                                                │ 
+ ├────────────────────┼─────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ Heating            │ The cozy, safe      │ Interior shot during winter. A family gathered in a warm, comfortable room. The visible furnace/heat pump │ 
+ │ Installation &     │ environment.        │ unit should be modern and efficient-looking. Focus on the feeling of warmth, safety, and consistent heat. │ 
+ │ Replacement        │                     │ Soft, golden, inviting lighting. High contrast, cinematic winter scene.                                   │ 
+ ├────────────────────┼─────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ AC Repair          │ The diagnostic      │ Close-up, professional shot of a NATE-certified technician's hands using a specialized diagnostic tool    │ 
+ │                    │ expertise in        │ (like a manifold gauge or infrared camera) on an HVAC unit. Focus on the hands, the tools, and the        │ 
+ │                    │ action.             │ focused concentration of the professional. The background should be slightly blurred (bokeh) to keep      │ 
+ │                    │                     │ focus on the expert diagnosis. Technical realism.                                                         │ 
+ ├────────────────────┼─────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ Heating Repair     │ The core system     │ A focused shot inside the mechanics of a furnace, highlighting a specific, cleanly repaired part (e.g., a │ 
+ │                    │ fix.                │ newly cleaned burner assembly). The image should convey mechanical complexity and precision. Deep         │ 
+ │                    │                     │ contrast between the metal parts and the clean work. Industrial aesthetic, cinematic quality, highly      │ 
+ │                    │                     │ detailed.                                                                                                 │ 
+ ├────────────────────┼─────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ Preventive         │ The preventative    │ A clean shot of an HVAC unit with a small, visible maintenance checklist pinned to it. The scene is       │ 
+ │ Maintenance        │ checkup.            │ bright and organized, symbolizing preparedness. Include a small, premium "Maintenance Complete" sticker.  │ 
+ │                    │                     │ The feeling should be proactive care and peace of mind. Bright, clean, professional.                      │ 
+ ├────────────────────┼─────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────┤ 
+ │ 24/7 Emergency     │ Reliability under   │ A shot taken at dusk or night, showing a service vehicle (clean, branded, reliable looking) parked        │ 
+ │ Service            │ pressure.           │ outside a home. A worker is visible, working under the glow of a portable work light. The focus is on     │ 
+ │                    │                     │ immediate, reliable response, emphasizing that help is always available. Cinematic, high drama lighting.  │ 
+ └────────────────────┴─────────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────┘ 
+ 

@@ -1,0 +1,126 @@
+{
+  "_comment": "Roofing niche overrides. Deep-merged over base-service-config.json. Images placeholders added for asset integration.",
+
+  "niche": "roofing",
+  "template": "roofing-v1",
+
+  "company": {
+    "nameSub": "Roofing",
+    "emergency": "24/7 Storm Emergency Service"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Storm season is here —",
+    "linkText": "free roof inspections",
+    "linkHref": "#contact",
+    "suffix": "available this week."
+  },
+
+  "hero": {
+    "h1": ["Done in a Day.", "Built to Last", "a Lifetime."],
+    "h1Highlight": 1,
+    "badges": ["GAF Certified", "BBB A+ Accredited", "Licensed & Insured"],
+    "bgImage": "assets/hero-roofing-main.jpg",
+    "stats": [
+      { "stat": "500+", "label": "Roofs Replaced" },
+      { "stat": "10+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "$0 Down", "label": "Financing" }
+    ],
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "trustBadges": [
+    { "name": "GAF Master Elite Contractor", "icon": "🏅" },
+    { "name": "Owens Corning Preferred", "icon": "⭐" },
+    { "name": "CertainTeed ShingleMaster", "icon": "🏆" },
+    { "name": "BBB A+ Accredited", "icon": "✓" },
+    { "name": "Licensed & Insured", "icon": "🛡️" },
+    { "name": "$0 Down Financing", "icon": "💰" }
+  ],
+
+  "services": [
+    { "title": "ReRoofs & Replacements", "slug": "reroofs-replacements", "href": "/services/reroofs-replacements", "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80", "description": "Full tear-off and replacement with premium materials and manufacturer-backed transferable warranties.", "intro": "When patching isn't enough, a full roof replacement gives you a clean slate — new decking, new underlayment, new shingles — all backed by a lifetime workmanship warranty and the manufacturer's own guarantee.", "features": ["Complete tear-off of existing shingles and underlayment", "Inspection and replacement of damaged decking boards", "New synthetic underlayment for superior moisture protection", "GAF, Owens Corning, or CertainTeed architectural shingles", "Ice and water shield at eaves, valleys, and penetrations", "New drip edge, ridge cap, and pipe boots", "Full debris removal and magnetic nail sweep", "Lifetime workmanship warranty + manufacturer product warranty"], "process": [{"step": "1", "title": "Free Inspection", "desc": "A certified inspector walks your roof, documents all damage, and gives you a straight answer — repair or replace."}, {"step": "2", "title": "Insurance Coordination", "desc": "If the damage is storm-related, we work directly with your adjuster to maximize your claim."}, {"step": "3", "title": "Material Selection", "desc": "Choose from dozens of colors and styles across GAF, Owens Corning, and CertainTeed lines."}, {"step": "4", "title": "One-Day Installation", "desc": "Our crew arrives early, completes the full replacement in a single day, and leaves your property spotless."}], "materials": ["GAF Timberline HDZ", "Owens Corning Duration", "CertainTeed Landmark", "Synthetic underlayment", "Ice & water shield"], "faqs": [{"q": "How long does a full replacement take?", "a": "Most residential replacements are completed in a single day. Larger or more complex roofs may take two days."}, {"q": "Can I stay home during the installation?", "a": "Yes, though it will be noisy. Most homeowners choose to run errands during the day."}]},
+    { "title": "Insurance Claims", "slug": "insurance-claims", "href": "/services/insurance-claims", "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80", "description": "We guide you through every step — documentation, adjuster meetings, and maximizing your settlement.", "intro": "Filing a roofing insurance claim can feel overwhelming. We've helped hundreds of homeowners navigate the process — and we know exactly what adjusters look for, what gets denied, and how to make sure you get every dollar you're owed.", "features": ["Free damage inspection and photo documentation", "Detailed damage report prepared to insurance standards", "Direct communication with your insurance adjuster", "Supplement negotiation if initial estimate is low", "Xactimate estimate matching for accurate scope", "No out-of-pocket cost beyond your deductible for covered claims", "Guidance on material upgrades within claim allowance", "Work begins only after claim is approved"], "process": [{"step": "1", "title": "Document Everything", "desc": "We photograph all damage in detail — the exact format required by insurance companies to approve claims."}, {"step": "2", "title": "File the Claim", "desc": "We help you file correctly the first time, avoiding the delays that come from incomplete submissions."}, {"step": "3", "title": "Meet the Adjuster", "desc": "We're on-site when the adjuster arrives to make sure nothing is missed or undervalued."}, {"step": "4", "title": "Supplement if Needed", "desc": "If the initial payout is short, we negotiate directly with the carrier to get the scope corrected."}], "materials": ["Documentation package", "Xactimate estimates", "Supplement reports"], "faqs": [{"q": "Will filing a claim raise my rates?", "a": "Storm damage claims are typically not counted against you since they're not at-fault incidents. Your agent can confirm your specific policy terms."}, {"q": "What if my claim gets denied?", "a": "We can request a re-inspection and submit a supplement with additional documentation. Denials can often be overturned."}]},
+    { "title": "Maintenance & Repairs", "slug": "maintenance-repairs", "href": "/services/maintenance-repairs", "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80", "description": "Seasonal tune-ups and targeted repairs to extend the life of your existing roof.", "intro": "A well-maintained roof lasts years longer than a neglected one. Our maintenance program catches small problems — cracked caulk, lifted shingles, clogged valleys — before they become expensive water damage inside your home.", "features": ["Full roof surface inspection and condition report", "Re-sealing around all penetrations (pipes, vents, skylights)", "Replacement of cracked or missing shingles", "Valley flashing inspection and re-sealing", "Gutter clearing and downspout check", "Moss and algae treatment where needed", "Fascia and soffit visual inspection", "Written report with photos after every visit"], "process": [{"step": "1", "title": "Annual Inspection", "desc": "We inspect the full roof surface, flashings, and penetrations and document everything with photos."}, {"step": "2", "title": "Priority Report", "desc": "You receive a clear list of items — what needs attention now vs. what to watch over the next season."}, {"step": "3", "title": "Targeted Repairs", "desc": "We fix only what's needed. No upselling, no invented problems — just honest work."}, {"step": "4", "title": "Documentation", "desc": "A written report after every visit so you always know your roof's condition and maintenance history."}], "materials": ["Matching shingles", "Roofing caulk & sealant", "Flashing", "Ridge cap", "Moss treatment"], "faqs": [{"q": "How often should I have my roof inspected?", "a": "Once a year is ideal, plus after any major storm. Spring and fall are the best times to catch seasonal damage early."}, {"q": "Can you repair a small section without replacing the whole roof?", "a": "Absolutely. Spot repairs are often the right call for isolated damage on an otherwise sound roof."}, {"q": "How do I know when repair stops making sense?", "a": "Generally, once a roof is over 20 years old or repairs exceed 30% of replacement cost, a full replacement is more economical long-term."}]}],
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Four steps from damaged to done.",
+    "image": "assets/hero-roofing-main.jpg",
+    "ctaText": "Schedule My Free Inspection",
+    "steps": [
+      { "num": "01", "title": "Free Inspection", "desc": "A certified inspector examines your roof at no charge and gives you an honest assessment."},
+      { "num": "02", "title": "We Handle Your Claim", "desc": "Our team navigates the insurance process so you don't have to fight the paperwork alone."},
+      { "num": "03", "title": "Installation Day", "desc": "Our crew arrives on time, completes the job in a single day, and leaves your property spotless."},
+      { "num": "04", "title": "Lifetime Guarantee", "desc": "Your new roof is backed by a lifetime workmanship warranty plus manufacturer product warranties."}
+    ]
+  },
+
+  "gallery": {
+    "h2": "Our work in the area.",
+    "projects": [
+      { "title": "Full Roof Replacement", "material": "GAF Timberline HDZ Charcoal", "image": "assets/gallery-roof-1.jpg" },
+      { "title": "Storm Damage Claim", "material": "Owens Corning Duration Estate Gray", "image": "assets/gallery-roof-2.jpg" },
+      { "title": "Roof + Siding + Gutters", "material": "CertainTeed Landmark Weathered Wood", "image": "assets/gallery-roof-3.jpg" },
+      { "title": "Insurance Claim Replacement", "material": "GAF Timberline HDZ Pewter Gray", "image": "assets/gallery-roof-4.jpg" }
+    ]
+  },
+
+  "testimonials": {
+    "h2": "Real words from real neighbors."
+  },
+
+  "contact": {
+    "h2": "Request your free roof inspection.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Schedule My Free Inspection",
+    "serviceOptions": [
+      "ReRoof / Roof Replacement",
+      "Insurance Claim",
+      "Preventative Maintenance & Repairs",
+      "Storm Damage Claim",
+      "Financing",
+      "Roofing, Siding & Gutters",
+      "Not Sure — I Need an Assessment"
+    ]
+  },
+
+  "faq": {
+    "h2": "Everything you want to know.",
+    "items": [
+      {
+        "q": "How long does a full roof replacement take?", "a": "Most full replacements are completed in a single day. Larger or more complex roofs may take two days. We'll give you an accurate timeline during your free inspection."},
+      {
+        "q": "Will my homeowners insurance cover the damage?", "a": "Storm, wind, and hail damage is typically covered by homeowners insurance. We have extensive experience working with insurance companies and can assist throughout the claims process to ensure you receive the maximum settlement."},
+      {
+        "q": "What roofing brands do you install?", "a": "We install GAF, Owens Corning, and CertainTeed — three of the most trusted names in the industry. This gives you full manufacturer warranties on top of our own workmanship guarantee."
+      },
+      {
+        "q": "How do I know if I need a repair or a full replacement?", "a": "Our free inspection will determine exactly what's needed. Factors like the age of the roof, extent of damage, and remaining life expectancy all inform that decision. We'll never recommend a replacement if a repair is the right call."
+      },
+      {
+        "q": "Are you licensed and insured?", "a": "Yes. We carry full general liability insurance and workers' compensation coverage. We're happy to provide certificates of insurance upon request."},
+      {
+        "q": "What areas do you serve?", "a": ""
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "Don't wait for a small leak to become a disaster.",
+    "subtext": "Get your free inspection today. No obligation, no pressure — just an honest assessment from a team you can trust.",
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "ReRoofs & Replacements", "href": "/services/reroofs-replacements" },
+      { "label": "Insurance Claims", "href": "/services/insurance-claims" },
+      { "label": "Maintenance & Repairs", "href": "/services/maintenance-repairs" },
+      { "label": "Storm Damage Claims", "href": "/services/storm-damage-claims" },
+      { "label": "Flexible Financing", "href": "/services/flexible-financing" },
+      { "label": "Roofing, Siding & Gutters", "href": "/services/roofing-siding-gutters" }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "niche": "plumbing",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "Plumbing",
+    "emergency": "24/7 Emergency Plumbing"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Burst pipe or leak?",
+    "linkText": "24/7 emergency service",
+    "linkHref": "#contact",
+    "suffix": "— we're on call now."
+  },
+
+  "hero": {
+    "h1": ["Fast. Clean.", "Fixed Right", "the First Time."],
+    "h1Highlight": 1,
+    "badges": ["Licensed Master Plumber", "BBB Accredited", "24/7 Emergency"],
+    "bgImage": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "stat": "1000+", "label": "Jobs Completed" },
+      { "stat": "10+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "24/7", "label": "Emergency Service" }
+    ],
+    "primaryCta": "Call Now — Free Estimate"
+  },
+
+  "trustBadges": [
+    { "name": "Licensed Master Plumber", "icon": "🛡️" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Google 5★", "icon": "⭐" },
+    { "name": "24/7 Emergency", "icon": "🚨" },
+    { "name": "Upfront Pricing", "icon": "💰" },
+    { "name": "Same-Day Service", "icon": "⚡" }
+  ],
+
+  "services": [
+    { "title": "Drain Cleaning & Unclogging", "description": "Fast, thorough drain clearing for sinks, tubs, toilets, and main sewer lines.", "href": "#services" },
+    { "title": "Leak Detection & Repair", "description": "We find and fix leaks before they become expensive water damage.", "href": "#services" },
+    { "title": "Water Heater Service", "description": "Installation, repair, and replacement of tank and tankless water heaters.", "href": "#services" },
+    { "title": "Pipe Repair & Replacement", "description": "Burst pipes, corroded lines, and full repiping — handled fast and clean.", "href": "#services" },
+    { "title": "Fixture Installation", "description": "Sinks, faucets, toilets, showers — installed right with a warranty.", "href": "#services" },
+    { "title": "24/7 Emergency Plumbing", "description": "No overtime charges. We respond fast when water can't wait.", "href": "#services" }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Same-day service, done right.",
+    "ctaText": "Schedule Service Now",
+    "steps": [
+      { "num": "01", "title": "Call or Book Online", "desc": "Reach us 24/7 — we'll confirm your appointment within minutes." },
+      { "num": "02", "title": "Upfront Quote", "desc": "Our plumber diagnoses the issue and gives you a flat-rate price before any work starts." },
+      { "num": "03", "title": "We Fix It", "desc": "Licensed plumbers complete the job cleanly and efficiently — often same day." },
+      { "num": "04", "title": "Guaranteed", "desc": "All work is backed by our parts and labor warranty. If it's not right, we make it right." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Recent jobs in the area.",
+    "projects": [
+      { "title": "Main Sewer Line Replacement", "material": "Schedule 40 PVC", "image": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Full House Repipe", "material": "PEX-A Cross-Linked Polyethylene", "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Water Heater Replacement", "material": "50-Gal Rheem Performance", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Kitchen & Bath Remodel Rough-in", "material": "Copper Supply Lines", "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "contact": {
+    "h2": "Book your service call.",
+    "ctaButtonText": "Schedule Service",
+    "serviceOptions": [
+      "Drain Cleaning / Clog",
+      "Leak Detection & Repair",
+      "Water Heater Service",
+      "Pipe Repair / Repipe",
+      "Fixture Installation",
+      "24/7 Emergency — I Need Help Now",
+      "Not Sure — I Need a Diagnosis"
+    ]
+  },
+
+  "faq": {
+    "h2": "Common plumbing questions.",
+    "items": [
+      { "q": "Do you offer 24/7 emergency service?", "a": "Yes — we're available around the clock with no overtime charges. Call anytime." },
+      { "q": "Do you give upfront pricing?", "a": "Always. We quote before we start, and the price never changes unless the scope changes — which we'll discuss with you first." },
+      { "q": "How quickly can you respond?", "a": "For emergencies, we typically arrive within 1-2 hours. For scheduled service, we offer same-day and next-day appointments." },
+      { "q": "Are you licensed and insured?", "a": "Yes. All of our plumbers hold state licenses and we carry full general liability and workers' compensation insurance." },
+      { "q": "Do you offer a warranty on your work?", "a": "Yes — we warranty all parts and labor. If something we fixed fails, we'll come back and make it right at no charge." },
+      { "q": "What areas do you serve?", "a": "" }
+    ]
+  },
+
+  "cta": {
+    "h2": "Plumbing problem? Don't wait — water damage gets expensive fast.",
+    "subtext": "Call now or book online for same-day service. Free diagnosis, upfront pricing, no surprises.",
+    "primaryCta": "Call Now — Free Estimate"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "Drain Cleaning", "href": "#services" },
+      { "label": "Leak Detection & Repair", "href": "#services" },
+      { "label": "Water Heater Service", "href": "#services" },
+      { "label": "Pipe Repair & Replacement", "href": "#services" },
+      { "label": "Fixture Installation", "href": "#services" },
+      { "label": "24/7 Emergency Plumbing", "href": "#services" }
+    ]
+  }
+}

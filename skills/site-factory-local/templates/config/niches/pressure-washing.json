@@ -1,0 +1,306 @@
+{
+  "niche": "pressure-washing",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "Pressure Washing",
+    "emergency": "Available 7 Days a Week"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Dirty driveway or grimy siding?",
+    "linkText": "Book a cleaning",
+    "linkHref": "#contact",
+    "suffix": "— professional results guaranteed."
+  },
+
+  "hero": {
+    "h1": ["Professional Pressure", "Washing That Makes", "Your Property Shine."],
+    "h1Highlight": 1,
+    "badges": ["Licensed & Insured", "Soft Wash Available", "Satisfaction Guaranteed"],
+    "bgImage": "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "stat": "5,000+", "label": "Properties Cleaned" },
+      { "stat": "10+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "100%", "label": "Satisfaction" }
+    ],
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "trustBadges": [
+    { "name": "Licensed & Insured", "icon": "🛡️" },
+    { "name": "Soft Wash Certified", "icon": "💧" },
+    { "name": "Eco-Friendly Solutions", "icon": "🌿" },
+    { "name": "Satisfaction Guaranteed", "icon": "⭐" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Free Estimates", "icon": "💰" }
+  ],
+
+  "services": [
+    {
+      "title": "House & Siding Washing",
+      "slug": "house-siding-washing",
+      "href": "/services/house-siding-washing",
+      "description": "Soft wash house washing that removes algae, mold, and mildew without damaging siding.",
+      "intro": "Pressure washing siding incorrectly can force water behind it and cause rot. We use low-pressure soft washing with professional-grade detergents to safely clean vinyl, wood, stucco, and fiber cement siding — removing algae, oxidation, and mildew at the source rather than just blasting the surface.",
+      "features": [
+        "Soft wash technique — safe for all siding types",
+        "Professional-grade biodegradable detergents",
+        "Algae, mold, mildew, and oxidation removal",
+        "Vinyl, wood, stucco, brick, and fiber cement compatible",
+        "Window frames and shutters cleaned",
+        "Eaves, soffits, and fascia cleaned",
+        "Pre-treatment of heavily stained areas",
+        "Rinse down of landscaping after cleaning"
+      ],
+      "process": [
+        { "step": "1", "title": "Free Estimate", "desc": "We assess your home's size, material, and staining level to give you an accurate upfront quote." },
+        { "step": "2", "title": "Pre-Treat & Protect", "desc": "Landscaping is wet-down and covered. Detergent is applied and allowed to dwell on stained areas." },
+        { "step": "3", "title": "Soft Wash Clean", "desc": "Low-pressure application removes biological growth and grime without risk of siding damage or water intrusion." },
+        { "step": "4", "title": "Rinse & Inspect", "desc": "We do a final rinse and walk the perimeter with you to confirm the result meets your expectations." }
+      ],
+      "materials": ["Bob Vila approved soft wash systems", "Sodium hypochlorite (SH) cleaning solution", "Biodegradable surfactants", "Downstream injection equipment"],
+      "faqs": [
+        { "q": "What is soft washing vs. pressure washing for house siding?", "a": "Soft washing uses low pressure (under 500 PSI) with a chemical solution to kill and remove biological growth. Pressure washing uses high pressure that can damage siding and force water into walls. We use soft washing for all house exterior cleaning." },
+        { "q": "How long does the cleaning last?", "a": "A properly done soft wash typically keeps a house clean for 2–4 years depending on climate and tree coverage. The detergent kills algae at the root rather than just washing it off, which is why results last longer." },
+        { "q": "Is the cleaning solution safe for my plants?", "a": "Yes. We pre-wet all landscaping and use biodegradable surfactants. The cleaning solution dilutes significantly before reaching your plants. We take extra precautions with sensitive plantings." }
+      ]
+    },
+    {
+      "title": "Driveway & Walkway Cleaning",
+      "slug": "driveway-walkway-cleaning",
+      "href": "/services/driveway-walkway-cleaning",
+      "description": "Surface cleaner-equipped pressure washing for driveways, walkways, and patios.",
+      "intro": "Concrete driveways absorb oil, tire marks, algae, and rust over time. A surface cleaner attachment provides even, consistent cleaning without striping — leaving your concrete looking restored rather than just sprayed down.",
+      "features": [
+        "Rotary surface cleaner for streak-free results",
+        "Oil and grease pre-treatment",
+        "Tire mark and rust stain removal",
+        "Concrete, brick, and paver cleaning",
+        "Joint and crack rinsing",
+        "Edging and border detail work",
+        "Post-clean sealing available (optional add-on)",
+        "Garage floors and service areas cleaned"
+      ],
+      "process": [
+        { "step": "1", "title": "Pre-Treat Stains", "desc": "Oil, grease, and rust are pre-treated with appropriate degreasers before main cleaning begins." },
+        { "step": "2", "title": "Surface Cleaner Pass", "desc": "The rotary surface cleaner makes consistent, streak-free passes across the full driveway or walkway." },
+        { "step": "3", "title": "Edge & Detail", "desc": "Edges, cracks, and borders are hand-wanded for a complete, professional finish." },
+        { "step": "4", "title": "Optional Seal", "desc": "A penetrating concrete sealer locks out future stains and slows algae re-growth. Recommended but never required." }
+      ],
+      "materials": ["Whisper Wash surface cleaners", "Purple Power degreaser", "Rust-Off oxalic acid treatment", "Ghostshield Lithi-Tek concrete sealer"],
+      "faqs": [
+        { "q": "Will pressure washing remove oil stains from my driveway?", "a": "Fresh oil stains respond well to degreaser pre-treatment and pressure washing. Old, deeply absorbed stains may lighten significantly but not completely disappear. We'll give you an honest assessment before starting." },
+        { "q": "How often should a driveway be pressure washed?", "a": "Once a year is ideal for most climates. Heavily shaded driveways that accumulate algae may benefit from twice-yearly cleaning." },
+        { "q": "Should I seal my driveway after pressure washing?", "a": "Sealing is recommended but optional. A good penetrating sealer protects against oil stains, water infiltration, and algae regrowth. We offer sealing as an add-on service." }
+      ]
+    },
+    {
+      "title": "Deck & Patio Cleaning",
+      "slug": "deck-patio-cleaning",
+      "href": "/services/deck-patio-cleaning",
+      "description": "Wood, composite, and concrete deck and patio cleaning — prep for staining or sealing.",
+      "intro": "Wood decks become grey, mildewed, and slippery when neglected. Composite decks accumulate organic material in the grooves. We clean both properly — removing biological growth and opening the wood surface for staining or sealing — so your deck looks and performs like new.",
+      "features": [
+        "Wood deck brightening and mildew removal",
+        "Composite deck cleaning (groove detail included)",
+        "Concrete and paver patio cleaning",
+        "Furniture and planter removal/replacement",
+        "Railing and baluster cleaning",
+        "Deck brightener application for wood restoration",
+        "Pre-stain and pre-seal surface preparation",
+        "Inspection for soft spots, rot, and structural issues"
+      ],
+      "process": [
+        { "step": "1", "title": "Condition Assessment", "desc": "We inspect the deck for soft spots, loose boards, and structural issues — and report anything that needs repair before cleaning." },
+        { "step": "2", "title": "Pre-Treatment", "desc": "Deck cleaner and brightener is applied and allowed to dwell — opening the wood grain and killing mildew at the root." },
+        { "step": "3", "title": "Low-Pressure Wash", "desc": "Wood and composite decks are cleaned at low pressure to avoid raising the grain or damaging composite material." },
+        { "step": "4", "title": "Brightener Rinse", "desc": "A wood brightener neutralizes the cleaning solution and restores natural wood color, preparing the surface for staining." }
+      ],
+      "materials": ["Defy Wood Cleaner", "Armstrong Clark Deck Brightener", "Sun Joe and Mi-T-M equipment", "Composite deck cleaner (Trex approved)"],
+      "faqs": [
+        { "q": "How long should I wait after cleaning to stain my deck?", "a": "Wood needs to dry completely before staining — typically 48–72 hours in warm, dry weather. We'll advise based on conditions when we clean." },
+        { "q": "Can you clean Trex and other composite decks?", "a": "Yes. We use manufacturer-approved cleaners and low-pressure techniques appropriate for composite decking. High-pressure washing voids most composite warranties." },
+        { "q": "Is it worth cleaning an old, grey deck?", "a": "Usually yes. Wood brightener can restore significant color to weathered grey wood. If the grey is from genuine weathering rather than mildew, a deck cleaner and brightener can make a dramatic difference." }
+      ]
+    },
+    {
+      "title": "Roof Soft Washing",
+      "slug": "roof-soft-washing",
+      "href": "/services/roof-soft-washing",
+      "description": "Safe, low-pressure roof cleaning that removes black streaks (Gloeocapsa magma) without voiding your warranty.",
+      "intro": "Those black streaks on your roof are Gloeocapsa magma, a cyanobacteria that feeds on the limestone filler in asphalt shingles. Pressure washing removes them visually but damages shingles and voids manufacturer warranties. Soft washing kills the organism chemically — the ARMA-approved method for all asphalt roof cleaning.",
+      "features": [
+        "ARMA-approved soft wash method — no pressure on shingles",
+        "Kills Gloeocapsa magma (black streaks) at the cellular level",
+        "Lichen and moss treatment included",
+        "Zinc strip installation available to prevent regrowth",
+        "Manufacturer warranty preserved",
+        "Protects shingles from premature aging caused by biological growth",
+        "Roofline and gutter faces cleaned",
+        "Before/after documentation provided"
+      ],
+      "process": [
+        { "step": "1", "title": "Roof Assessment", "desc": "We assess shingle condition, staining extent, and identify any existing damage before cleaning begins." },
+        { "step": "2", "title": "Solution Application", "desc": "Our cleaning solution is applied at low pressure to all stained areas, including ridge and valley areas." },
+        { "step": "3", "title": "Dwell Time", "desc": "The solution is allowed to dwell and chemically break down biological growth — not just wash it off the surface." },
+        { "step": "4", "title": "Gentle Rinse", "desc": "A low-pressure rinse removes residue. Results continue to improve over the following weeks as remaining organisms die." }
+      ],
+      "materials": ["Sodium hypochlorite (SH) solution", "Professional surfactant mix", "Zinc strips for prevention (Shingle Shield)", "Safety harnesses and roof brackets"],
+      "faqs": [
+        { "q": "Will soft washing damage my shingles?", "a": "No. Soft washing uses less pressure than a garden hose. The ARMA (Asphalt Roofing Manufacturers Association) specifically endorses soft washing and warns against pressure washing asphalt shingles." },
+        { "q": "How long will the results last?", "a": "A soft wash typically keeps your roof streak-free for 3–5 years. Installing zinc strips along the ridge can extend this to 7–10 years." },
+        { "q": "Does black streaking on my roof cause actual damage?", "a": "Yes. Gloeocapsa magma feeds on limestone granules in your shingles. Left untreated, it degrades shingles prematurely and reduces their UV protection — shortening the roof's lifespan by years." }
+      ]
+    },
+    {
+      "title": "Commercial Pressure Washing",
+      "slug": "commercial-pressure-washing",
+      "href": "/services/commercial-pressure-washing",
+      "description": "Fleet washing, storefront cleaning, parking lots, and large commercial surface cleaning.",
+      "intro": "First impressions matter for commercial properties. We provide regular scheduled cleaning for storefronts, restaurant exteriors, commercial driveways, parking garages, and loading docks — keeping your property looking maintained and meeting health department standards.",
+      "features": [
+        "Storefront and building exterior washing",
+        "Parking lot and parking garage cleaning",
+        "Drive-through and dumpster area cleaning",
+        "Grease trap and grease interceptor pad cleaning",
+        "Restaurant exterior and hood vent cleaning",
+        "Fleet and equipment washing",
+        "Graffiti removal",
+        "Recurring service contracts available"
+      ],
+      "process": [
+        { "step": "1", "title": "Site Walk & Scope", "desc": "We walk your property, identify areas of concern, and develop a cleaning plan that works with your business hours." },
+        { "step": "2", "title": "Scheduled Service", "desc": "We work nights, weekends, or whenever is least disruptive — and provide regular recurring service on your schedule." },
+        { "step": "3", "title": "Professional Cleaning", "desc": "Commercial-grade equipment handles heavy grease, gum, and staining that residential equipment can't touch." },
+        { "step": "4", "title": "Verification & Reporting", "desc": "We document completed work with photos and provide service records for your facilities manager or health inspector." }
+      ],
+      "materials": ["Hot water pressure washers (up to 4000 PSI)", "Commercial degreasers and dwell agents", "Reclaim water systems for grease areas", "Industrial surface cleaners"],
+      "faqs": [
+        { "q": "Can you work overnight so my business isn't disrupted?", "a": "Yes. We schedule commercial work outside business hours whenever possible. Early morning, overnight, and weekend scheduling available." },
+        { "q": "How often should a commercial property be pressure washed?", "a": "Restaurants and food-service properties typically need monthly to quarterly exterior cleaning. Office and retail properties are typically done 1–2 times per year." },
+        { "q": "Do you offer service contracts?", "a": "Yes. Regular service contracts include discounted rates, priority scheduling, and consistent results. Ask about our monthly and quarterly commercial programs." }
+      ]
+    },
+    {
+      "title": "Fence & Concrete Cleaning",
+      "slug": "fence-concrete-cleaning",
+      "href": "/services/fence-concrete-cleaning",
+      "description": "Wood fence brightening, vinyl fence washing, and concrete cleaning for walls and structures.",
+      "intro": "Fences and concrete walls accumulate algae, mildew, and weathering that makes properties look neglected. We clean all fence types — wood, vinyl, chain link — and concrete surfaces like retaining walls and foundations using the appropriate pressure and chemistry for each material.",
+      "features": [
+        "Wood fence cleaning and brightening",
+        "Vinyl fence washing (removes algae green)",
+        "Chain link and metal fence degreasing",
+        "Concrete retaining wall and foundation cleaning",
+        "Block wall and stone cleaning",
+        "Pre-stain preparation for wood fences",
+        "Mildew and algae treatment",
+        "Rust stain removal from concrete"
+      ],
+      "process": [
+        { "step": "1", "title": "Material Identification", "desc": "We identify all surface materials and select the appropriate pressure setting and cleaning chemistry for each." },
+        { "step": "2", "title": "Pre-Treatment", "desc": "Algae and mildew are pre-treated to break down growth before main washing begins." },
+        { "step": "3", "title": "Surface-Appropriate Cleaning", "desc": "Vinyl and wood get low-pressure treatment. Concrete surfaces get full pressure with surface cleaner equipment." },
+        { "step": "4", "title": "Brightener & Rinse", "desc": "Wood fences receive a brightener rinse to restore natural color before staining or as a standalone treatment." }
+      ],
+      "materials": ["F9 BARC rust remover", "Defy Wood Cleaner & Brightener", "Vinyl fence cleaner solution", "Rotary surface cleaner heads"],
+      "faqs": [
+        { "q": "How do I remove the green algae from my vinyl fence?", "a": "Green algae on vinyl is easily removed with soft washing — low pressure and a dilute cleaning solution. It typically comes off completely in one treatment." },
+        { "q": "Can pressure washing damage my wood fence?", "a": "High pressure can raise the grain and damage wood fibers. We use appropriate low pressure for wood fences and follow with a brightener to restore color without damage." },
+        { "q": "How do I remove rust stains from my concrete?", "a": "Rust stains require an oxalic acid-based treatment (F9 BARC is the industry standard). Standard pressure washing won't remove them. We treat rust stains as a specialty service." }
+      ]
+    }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Clean results in four simple steps.",
+    "image": "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=900&q=80",
+    "ctaText": "Get a Free Quote",
+    "steps": [
+      { "num": "01", "title": "Free Quote", "desc": "We assess your property and provide an upfront price — no hourly surprises." },
+      { "num": "02", "title": "Scheduled Clean", "desc": "We work around your schedule, including weekends and early mornings." },
+      { "num": "03", "title": "Professional Service", "desc": "The right equipment and chemistry for every surface — no guesswork." },
+      { "num": "04", "title": "Guaranteed Results", "desc": "We're not done until you're satisfied. Our work is 100% guaranteed." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Recent pressure washing projects near you.",
+    "projects": [
+      { "title": "Driveway Restoration", "material": "Before & after surface cleaner clean", "image": "https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=800&q=80" },
+      { "title": "House Soft Wash", "material": "Full exterior algae and oxidation removal", "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Roof Soft Wash", "material": "Black streak removal — shingles preserved", "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Commercial Storefront", "material": "Monthly maintenance contract", "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "testimonials": {
+    "h2": "Real words from real neighbors."
+  },
+
+  "contact": {
+    "h2": "Get your free pressure washing quote.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Get a Free Quote",
+    "serviceOptions": [
+      "House & Siding Washing",
+      "Driveway & Walkway Cleaning",
+      "Deck & Patio Cleaning",
+      "Roof Soft Washing",
+      "Commercial Pressure Washing",
+      "Fence & Concrete Cleaning",
+      "Not Sure — Tell Me What You Need"
+    ]
+  },
+
+  "faq": {
+    "h2": "Pressure washing questions answered.",
+    "items": [
+      {
+        "q": "What's the difference between pressure washing and soft washing?",
+        "a": "Pressure washing uses high-pressure water (1500–4000 PSI) for hard surfaces like concrete. Soft washing uses low pressure (under 500 PSI) with cleaning solutions for delicate surfaces like siding, roofs, and wood. We use both methods depending on the surface."
+      },
+      {
+        "q": "Are you licensed and insured?",
+        "a": "Yes. We carry full general liability insurance. Our technicians are trained in surface identification and appropriate cleaning methods to prevent damage."
+      },
+      {
+        "q": "Is pressure washing safe for my plants and landscaping?",
+        "a": "We pre-wet landscaping and use biodegradable cleaning solutions. Runoff from our cleaning is diluted significantly before reaching your plants. We take extra care around sensitive plantings."
+      },
+      {
+        "q": "How long does pressure washing take?",
+        "a": "A typical driveway takes 1–2 hours. A whole house soft wash takes 2–4 hours. A full exterior package including driveway, siding, and roof takes a full day."
+      },
+      {
+        "q": "Do you offer discounts for multiple services?",
+        "a": "Yes. Bundling services like driveway, siding, and deck in a single visit saves on mobilization cost. Ask about our whole-property packages."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": ""
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "Your property deserves to look its best.",
+    "subtext": "Professional pressure washing with the right equipment and chemistry for every surface — guaranteed results, available 7 days a week.",
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "House & Siding Washing", "href": "/services/house-siding-washing" },
+      { "label": "Driveway & Walkway Cleaning", "href": "/services/driveway-walkway-cleaning" },
+      { "label": "Deck & Patio Cleaning", "href": "/services/deck-patio-cleaning" },
+      { "label": "Roof Soft Washing", "href": "/services/roof-soft-washing" },
+      { "label": "Commercial Pressure Washing", "href": "/services/commercial-pressure-washing" },
+      { "label": "Fence & Concrete Cleaning", "href": "/services/fence-concrete-cleaning" }
+    ]
+  }
+}

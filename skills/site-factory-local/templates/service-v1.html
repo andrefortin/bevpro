@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Service Detail | {section.title}{% endblock %}</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <!-- ... standard meta tags ... -->
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <header class="sticky top-0 z-50 bg-white shadow-lg">
+        <!-- Navigation and Hero Component goes here. Uses assets/hero-placeholder.jpg -->
+        <section id="hero-section" style="background-image: url('assets/hero-placeholder.jpg'); background-size: cover; height: 80vh; display: flex; align-items: center; text-align: center;">
+            <!-- Hero content overlay -->
+        </section>
+    </header>
+
+    <main id="content">
+        <!-- Main Service Content Area -->
+        <section id="service-detail" class="py-20">
+            <header class="mb-16">
+                <h1 class="text-5xl font-extrabold mb-4">{service.title}</h1 title="Service Title"></h1>
+                <p class="text-xl text-gray-600">{service.description}</p>
+                <!-- Placeholder for service-specific image -->
+                <img src="assets/service-{service.slug}.jpg" alt="Visual representation of the service being performed" class="mt-12 w-full rounded-xl shadow-2xl max-h-96 object-cover">
+            </header>
+
+            <!-- Processes Section -->
+            <div class="bg-white p-10 rounded-xl shadow-xl mb-20">
+                <h2 class="text-3xl font-bold mb-6">Our Step-by-Step Process</h2>
+                <div class="space-y-8">
+                    {% for step in service.process %}
+                    <div class="flex items-start space-x-6">
+                        <div class="w-12 h-12 flex items-center justify-center text-2xl font-bold text-indigo-600">{{ step.step }}</div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-indigo-700">{{ step.title }}</h3>
+                            <p class="text-gray-600">{{ step.desc }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div class="my-20 p-10 bg-gray-50 rounded-xl shadow-inner">
+                <h2 class="text-3xl font-bold mb-6">What We Cover</h2>
+                <ul class="list-disc pl-6 space-y-3 text-lg">
+                    {% for feature in service.features %}
+                    <li class="text-gray-700">{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+            </div >
+
+            <!-- FAQ Accordion -->
+            <div class="mb-20">
+                <h2 class="text-3xl font-bold mb-8">Frequently Asked Questions</h2 >
+                <!-- Accordion logic for service.faqs goes here -->
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact-footer">
+        <!-- Footer content and CTAs -->
+    </footer>
+    <script src="/assets/main.js"></script>
+</body>
+</html>

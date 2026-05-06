@@ -1,0 +1,116 @@
+{
+  "_comment": "Lawn care niche overrides. Deep-merged over base-service-config.json.",
+
+  "niche": "lawn-care",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "Lawn Care",
+    "emergency": "Same-Week Service Guaranteed"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Spring season is here —",
+    "linkText": "free lawn assessments",
+    "linkHref": "#contact",
+    "suffix": "available this week."
+  },
+
+  "hero": {
+    "h1": ["The Greenest Lawn", "On Your", "Street."],
+    "h1Highlight": 0,
+    "badges": ["Licensed & Insured", "Satisfaction Guaranteed", "Recurring Plans Available"],
+    "bgImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "stat": "500+", "label": "Lawns Maintained" },
+      { "stat": "10+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "$0", "label": "First Cut Promo" }
+    ],
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "trustBadges": [
+    { "name": "Licensed Applicator", "icon": "🏅" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Google 5★", "icon": "⭐" },
+    { "name": "Fully Insured", "icon": "🛡️" },
+    { "name": "Satisfaction Guaranteed", "icon": "🏆" },
+    { "name": "Eco-Friendly Options", "icon": "🌿" }
+  ],
+
+  "services": [
+    { "title": "Weekly Lawn Mowing", "description": "Reliable weekly cuts with edging and cleanup — your lawn always looks its best.", "href": "#services" },
+    { "title": "Fertilization & Weed Control", "description": "Seasonal programs that feed your lawn and eliminate weeds before they take over.", "href": "#services" },
+    { "title": "Aeration & Overseeding", "description": "Fall core aeration and seeding to thicken thin, patchy lawns and improve drainage.", "href": "#services" },
+    { "title": "Mulching & Bed Maintenance", "description": "Fresh mulch installs and ongoing bed cleanup to keep your landscaping sharp.", "href": "#services" },
+    { "title": "Leaf Removal & Cleanups", "description": "Spring and fall cleanups that remove leaves, debris, and dead growth.", "href": "#services" },
+    { "title": "Irrigation & Sprinkler Service", "description": "System installation, spring startup, winterization, and repairs.", "href": "#services" }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "A perfect lawn, hands-free.",
+    "ctaText": "Get My Free Quote",
+    "steps": [
+      { "num": "01", "title": "Free Lawn Assessment", "desc": "We walk your property and identify what your lawn needs — no charge, no obligation." },
+      { "num": "02", "title": "Customized Plan", "desc": "We build a service plan around your lawn's specific needs and your budget." },
+      { "num": "03", "title": "We Handle It", "desc": "Our crew shows up on schedule, every time — no reminders, no chasing." },
+      { "num": "04", "title": "You Love It", "desc": "If you're not satisfied with any service, we'll come back and make it right." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Lawns we maintain in the area.",
+    "projects": [
+      { "title": "Full Lawn Renovation", "material": "Bermuda Sod + Fertilization Program", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Aeration & Overseeding", "material": "Tall Fescue Blend", "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Landscape Bed Refresh", "material": "Premium Hardwood Mulch", "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Weed Control Program", "material": "Pre + Post-Emergent Treatment", "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "contact": {
+    "h2": "Get your free lawn quote.",
+    "ctaButtonText": "Get My Free Quote",
+    "serviceOptions": [
+      "Weekly Lawn Mowing",
+      "Fertilization & Weed Control",
+      "Aeration & Overseeding",
+      "Mulching & Bed Maintenance",
+      "Leaf Removal & Cleanup",
+      "Irrigation / Sprinkler Service",
+      "Not Sure — I Need an Assessment"
+    ]
+  },
+
+  "faq": {
+    "h2": "Common lawn care questions.",
+    "items": [
+      { "q": "How often should my lawn be mowed?", "a": "During the growing season, most lawns need mowing weekly or every 7-10 days. We adjust frequency based on growth rate and your preferences." },
+      { "q": "Do you offer recurring maintenance plans?", "a": "Yes — most of our customers are on annual plans that include mowing, fertilization, weed control, and seasonal cleanups. Recurring plans save 10-15% over one-off pricing." },
+      { "q": "What's included in your fertilization program?", "a": "Our full-season program includes 4-6 applications covering spring green-up, summer stress feeding, fall strengthening, and pre-emergent weed prevention." },
+      { "q": "Are your products safe for kids and pets?", "a": "We use EPA-registered products and follow all label instructions. We'll notify you of any reentry intervals after treatments. We also offer organic programs on request." },
+      { "q": "Are you licensed and insured?", "a": "Yes. Our applicators hold state pesticide applicator licenses and we carry full general liability and workers' compensation insurance." },
+      { "q": "What areas do you serve?", "a": "" }
+    ]
+  },
+
+  "cta": {
+    "h2": "Your neighbors have the best lawn on the street. You could too.",
+    "subtext": "Get a free quote today — no obligation, no pressure. We'll tell you exactly what your lawn needs.",
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "Lawn Mowing", "href": "#services" },
+      { "label": "Fertilization & Weed Control", "href": "#services" },
+      { "label": "Aeration & Overseeding", "href": "#services" },
+      { "label": "Mulching & Bed Maintenance", "href": "#services" },
+      { "label": "Leaf Removal & Cleanups", "href": "#services" },
+      { "label": "Irrigation & Sprinkler Service", "href": "#services" }
+    ]
+  }
+}

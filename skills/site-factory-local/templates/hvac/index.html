@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}HVAC Pro - Premier Climate Control Solutions{% endblock %}</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="apple-touch-icon" sizes="apple-touch-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="manifest" id="site-manifest" href="/site-manifest.json">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <header class="sticky top-0 z-50 bg-white shadow-lg">
+        <!-- Navigation and Hero Component goes here. Uses assets/hero-hvac-main.jpg -->
+        <section id="hero-section" style="background-image: url('assets/hero-hvac-main.jpg'); background-size: cover; height: 80vh; display: flex; align-items: center; text-align: center;">
+            <!-- Hero content overlay -->
+        </section>
+    </header>
+
+    <main id="content">
+        <!-- Service sections, utilizing image assets from the service-specific folders -->
+        <section id="services" class="py-20">
+            <h2 class="text-4xl font-bold mb-10">Our Comprehensive HVAC Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <!-- Service Card 1: AC Installation -->
+                <article class="service-card">
+                    <h3 class="text-2xl">AC Installation & Replacement</h3>
+                    <img src="assets/service-ac-install.jpg" alt="AC unit installed in a modern home" class="rounded-lg shadow-xl">
+                    <p>Energy-efficient central air systems sized right for your home — installed by certified techs.</p>
+                </article>
+                <!-- Service Card 2: Heating Installation -->
+                <article class="service-card">
+                    <h3 class="text-2xl">Heating Installation & Replacement</h3>
+                    <img src="assets/service-heat-install.jpg" alt="New furnace installed in a basement setting" class="rounded-lg shadow-xl">
+                    <p>Gas furnaces, heat pumps, and electric systems installed with manufacturer warranties.</p>
+                </article>
+                <!-- Service Card 3: AC Repair -->
+                <article class="service-card">
+                    <h3 class="text-2xl">AC Repair</h3>
+                    <img src="assets/service-ac-repair.jpg" alt="Technician diagnosing AC unit with diagnostic tools" class="rounded-lg shadow-xl">
+                    <p>Fast diagnosis and same-day repairs for all makes and models. No cooling — we fix it.</p>
+                </article>
+                <!-- Service Card 4: Heating Repair -->
+                <article class="service-card">
+                    <h3 class="text-2xl">Heating Repair</h3>
+                    <img src="assets/service-heat-repair.jpg" alt="Technician working on a furnace unit in a crawlspace" class="rounded-lg shadow-xl">
+                    <p>Furnace not firing? Heat pump blowing cold? We diagnose and repair same day.</p>
+                </article>
+                <!-- Service Card 5: Maintenance -->
+                <article class="service-card">
+                    <h3 class="text-2xl">Preventive Maintenance</h3>
+                    <img src="assets/service-maintenance.jpg" alt="Technician checking HVAC filters and equipment" class="rounded-lg shadow-xl">
+                    <p>Seasonal tune-ups that extend equipment life and prevent costly breakdowns.</p>
+                </article>
+                <!-- Service Card 6: Emergency Service -->
+                <article class="service-card">
+                    <h3 class="text-2xl">24/7 Emergency Service</h3>
+                    <img src="assets/service-emergency.jpg" alt="HVAC technician in action at night under work lights" class="rounded-lg shadow-xl">
+                    <p>No heat in winter, no AC in summer? We respond around the clock.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ... other sections (How It Works, Gallery, etc.) ... -->
+    </main>
+
+    <footer id="contact-footer">
+        <!-- Contact form and CTA, utilizing assets/gallery-hvac-1.jpg -->
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+</html>

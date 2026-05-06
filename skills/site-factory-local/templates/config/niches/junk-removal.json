@@ -1,0 +1,306 @@
+{
+  "niche": "junk-removal",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "Junk Removal",
+    "emergency": "Same-Day Service Available"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Clearing out a garage or estate?",
+    "linkText": "Book same-day pickup",
+    "linkHref": "#contact",
+    "suffix": "— upfront pricing, no hidden fees."
+  },
+
+  "hero": {
+    "h1": ["Fast, Affordable", "Junk Removal,", "Gone Today."],
+    "h1Highlight": 1,
+    "badges": ["Same-Day Available", "Upfront Pricing", "Eco-Friendly Disposal"],
+    "bgImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "stat": "10K+", "label": "Loads Hauled" },
+      { "stat": "8+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "70%", "label": "Recycled or Donated" }
+    ],
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "trustBadges": [
+    { "name": "Licensed & Insured", "icon": "🛡️" },
+    { "name": "Same-Day Service", "icon": "⚡" },
+    { "name": "Upfront Pricing", "icon": "💰" },
+    { "name": "Eco-Friendly Disposal", "icon": "♻️" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Free Estimates", "icon": "📋" }
+  ],
+
+  "services": [
+    {
+      "title": "Full-Service Junk Removal",
+      "slug": "full-service-junk-removal",
+      "href": "/services/full-service-junk-removal",
+      "description": "We load it, haul it, and dispose of it — you don't lift a finger.",
+      "intro": "Our crew handles all the heavy lifting so you don't have to. Point to what needs to go and we'll remove it from anywhere on your property — basement, attic, garage, or curbside. Pricing is based on volume, quoted upfront before we start.",
+      "features": [
+        "Two-man crew handles all loading",
+        "Items removed from any location — no curbside-only restrictions",
+        "Volume-based pricing quoted before work begins",
+        "Responsible disposal: donate, recycle, or landfill as appropriate",
+        "Same-day and next-day booking available",
+        "No rental fees, no weight tickets, no surprises",
+        "Property protection — we use pads and runners on floors",
+        "Final walkthrough to confirm everything is cleared"
+      ],
+      "process": [
+        { "step": "1", "title": "Book Online or Call", "desc": "Schedule in minutes. We confirm your 2-hour arrival window the day before." },
+        { "step": "2", "title": "On-Site Quote", "desc": "The crew assesses the load and gives you a firm price before touching a thing. No obligation." },
+        { "step": "3", "title": "We Load & Haul", "desc": "Our team does all the heavy lifting — from the basement, attic, or wherever it sits." },
+        { "step": "4", "title": "Clean & Gone", "desc": "We sweep up, confirm everything looks right, and process payment on the spot." }
+      ],
+      "materials": ["Padded moving blankets", "Furniture dollies", "Pry bars and hand trucks", "Eco-certified disposal facilities"],
+      "faqs": [
+        { "q": "How do you price junk removal?", "a": "We price by volume — how much space your items take up in our truck. We give you a firm, all-inclusive quote on-site before we start. No hourly rates or hidden fees." },
+        { "q": "Do I need to move everything to the curb?", "a": "Not at all. Our crew will remove items from anywhere on your property — garage, basement, attic, or inside rooms. That's what you're paying for." },
+        { "q": "What happens to my stuff after you haul it away?", "a": "We separate items for donation, recycling, and responsible landfill disposal. We divert about 70% of what we haul from landfill." }
+      ]
+    },
+    {
+      "title": "Furniture & Appliance Removal",
+      "slug": "furniture-appliance-removal",
+      "href": "/services/furniture-appliance-removal",
+      "description": "Old sofas, refrigerators, mattresses, and more — hauled away fast.",
+      "intro": "Large furniture and heavy appliances are the hardest items to get rid of on your own. We remove them from any room, navigate stairs and tight hallways, and handle all disposal — including refrigerant recovery on applicable appliances.",
+      "features": [
+        "Sofas, sectionals, recliners, and bedroom sets",
+        "Refrigerators, washers, dryers, and dishwashers",
+        "Mattress and box spring disposal (recycled when possible)",
+        "Hot tub and spa removal",
+        "Old electronics (e-waste recycled)",
+        "Stair carries handled at no extra charge",
+        "Appliance refrigerant recovery per EPA guidelines",
+        "Same-day removal available"
+      ],
+      "process": [
+        { "step": "1", "title": "Book & Confirm", "desc": "Schedule online or by phone. We confirm your appointment window the evening before." },
+        { "step": "2", "title": "Upfront Quote", "desc": "The crew quotes the job on arrival based on piece count and access difficulty. You approve before we start." },
+        { "step": "3", "title": "Careful Removal", "desc": "We protect your floors and walls, disassemble if needed, and carry everything out cleanly." },
+        { "step": "4", "title": "Responsible Disposal", "desc": "Appliances are recycled, mattresses diverted from landfill, and electronics e-waste certified." }
+      ],
+      "materials": ["Appliance dollies", "Moving straps", "Floor runners and corner guards", "EPA-certified refrigerant recovery"],
+      "faqs": [
+        { "q": "Can you remove a refrigerator that still has food in it?", "a": "We ask that perishables be removed before pickup. We can remove a refrigerator that still has non-perishable items — we'll help clear it out if needed." },
+        { "q": "Do you charge extra for stairs?", "a": "No. Stair carries are included in our standard pricing. We quote with full knowledge of your access conditions." },
+        { "q": "Can you remove a hot tub?", "a": "Yes. Hot tub removal requires disassembly and is quoted as a specialty item. We handle cutting, hauling, and disposal." }
+      ]
+    },
+    {
+      "title": "Estate & Garage Cleanout",
+      "slug": "estate-garage-cleanout",
+      "href": "/services/estate-garage-cleanout",
+      "description": "Complete cleanouts for estates, garages, and storage units — handled with care.",
+      "intro": "Whether you're settling an estate, clearing a hoarder situation, or finally reclaiming your garage, we handle the full cleanout from start to finish. We sort for donation, flag items of potential value, and leave the space broom-clean.",
+      "features": [
+        "Full estate cleanouts — all rooms, all floors",
+        "Garage and storage unit cleanouts",
+        "Sorting for donation, recycling, and disposal",
+        "Items of potential value flagged before disposal",
+        "Sensitive document shredding coordination available",
+        "Broom-clean sweep after removal",
+        "Multi-day projects accommodated",
+        "Compassionate service for estate and bereavement situations"
+      ],
+      "process": [
+        { "step": "1", "title": "Walkthrough & Quote", "desc": "We tour the property, assess volume and access, and give you a flat project quote — not hourly." },
+        { "step": "2", "title": "Sort & Salvage", "desc": "We sort items before hauling — flagging anything with resale or donation value for your review." },
+        { "step": "3", "title": "Full Removal", "desc": "Multiple truck loads if needed. We don't leave until the space is clear." },
+        { "step": "4", "title": "Broom-Clean Finish", "desc": "We sweep every room and confirm the property is ready for its next use." }
+      ],
+      "materials": ["Heavy-duty waste bags", "Packing blankets", "Categorized sorting bins", "Donation partner drop-offs"],
+      "faqs": [
+        { "q": "How do you handle items that might be valuable?", "a": "Before disposal, we flag items that may have resale or sentimental value and give you the chance to review them. We never dispose of anything without your approval." },
+        { "q": "Can you work around a real estate closing deadline?", "a": "Yes. We regularly work with realtors and estate attorneys to meet hard deadlines. Rush service is available." },
+        { "q": "Do you handle situations involving hoarding?", "a": "Yes. Our crew is professional and non-judgmental. We've handled many sensitive cleanouts and treat every property and client with respect." }
+      ]
+    },
+    {
+      "title": "Yard Waste Removal",
+      "slug": "yard-waste-removal",
+      "href": "/services/yard-waste-removal",
+      "description": "Branches, brush, leaves, and yard debris hauled away fast after any storm or cleanup.",
+      "intro": "After a storm or big yard project, piles of branches and brush can sit for weeks waiting for curbside pickup. We haul it all in a single visit — green waste composted or chipped, not sent to landfill.",
+      "features": [
+        "Fallen branches, limbs, and brush piles",
+        "Bagged and loose leaf removal",
+        "Shrub and hedge trimmings",
+        "Old mulch and soil removal",
+        "Storm debris cleanup",
+        "Green waste diverted to composting facilities",
+        "Same-day storm cleanup available",
+        "Driveway and lawn protected during hauling"
+      ],
+      "process": [
+        { "step": "1", "title": "Quick Quote", "desc": "Send us a photo or we assess on arrival. Volume-based pricing quoted before we start." },
+        { "step": "2", "title": "Same-Day Loading", "desc": "Our crew loads all debris efficiently — no dragging it to the street required." },
+        { "step": "3", "title": "Green Disposal", "desc": "Yard waste goes to composting or chipping facilities, not the landfill." },
+        { "step": "4", "title": "Yard Left Clean", "desc": "We blow off the driveway and leave your yard ready to enjoy." }
+      ],
+      "materials": ["Leaf blowers and rakes", "Wood chippers (large loads)", "Green waste composting partners"],
+      "faqs": [
+        { "q": "Can you remove stumps as part of yard waste removal?", "a": "We can remove loose or cut stumps. In-ground stump grinding is a separate service — ask about our tree service partners." },
+        { "q": "Is yard waste more expensive than regular junk removal?", "a": "Yard waste is typically priced slightly lower because it's cleaner to handle. Volume-based pricing applies." },
+        { "q": "Do you work after storms?", "a": "Yes. We offer storm cleanup priority service. Call or book online and we'll get there as fast as possible." }
+      ]
+    },
+    {
+      "title": "Construction Debris Removal",
+      "slug": "construction-debris-removal",
+      "href": "/services/construction-debris-removal",
+      "description": "Post-reno cleanouts — drywall, lumber, tile, concrete, and contractor debris hauled fast.",
+      "intro": "Contractors leave materials behind. Renovations leave trails of drywall scraps, tile pieces, and packaging. We handle the post-construction cleanout so your new space can actually be used.",
+      "features": [
+        "Drywall, lumber, and framing scraps",
+        "Old tile, flooring, and carpet removal",
+        "Concrete and masonry debris",
+        "Packaging and cardboard",
+        "Old cabinets and countertops",
+        "Paint cans and miscellaneous hardware (hazmat-compliant)",
+        "Roofing shingles and decking",
+        "Same-day and multi-day projects available"
+      ],
+      "process": [
+        { "step": "1", "title": "Project Assessment", "desc": "We quote by volume or as a day-rate for large ongoing projects. Flexible to your construction schedule." },
+        { "step": "2", "title": "Coordinated Scheduling", "desc": "We work around your contractors so debris is cleared without interrupting work flow." },
+        { "step": "3", "title": "Heavy-Duty Hauling", "desc": "Our trucks handle heavy materials like concrete and tile — not just light household junk." },
+        { "step": "4", "title": "Site Left Clean", "desc": "We sweep up and leave the job site ready for finishing trades or new occupants." }
+      ],
+      "materials": ["Heavy-duty flatbed trucks", "Pry bars and demo tools", "Material recycling partners", "Hazmat-compliant paint disposal"],
+      "faqs": [
+        { "q": "Can you remove concrete and brick?", "a": "Yes. Concrete and masonry are priced as heavy material — they take more truck capacity per cubic yard. We quote accurately for this upfront." },
+        { "q": "My contractor left a mess — can you clean it up?", "a": "Absolutely. Post-construction cleanouts are one of our most common jobs. We work around your schedule and can usually be there within 24–48 hours." },
+        { "q": "What about old paint cans and chemicals?", "a": "We handle properly sealed paint cans and take them to licensed disposal facilities. We cannot haul open, leaking, or unlabeled chemical containers." }
+      ]
+    },
+    {
+      "title": "Dumpster Rental",
+      "slug": "dumpster-rental",
+      "href": "/services/dumpster-rental",
+      "description": "10, 15, and 20-yard dumpsters delivered to your driveway — flexible rental periods.",
+      "intro": "When you need to work at your own pace, a dumpster rental gives you the flexibility to fill it over days or weeks. We drop it, you fill it, we haul it — straightforward pricing with no weight traps.",
+      "features": [
+        "10, 15, and 20-yard roll-off dumpsters",
+        "Flexible rental periods — 3, 7, or 14 days",
+        "Driveway-safe placement with board protection",
+        "Prohibited items list provided upfront",
+        "Extension days available at flat daily rate",
+        "Same-day delivery available in most areas",
+        "No overweight surprise charges on most debris types",
+        "Swap service if you need more capacity"
+      ],
+      "process": [
+        { "step": "1", "title": "Choose Your Size", "desc": "We help you pick the right size — most home projects fit a 10 or 15-yard container." },
+        { "step": "2", "title": "Scheduled Delivery", "desc": "We deliver to your driveway at your preferred time, placed to minimize lawn and driveway damage." },
+        { "step": "3", "title": "You Fill It", "desc": "Work at your pace. Call to extend your rental or swap for a larger container anytime." },
+        { "step": "4", "title": "We Haul & Dispose", "desc": "When you're ready, we pick up and handle all disposal — recycling where possible." }
+      ],
+      "materials": ["Roll-off dumpster fleet", "Driveway protection boards", "Covered containers available"],
+      "faqs": [
+        { "q": "What size dumpster do I need?", "a": "A 10-yard fits a single room cleanout. A 15-yard handles most garage or basement projects. A 20-yard is for full home cleanouts or large construction debris." },
+        { "q": "Can I put a dumpster on the street?", "a": "Street placement requires a permit in most municipalities. We handle the permit application for you — just ask when booking." },
+        { "q": "What can't go in a dumpster?", "a": "Prohibited items include tires, batteries, paint, propane tanks, and hazardous materials. We provide a full list at booking. Most household and construction debris is fine." }
+      ]
+    }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Four steps and your space is clear.",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80",
+    "ctaText": "Get a Free Quote",
+    "steps": [
+      { "num": "01", "title": "Book Online or Call", "desc": "Schedule in minutes. Same-day and next-day availability in most areas." },
+      { "num": "02", "title": "We Arrive & Quote", "desc": "The crew gives you a firm upfront price based on volume. No obligation." },
+      { "num": "03", "title": "We Do the Work", "desc": "Our team loads everything. You don't lift a finger." },
+      { "num": "04", "title": "Space Cleared & Clean", "desc": "We sweep up and you're done. Eco-friendly disposal included." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Recent junk removal projects near you.",
+    "projects": [
+      { "title": "Full Garage Cleanout", "material": "Cleared 2-car garage in under 3 hours", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Estate Cleanout", "material": "4-bedroom home cleared for sale", "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Construction Debris", "material": "Post-reno drywall and tile removal", "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Furniture Removal", "material": "Old sofa and appliances donated", "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "testimonials": {
+    "h2": "Real words from real neighbors."
+  },
+
+  "contact": {
+    "h2": "Get your free junk removal quote.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Get a Free Quote",
+    "serviceOptions": [
+      "Full-Service Junk Removal",
+      "Furniture & Appliance Removal",
+      "Estate & Garage Cleanout",
+      "Yard Waste Removal",
+      "Construction Debris Removal",
+      "Dumpster Rental",
+      "Not Sure — Tell Us What You Have"
+    ]
+  },
+
+  "faq": {
+    "h2": "Junk removal questions answered.",
+    "items": [
+      {
+        "q": "How do you price junk removal?",
+        "a": "We price by volume — how much space your items occupy in our truck. You get an upfront quote before we touch anything. No hourly rates, no weight surcharges on typical household junk."
+      },
+      {
+        "q": "Are you licensed and insured?",
+        "a": "Yes. We carry full general liability insurance. Our crew is trained and background-checked."
+      },
+      {
+        "q": "What items can't you take?",
+        "a": "We can't haul hazardous waste, asbestos, medical waste, or open chemical containers. Everything else — furniture, appliances, electronics, construction debris, yard waste — we handle."
+      },
+      {
+        "q": "How soon can you come out?",
+        "a": "We offer same-day service in most areas. Book online or call and we'll confirm your arrival window within the hour."
+      },
+      {
+        "q": "Do you recycle or donate any of the items?",
+        "a": "Yes. We divert approximately 70% of what we collect from landfill — donating usable items, recycling electronics and metals, and composting yard waste."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": ""
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "That pile isn't getting smaller on its own.",
+    "subtext": "Get a free upfront quote today — same-day availability, full crew, and responsible disposal. Your space, cleared.",
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "Full-Service Junk Removal", "href": "/services/full-service-junk-removal" },
+      { "label": "Furniture & Appliance Removal", "href": "/services/furniture-appliance-removal" },
+      { "label": "Estate & Garage Cleanout", "href": "/services/estate-garage-cleanout" },
+      { "label": "Yard Waste Removal", "href": "/services/yard-waste-removal" },
+      { "label": "Construction Debris Removal", "href": "/services/construction-debris-removal" },
+      { "label": "Dumpster Rental", "href": "/services/dumpster-rental" }
+    ]
+  }
+}

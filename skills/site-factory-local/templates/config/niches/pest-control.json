@@ -1,0 +1,306 @@
+{
+  "niche": "pest-control",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "Pest Control",
+    "emergency": "Same-Day Emergency Service"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Pests don't wait —",
+    "linkText": "same-day service available",
+    "linkHref": "#contact",
+    "suffix": "for urgent infestations."
+  },
+
+  "hero": {
+    "h1": ["Pest Control That", "Actually Works,", "Guaranteed."],
+    "h1Highlight": 1,
+    "badges": ["Licensed & Certified", "Same-Day Service", "Pet & Family Safe"],
+    "bgImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "stat": "5,000+", "label": "Homes Protected" },
+      { "stat": "20+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "100%", "label": "Satisfaction Guarantee" }
+    ],
+    "primaryCta": "Get a Free Inspection"
+  },
+
+  "trustBadges": [
+    { "name": "State Licensed Applicator", "icon": "🏅" },
+    { "name": "NPMA Member", "icon": "⭐" },
+    { "name": "QualityPro Certified", "icon": "✓" },
+    { "name": "EPA Registered Products", "icon": "🛡️" },
+    { "name": "Pet & Family Safe Treatments", "icon": "🐾" },
+    { "name": "Satisfaction Guarantee", "icon": "💰" }
+  ],
+
+  "services": [
+    {
+      "title": "General Pest Control",
+      "slug": "general-pest-control",
+      "href": "/services/general-pest-control",
+      "description": "Comprehensive quarterly or monthly pest prevention for spiders, roaches, silverfish, and common invaders.",
+      "intro": "A single treatment won't keep pests out for long. Our recurring general pest control program creates a protective barrier around your home that breaks pest life cycles — keeping the inside clean all year.",
+      "features": [
+        "Interior and exterior treatment at every visit",
+        "Perimeter barrier spray around foundation and entry points",
+        "Interior crack-and-crevice treatment in key areas",
+        "Cobweb removal from eaves and entry areas",
+        "Door sweep and exclusion point report",
+        "Monthly, bi-monthly, or quarterly plans available",
+        "Free re-treatment between scheduled visits if pests return",
+        "Pet and child-safe after 30-minute dry time"
+      ],
+      "process": [
+        { "step": "1", "title": "Free Inspection", "desc": "We inspect inside and out, identify pest entry points and conducive conditions, and recommend the right plan." },
+        { "step": "2", "title": "Initial Treatment", "desc": "We treat the full interior and exterior — perimeter, attic, crawl space, and all interior hot spots." },
+        { "step": "3", "title": "Recurring Service", "desc": "We return on your chosen schedule — monthly, bi-monthly, or quarterly — to maintain the barrier." },
+        { "step": "4", "title": "Free Re-Treats", "desc": "If pests return between visits, we come back at no charge. That's our guarantee." }
+      ],
+      "materials": ["Temprid FX", "Suspend Polyzone", "Cy-Kick CS", "Alpine Pressurized Insecticide", "Gentrol IGR Concentrate"],
+      "faqs": [
+        { "q": "Is the treatment safe for my pets and kids?", "a": "Yes. Our products are EPA-registered and safe once dry — typically 30 minutes. We'll let you know when it's safe to re-enter and keep children and pets away during application." },
+        { "q": "How often should I have my home treated?", "a": "Quarterly service is standard for most homes. Higher-risk homes or those with previous infestation history benefit from monthly or bi-monthly service." },
+        { "q": "What if I see pests between scheduled visits?", "a": "Call us and we'll come back at no additional charge. Our service includes free re-treatments between scheduled visits." }
+      ]
+    },
+    {
+      "title": "Termite Treatment & Prevention",
+      "slug": "termite-treatment-prevention",
+      "href": "/services/termite-treatment-prevention",
+      "description": "Termite inspection, liquid barrier treatments, and bait station programs with annual warranties.",
+      "intro": "Termites cause over $5 billion in property damage annually — more than fires, floods, and windstorms combined. We offer both liquid termiticide barrier treatments and the Sentricon bait station system, depending on what your home needs.",
+      "features": [
+        "Full termite inspection of all accessible areas",
+        "Liquid termiticide barrier treatment (Termidor or Altriset)",
+        "Sentricon Always Active bait station installation",
+        "Termite damage report with photographic documentation",
+        "Annual renewal warranty with re-inspection",
+        "Soil treatment under slabs and at all entry points",
+        "Wood treatment of any active infestation areas",
+        "WDO (Wood-Destroying Organism) report available for real estate transactions"
+      ],
+      "process": [
+        { "step": "1", "title": "Full Termite Inspection", "desc": "We inspect all accessible areas — crawl spaces, garages, attics, and exterior foundation — for evidence of termite activity." },
+        { "step": "2", "title": "Treatment Plan", "desc": "We recommend the right approach — liquid barrier, bait stations, or combination — based on your home's construction and infestation level." },
+        { "step": "3", "title": "Treatment Day", "desc": "Liquid treatment involves trenching and rodding around the foundation. Bait stations are installed at regular intervals in the soil." },
+        { "step": "4", "title": "Annual Warranty", "desc": "We renew your warranty annually with a re-inspection — giving you continuous protection and early detection." }
+      ],
+      "materials": ["Termidor SC (Fipronil)", "Altriset Termiticide", "Sentricon Always Active", "Premise 75 (Imidacloprid)", "Taurus SC"],
+      "faqs": [
+        { "q": "How do I know if I have termites?", "a": "Signs include mud tubes on foundation walls, soft or hollow-sounding wood, discarded wings near windows, and visible damage to wood. Many infestations have no obvious signs — which is why annual inspections matter." },
+        { "q": "What's the difference between liquid treatment and bait stations?", "a": "Liquid treatment creates an immediate chemical barrier in the soil. Bait stations work more slowly — termites feed on bait and carry it back to the colony. Both are effective; we recommend based on your situation." },
+        { "q": "How long does termite treatment last?", "a": "Termidor liquid treatment remains active in the soil for 10+ years. Bait stations require annual monitoring. We include an annual renewal warranty with every treatment program." }
+      ]
+    },
+    {
+      "title": "Rodent Control",
+      "slug": "rodent-control",
+      "href": "/services/rodent-control",
+      "description": "Exclusion, trapping, and sanitization to eliminate mice and rats and keep them out for good.",
+      "intro": "Rodents don't just damage food — they chew wiring, contaminate insulation, and carry disease. The only lasting solution is exclusion: sealing every entry point. We trap, exclude, and clean so rodents can't return.",
+      "features": [
+        "Full interior and exterior rodent inspection",
+        "Identification of all entry points (gaps, pipes, vents, roofline)",
+        "Snap trap placement in key interior activity areas",
+        "Exterior tamper-resistant bait station installation",
+        "Exclusion sealing with copper mesh, hardware cloth, and caulk",
+        "Contaminated insulation identification and removal referral",
+        "Follow-up visits to check traps and reset as needed",
+        "Attic and crawl space inspection included"
+      ],
+      "process": [
+        { "step": "1", "title": "Inspection", "desc": "We locate all active areas, entry points, and runways — inside and out — including attic and crawl space." },
+        { "step": "2", "title": "Trapping", "desc": "We place traps in all active areas to reduce the population quickly while exclusion work is planned." },
+        { "step": "3", "title": "Exclusion", "desc": "Every entry point is sealed with durable materials rodents cannot chew through — copper mesh, caulk, and hardware cloth." },
+        { "step": "4", "title": "Follow-Up", "desc": "We return to check traps, confirm exclusion is holding, and monitor for any new activity." }
+      ],
+      "materials": ["Victor Pro Snap Traps", "Protecta LP Bait Stations", "Ditrac Blox rodenticide", "Stuff-It copper mesh", "Great Stuff pest block foam"],
+      "faqs": [
+        { "q": "Why do I keep getting mice even after I set traps?", "a": "Traps reduce population but don't solve the problem. Mice enter through gaps as small as a dime. Without exclusion — sealing every entry point — new mice will keep coming in." },
+        { "q": "Is rodenticide safe around my pets?", "a": "We use tamper-resistant bait stations that prevent pets and children from accessing the bait. We'll walk you through station placement and any precautions at your appointment." },
+        { "q": "How long does it take to get rid of a rodent problem?", "a": "With trapping and exclusion together, most infestations are resolved in 2–4 weeks. Severe infestations or large entry point counts may take longer." }
+      ]
+    },
+    {
+      "title": "Bed Bug Treatment",
+      "slug": "bed-bug-treatment",
+      "href": "/services/bed-bug-treatment",
+      "description": "Whole-room heat treatment or chemical treatment to eliminate bed bugs at all life stages.",
+      "intro": "Bed bugs are notoriously difficult to eliminate with DIY methods because eggs resist most sprays. We offer whole-room heat treatment — raising room temperatures above 120°F — which kills bed bugs and eggs in a single day.",
+      "features": [
+        "Full bed bug inspection with detection tools",
+        "Whole-room heat treatment up to 135°F",
+        "Chemical spray follow-up for perimeter protection",
+        "Mattress and box spring encasement recommendation",
+        "All life stages eliminated including eggs",
+        "Same-day or next-day service available",
+        "30-day re-treatment warranty",
+        "Discreet service vehicles for privacy"
+      ],
+      "process": [
+        { "step": "1", "title": "Inspection", "desc": "We inspect all beds, furniture, baseboards, and electrical outlets for live bugs, eggs, and shed skins." },
+        { "step": "2", "title": "Heat Setup", "desc": "We bring in commercial heaters and set up monitoring to ensure all areas reach lethal temperature." },
+        { "step": "3", "title": "Heat Treatment", "desc": "The room or unit is held above 120°F for 4–6 hours — killing all bugs and eggs without chemicals." },
+        { "step": "4", "title": "Chemical Barrier", "desc": "We apply a residual perimeter spray after treatment to catch any bugs that migrated during heat-up." }
+      ],
+      "materials": ["Actio Heaters thermal remediation", "Alpine WSG bed bug spray", "Crossfire Bed Bug Concentrate", "Cimexa Dust", "Climbup Insect Interceptors"],
+      "faqs": [
+        { "q": "Does heat treatment really work in one day?", "a": "Yes. Heat treatment is the most effective single-day solution available. Temperatures above 120°F kill bed bugs at all life stages, including eggs, which chemical sprays often can't penetrate." },
+        { "q": "Do I need to throw away my mattress?", "a": "In most cases, no. Heat treatment kills all bed bugs in the mattress. We recommend encasing the mattress after treatment as an added precaution." },
+        { "q": "How did I get bed bugs?", "a": "Bed bugs travel on luggage, clothing, used furniture, and through walls in multi-unit buildings. They're not a sign of uncleanliness — they're opportunistic hitchhikers found in hotels, theatres, and public transit." }
+      ]
+    },
+    {
+      "title": "Mosquito Control",
+      "slug": "mosquito-control",
+      "href": "/services/mosquito-control",
+      "description": "Seasonal mosquito barrier treatment to reclaim your yard — misting systems also available.",
+      "intro": "Mosquitoes breed in standing water and rest in vegetation. Our barrier spray coats all leaf surfaces where mosquitoes harbor — killing existing populations and repelling new ones for 21 days between treatments.",
+      "features": [
+        "21-day barrier spray applied to all vegetation and resting areas",
+        "Standing water treatment with BTi larvicide",
+        "Identification and recommendation for water source elimination",
+        "Seasonal programs (April–October) or one-time event treatment",
+        "In2Care station installation for enhanced control",
+        "Automated misting system installation available",
+        "All products approved for residential use around people and pets",
+        "Same-week scheduling during peak season"
+      ],
+      "process": [
+        { "step": "1", "title": "Yard Assessment", "desc": "We identify resting areas, water sources, and breeding sites — the key to effective mosquito control." },
+        { "step": "2", "title": "Barrier Spray", "desc": "We treat all vegetation, shaded areas, and fence lines where mosquitoes rest during the day." },
+        { "step": "3", "title": "Larvicide Treatment", "desc": "We treat any standing water — gutters, birdbaths, low spots — with BTi biological larvicide." },
+        { "step": "4", "title": "21-Day Cycle", "desc": "We return every 21 days through the season to maintain the barrier as plants grow and rains dilute treatment." }
+      ],
+      "materials": ["Suspend Polyzone", "Talstar Pro", "BTi (Bacillus thuringiensis israelensis) dunks", "In2Care Mosquito Stations", "Pyranha Misting Systems"],
+      "faqs": [
+        { "q": "How quickly does the treatment work?", "a": "You'll notice a significant reduction within 24–48 hours. Full effectiveness builds after the second treatment as we establish consistent coverage." },
+        { "q": "Is the treatment safe for my kids and pets?", "a": "Yes, once dry — typically 30 minutes. We'll notify you when it's safe to re-enter your yard." },
+        { "q": "What if it rains right after treatment?", "a": "Our products bond to leaf surfaces and are rain-fast after about 1 hour. If it rains heavily within the first hour, we'll re-treat at no charge." }
+      ]
+    },
+    {
+      "title": "Ant & Roach Treatment",
+      "slug": "ant-roach-treatment",
+      "href": "/services/ant-roach-treatment",
+      "description": "Targeted ant and cockroach elimination using gel baits, dusts, and perimeter barrier sprays.",
+      "intro": "Ants and cockroaches require different strategies. Ants need bait that workers carry back to kill the colony. Roaches need gel bait in harborage areas plus exclusion of water and food sources. We use the right product for each pest.",
+      "features": [
+        "Species identification to select the right treatment approach",
+        "Gel bait placement in cockroach harborage areas",
+        "Granular ant bait applied at colony entry points",
+        "Perimeter spray to block exterior entry",
+        "Borate dust in wall voids and attic for German roaches",
+        "Interior crack-and-crevice treatment",
+        "Sanitation and conducive condition report",
+        "Follow-up visit at 2 weeks to confirm elimination"
+      ],
+      "process": [
+        { "step": "1", "title": "Inspection & ID", "desc": "We identify the species — German roach vs. American roach, odorous house ant vs. carpenter ant — because treatment differs by species." },
+        { "step": "2", "title": "Targeted Treatment", "desc": "Gel bait, granular bait, spray, or dust — we use the right product in the right place for maximum effectiveness." },
+        { "step": "3", "title": "Exclusion Recommendations", "desc": "We identify and note moisture sources, food access points, and entry cracks that invite reinfestation." },
+        { "step": "4", "title": "Follow-Up Visit", "desc": "We return at 2 weeks to evaluate results, rebait if needed, and confirm the infestation is resolved." }
+      ],
+      "materials": ["Advion Cockroach Gel Bait", "Maxforce FC Magnum", "Optigard Ant Gel", "Termidor Foam", "Delta Dust insecticide"],
+      "faqs": [
+        { "q": "Why aren't over-the-counter roach sprays working?", "a": "Most retail sprays are repellent — they scatter roaches without killing the colony. Professional gel baits are non-repellent and are carried back to hidden harborage areas, eliminating the whole population." },
+        { "q": "How long does ant or roach treatment take to work?", "a": "Gel bait for roaches typically shows dramatic reduction in 5–7 days. Ant bait can take 1–2 weeks as workers carry it back to the colony." },
+        { "q": "Do I need to leave my home during treatment?", "a": "Not for gel bait treatments. If we're doing a spray treatment, we ask that you and your pets stay out for 30 minutes while the product dries." }
+      ]
+    }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Four steps from infestation to protected.",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
+    "ctaText": "Schedule My Free Inspection",
+    "steps": [
+      { "num": "01", "title": "Free Inspection", "desc": "A licensed technician inspects your home, identifies pest species and entry points, and recommends a plan." },
+      { "num": "02", "title": "Targeted Treatment", "desc": "We use the right product for your specific pest — no one-size-fits-all spray routines." },
+      { "num": "03", "title": "Ongoing Protection", "desc": "Recurring service maintains the protective barrier and catches new pressures before they become infestations." },
+      { "num": "04", "title": "Guaranteed", "desc": "If pests return between scheduled visits, we come back and re-treat at no additional charge." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Protecting homes throughout the area.",
+    "projects": [
+      { "title": "Termite Barrier Treatment", "material": "Termidor SC perimeter injection", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Rodent Exclusion", "material": "Full exclusion + copper mesh sealing", "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Mosquito Barrier Program", "material": "21-day barrier spray + BTi larvicide", "image": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Bed Bug Heat Treatment", "material": "Whole-room thermal remediation", "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "testimonials": {
+    "h2": "Real words from real neighbors."
+  },
+
+  "contact": {
+    "h2": "Request your free pest inspection.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Schedule My Free Inspection",
+    "serviceOptions": [
+      "General Pest Control",
+      "Termite Treatment & Prevention",
+      "Rodent Control",
+      "Bed Bug Treatment",
+      "Mosquito Control",
+      "Ant & Roach Treatment",
+      "Not Sure — I Need an Inspection"
+    ]
+  },
+
+  "faq": {
+    "h2": "Pest control questions, answered.",
+    "items": [
+      {
+        "q": "Are your products safe for children and pets?",
+        "a": "Yes. All products we use are EPA-registered and safe for occupants once dry — typically 30 minutes after application. We'll advise you on any product-specific precautions at your appointment."
+      },
+      {
+        "q": "Do I need to be home during the treatment?",
+        "a": "For interior treatment, we ask that an adult be present. For exterior-only service, we can treat without you home if you prefer."
+      },
+      {
+        "q": "How long does a treatment take?",
+        "a": "A standard general pest control treatment takes 30–60 minutes for an average home. Specialized treatments like termite barrier or heat treatment take longer and will be explained at booking."
+      },
+      {
+        "q": "What's your service guarantee?",
+        "a": "We guarantee your satisfaction. If pests return between scheduled visits, we'll come back and re-treat at no charge. If you're not satisfied after the re-treatment, we'll refund your last service."
+      },
+      {
+        "q": "How do I know which plan is right for me?",
+        "a": "Our free inspection determines your pest pressure, entry points, and conducive conditions. We'll recommend the plan that matches your situation — and never upsell services you don't need."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": ""
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "Don't share your home with pests.",
+    "subtext": "Get a free inspection from a licensed pest professional — same-day service available and all treatments backed by our satisfaction guarantee.",
+    "primaryCta": "Get a Free Inspection"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "General Pest Control", "href": "/services/general-pest-control" },
+      { "label": "Termite Treatment & Prevention", "href": "/services/termite-treatment-prevention" },
+      { "label": "Rodent Control", "href": "/services/rodent-control" },
+      { "label": "Bed Bug Treatment", "href": "/services/bed-bug-treatment" },
+      { "label": "Mosquito Control", "href": "/services/mosquito-control" },
+      { "label": "Ant & Roach Treatment", "href": "/services/ant-roach-treatment" }
+    ]
+  }
+}

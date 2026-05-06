@@ -1,0 +1,306 @@
+{
+  "niche": "fence",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "Fence",
+    "emergency": "Storm Damage Repair"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Storm damage or privacy needs?",
+    "linkText": "Get a free estimate",
+    "linkHref": "#contact",
+    "suffix": "— professional fence installation & repair."
+  },
+
+  "hero": {
+    "h1": ["Quality Fencing", "Built to Last,", "Installed Right."],
+    "h1Highlight": 1,
+    "badges": ["Licensed & Insured", "Free Estimates", "10-Year Workmanship Warranty"],
+    "bgImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "stat": "2,500+", "label": "Fences Installed" },
+      { "stat": "12+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "100%", "label": "Satisfaction" }
+    ],
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "trustBadges": [
+    { "name": "Licensed & Insured", "icon": "🛡️" },
+    { "name": "American Fence Association", "icon": "🏆" },
+    { "name": "10-Year Workmanship Warranty", "icon": "⭐" },
+    { "name": "Free Estimates", "icon": "💰" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Permit-Ready", "icon": "📋" }
+  ],
+
+  "services": [
+    {
+      "title": "Wood Fence Installation",
+      "slug": "wood-fence-installation",
+      "href": "/services/wood-fence-installation",
+      "description": "Custom wood privacy, picket, and shadow-box fences built to your property and style.",
+      "intro": "A wood fence adds privacy, character, and value to your property. We build with pressure-treated posts set in concrete, quality cedar or pine boards, and proper post spacing — so your fence holds up through years of weather without warping or leaning.",
+      "features": [
+        "Pressure-treated 4x4 or 6x6 posts set in concrete",
+        "Privacy, shadow-box, picket, and board-on-board styles",
+        "Western red cedar or pressure-treated pine options",
+        "Gates installed with heavy-duty hinges and latches",
+        "Property line survey coordination available",
+        "HOA approval documentation assistance",
+        "Post-hole digging with hydraulic equipment for accuracy",
+        "10-year workmanship warranty on every installation"
+      ],
+      "process": [
+        { "step": "1", "title": "Free Measurement & Quote", "desc": "We walk your property line, measure accurately, and provide a written quote covering all materials and labor." },
+        { "step": "2", "title": "Permit & HOA", "desc": "We handle permit applications and can provide HOA-ready drawings and specifications." },
+        { "step": "3", "title": "Professional Installation", "desc": "Posts are set in concrete and cured before boards are installed — ensuring a straight, durable fence." },
+        { "step": "4", "title": "Final Walkthrough", "desc": "We walk the completed fence with you, test all gates, and address anything you'd like adjusted." }
+      ],
+      "materials": ["Western Red Cedar", "Southern Yellow Pine (PT)", "Redwood", "Pressure-treated 4x4 and 6x6 posts", "Hot-dip galvanized hardware"],
+      "faqs": [
+        { "q": "How long does a wood fence last?", "a": "A properly built cedar fence lasts 15–20 years. Pressure-treated pine lasts 20–30 years. Proper post setting in concrete is the biggest factor in longevity." },
+        { "q": "Do I need a permit for a fence?", "a": "Most jurisdictions require a permit for fences over 4 feet. We handle the permit application as part of your project." },
+        { "q": "Should I seal or stain my new wood fence?", "a": "We recommend waiting 6 months for new pressure-treated wood to dry, then applying a quality penetrating stain or sealant. Cedar can be treated immediately." }
+      ]
+    },
+    {
+      "title": "Vinyl Fence Installation",
+      "slug": "vinyl-fence-installation",
+      "href": "/services/vinyl-fence-installation",
+      "description": "Low-maintenance vinyl privacy, ranch rail, and picket fences — never paint again.",
+      "intro": "Vinyl fencing looks sharp for decades without painting, staining, or rot treatment. It's more expensive upfront than wood, but the lifetime cost is often lower. We install major vinyl fence brands with manufacturer warranties up to lifetime coverage.",
+      "features": [
+        "Privacy, ranch rail, picket, and semi-privacy styles",
+        "Colors: white, tan, gray, and woodgrain textures",
+        "Aluminum-reinforced posts for extra rigidity",
+        "Manufacturer warranties up to lifetime on materials",
+        "Self-closing pool safety gate options",
+        "UV-stabilized PVC — won't fade or yellow",
+        "No painting, staining, or sealing ever required",
+        "Professional post setting with concrete backfill"
+      ],
+      "process": [
+        { "step": "1", "title": "Design Consultation", "desc": "We show you material samples and help you choose the right style and color for your home and HOA." },
+        { "step": "2", "title": "Order & Schedule", "desc": "Vinyl fence panels are typically ordered and arrive within 1–2 weeks. We schedule installation on delivery." },
+        { "step": "3", "title": "Precision Installation", "desc": "Posts are set in concrete and panels snapped or screwed in precisely for a clean, professional finish." },
+        { "step": "4", "title": "Inspection & Cleanup", "desc": "We inspect every panel and gate, remove all debris, and ensure the fence is exactly as quoted." }
+      ],
+      "materials": ["Certainteed Bufftech", "Westech Vinyl Fence", "Illusions Vinyl Fence", "Aluminum-reinforced vinyl posts", "Stainless steel concealed fasteners"],
+      "faqs": [
+        { "q": "Is vinyl or wood cheaper?", "a": "Wood is typically 20–30% less expensive upfront. Vinyl has virtually no maintenance cost, so it often comes out ahead over 10–15 years." },
+        { "q": "Can vinyl fence be repaired if a panel is damaged?", "a": "Yes. Individual panels and posts can be replaced without disturbing the rest of the fence. We keep common sizes in stock for quick repairs." },
+        { "q": "Does vinyl fence need posts set in concrete?", "a": "Yes. Vinyl is lighter than wood, making proper post setting critical. We set all posts in concrete to prevent leaning in wind and frost heave." }
+      ]
+    },
+    {
+      "title": "Chain Link Fence",
+      "slug": "chain-link-fence",
+      "href": "/services/chain-link-fence",
+      "description": "Durable, affordable chain link for yards, commercial properties, and pet containment.",
+      "intro": "Chain link is the most cost-effective perimeter fencing available. Galvanized or vinyl-coated in black or green, it suits residential yards, commercial lots, pool areas, and large acreage. We install to commercial-grade specifications that last decades.",
+      "features": [
+        "Residential and commercial gauge wire options",
+        "Galvanized or vinyl-coated black and green finishes",
+        "Heights from 3 to 12 feet",
+        "Barbed wire and privacy slat options",
+        "Swing gates, double gates, and cantilever sliding gates",
+        "Commercial terminal and line post spacing to code",
+        "Tension bar and brace band installation for full rigidity",
+        "Pool safety configurations with self-latching gates"
+      ],
+      "process": [
+        { "step": "1", "title": "Measure & Quote", "desc": "We measure your perimeter, assess grade changes, and quote including all hardware and gates." },
+        { "step": "2", "title": "Post Setting", "desc": "Terminal and line posts are set in concrete at proper spacing for the fence height and wire gauge." },
+        { "step": "3", "title": "Wire Installation", "desc": "Fabric is stretched tight and properly tensioned — no sag, no gaps, secure perimeter." },
+        { "step": "4", "title": "Gate Hang & Test", "desc": "All gates are hung level, latches adjusted, and we confirm everything swings and closes correctly." }
+      ],
+      "materials": ["Galvanized chain link fabric", "Vinyl-coated mesh (black/green)", "Schedule 40 galvanized pipe", "Tension wire and brace bands", "Commercial-grade gate hardware"],
+      "faqs": [
+        { "q": "How long does chain link fence last?", "a": "Properly installed galvanized chain link lasts 20–30 years. Vinyl-coated chain link lasts even longer since the coating prevents rust. Commercial installations often last 40+ years." },
+        { "q": "Can I add privacy slats to chain link?", "a": "Yes. PVC privacy slats weave through the mesh and provide 85–95% privacy. They're available in multiple colors and are easy to replace if damaged." },
+        { "q": "What gauge wire should I use?", "a": "11 gauge is standard for residential. 9 gauge is commercial-grade for higher security or heavy use. We'll recommend the right gauge for your application." }
+      ]
+    },
+    {
+      "title": "Aluminum & Steel Fence",
+      "slug": "aluminum-steel-fence",
+      "href": "/services/aluminum-steel-fence",
+      "description": "Ornamental aluminum and steel fencing — elegant, durable, and virtually maintenance-free.",
+      "intro": "Ornamental aluminum and steel fencing delivers the classic look of wrought iron without the rust and repainting. Powder-coated for lasting color, these fences suit pool enclosures, front yards, and commercial properties requiring a polished aesthetic.",
+      "features": [
+        "Residential and commercial grades available",
+        "Powder-coated finish in dozens of standard colors",
+        "Flat-top, spear-top, and arched-top panel styles",
+        "Pool safety compliant configurations",
+        "Aluminum — lightweight, rustproof, ideal for coastal areas",
+        "Steel — heavier gauge for maximum security and rigidity",
+        "Custom heights and spacing available",
+        "Matching drive gates and walk gates"
+      ],
+      "process": [
+        { "step": "1", "title": "Style Consultation", "desc": "We bring samples and help you choose the panel style, height, and color that fits your home and HOA." },
+        { "step": "2", "title": "Custom Order", "desc": "Panels are manufactured to your property's exact specifications, including slope-racking for uneven grades." },
+        { "step": "3", "title": "Expert Installation", "desc": "Posts are set in concrete with proper spacing. Panels are fastened with tamper-resistant hardware." },
+        { "step": "4", "title": "Inspection & Touch-Up", "desc": "We inspect every panel, touch up any installation marks, and confirm gates latch and lock correctly." }
+      ],
+      "materials": ["Jerith Aluminum Fence", "Master Halco Alumi-Guard", "Ameristar Steel Fence", "Powder-coated galvanized hardware", "Concrete-set posts"],
+      "faqs": [
+        { "q": "Aluminum or steel — which is better?", "a": "Aluminum is lighter, never rusts, and ideal for coastal or humid climates. Steel is heavier, stronger, and preferred for security or commercial applications. We'll help you choose." },
+        { "q": "Will the powder coat fade or chip?", "a": "Quality powder coating is UV-stabilized and highly durable. It won't peel like paint. Minor chips can be touched up with matching powder coat paint available from the manufacturer." },
+        { "q": "Can aluminum fence be used for a pool enclosure?", "a": "Yes. We install pool-code-compliant aluminum fence with self-closing, self-latching gates that meet BOCA and IBC pool barrier requirements." }
+      ]
+    },
+    {
+      "title": "Fence Repair & Replacement",
+      "slug": "fence-repair-replacement",
+      "href": "/services/fence-repair-replacement",
+      "description": "Leaning posts, broken boards, and storm damage repaired fast — any fence type.",
+      "intro": "A leaning fence or broken gate is a security and curb-appeal problem. We repair all fence types — replacing rotted posts, damaged boards, bent chain link, and broken panels — or advise on full replacement when repair isn't cost-effective.",
+      "features": [
+        "Rotted wood post replacement with concrete reset",
+        "Broken board, picket, and panel replacement",
+        "Storm damage repairs — insurance claim documentation provided",
+        "Chain link fabric patching and re-tensioning",
+        "Vinyl panel and post replacement",
+        "Gate re-hanging and hardware replacement",
+        "Full fence section replacement when needed",
+        "Material matching for seamless repairs"
+      ],
+      "process": [
+        { "step": "1", "title": "Damage Assessment", "desc": "We inspect the damage and give you an honest recommendation — repair vs. replace — with pricing for each." },
+        { "step": "2", "title": "Insurance Documentation", "desc": "Storm damage? We provide photos, measurements, and written estimates in the format most insurers require." },
+        { "step": "3", "title": "Material Match", "desc": "We source matching materials to keep your fence consistent in appearance and durability." },
+        { "step": "4", "title": "Quality Repair", "desc": "Posts are reset properly in concrete. Boards and panels are secured for long-term durability, not just cosmetic coverage." }
+      ],
+      "materials": ["Matching cedar, pine, and vinyl panels", "Hot-dip galvanized hardware", "Concrete post anchor", "Chain link fabric patches"],
+      "faqs": [
+        { "q": "Is it worth repairing my old fence or should I replace it?", "a": "If less than 30% of posts and boards need attention, repair usually makes financial sense. If posts are rotting throughout or the fence is over 15 years old, replacement often costs less long-term." },
+        { "q": "Can you match my existing fence materials?", "a": "In most cases, yes. Wood species, vinyl colors, and chain link gauges are available in common standards. We source matching materials to blend repairs seamlessly." },
+        { "q": "Will my insurance cover storm fence damage?", "a": "Homeowner's insurance typically covers fence damage from named storms, falling trees, and similar perils. We provide documentation to support your claim." }
+      ]
+    },
+    {
+      "title": "Gate & Automation",
+      "slug": "gate-automation",
+      "href": "/services/gate-automation",
+      "description": "Driveway gates, pedestrian gates, and automatic operators installed and serviced.",
+      "intro": "An automated driveway gate adds security and curb appeal without sacrificing convenience. We install swing and slide gate operators, keypads, intercoms, and remote access systems — integrated with your fence or as a standalone entry feature.",
+      "features": [
+        "Single and double swing gate installation",
+        "Cantilever and V-track slide gate installation",
+        "Automatic gate operators (LiftMaster, Viking, FAAC)",
+        "Keypad, intercom, and remote control access",
+        "Smartphone app and smart home integration",
+        "Safety loop and photo-eye installation",
+        "Battery backup for power outage operation",
+        "Service and repair on all gate operator brands"
+      ],
+      "process": [
+        { "step": "1", "title": "Site Evaluation", "desc": "We assess your driveway width, grade, and power availability to recommend the right gate configuration and operator." },
+        { "step": "2", "title": "Design & Quote", "desc": "You choose gate style, access method, and automation features. We provide a complete written quote." },
+        { "step": "3", "title": "Professional Installation", "desc": "Gate, operator, wiring, and access control are installed and tested in a single visit for most projects." },
+        { "step": "4", "title": "Training & Warranty", "desc": "We walk you through all access methods, program your remotes and app, and register the operator warranty." }
+      ],
+      "materials": ["LiftMaster LA500 & RSW12V", "Viking Dual Swing Operators", "FAAC Slide Gate Operators", "DoorKing Intercom Systems", "Mighty Mule DIY operators"],
+      "faqs": [
+        { "q": "Swing or slide gate — which is better for my driveway?", "a": "Swing gates require clearance to open inward or outward. Slide gates are ideal for sloped driveways or limited space. We'll recommend based on your specific situation." },
+        { "q": "What happens if the power goes out?", "a": "All operators we install include battery backup that provides 50–100 open/close cycles. You can also program a manual release mode." },
+        { "q": "Can I control my gate from my phone?", "a": "Yes. We integrate most operators with smartphone apps and can connect to smart home systems like Alexa, Google Home, and Apple HomeKit." }
+      ]
+    }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "From estimate to installed in four steps.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80",
+    "ctaText": "Schedule My Free Estimate",
+    "steps": [
+      { "num": "01", "title": "Free Estimate", "desc": "We measure your property and provide a written quote covering all materials and labor." },
+      { "num": "02", "title": "Permit & HOA", "desc": "We handle permit applications and provide HOA documentation if required." },
+      { "num": "03", "title": "Professional Install", "desc": "Our crew sets posts in concrete and builds your fence to last — no shortcuts." },
+      { "num": "04", "title": "Warranty Walk", "desc": "We walk the finished fence with you and back every installation with our warranty." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Recent fence projects in your area.",
+    "projects": [
+      { "title": "Cedar Privacy Fence", "material": "6-foot board-on-board with custom gate", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Vinyl Ranch Rail", "material": "3-rail white vinyl with matching gate", "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Ornamental Aluminum", "material": "Black spear-top pool enclosure", "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Automated Driveway Gate", "material": "Cedar swing gate with LiftMaster operator", "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "testimonials": {
+    "h2": "Real words from real neighbors."
+  },
+
+  "contact": {
+    "h2": "Request your free fence estimate.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Schedule My Free Estimate",
+    "serviceOptions": [
+      "Wood Fence Installation",
+      "Vinyl Fence Installation",
+      "Chain Link Fence",
+      "Aluminum & Steel Fence",
+      "Fence Repair & Replacement",
+      "Gate & Automation",
+      "Not Sure — I Need Advice"
+    ]
+  },
+
+  "faq": {
+    "h2": "Your fence questions answered.",
+    "items": [
+      {
+        "q": "How much does a fence cost?",
+        "a": "Fence pricing depends on material, height, and linear footage. Wood privacy fences typically run $25–$45 per linear foot installed. Vinyl is $35–$55. Aluminum and steel $40–$65. We provide free, accurate written quotes."
+      },
+      {
+        "q": "Do I need a permit to install a fence?",
+        "a": "Most jurisdictions require permits for fences over 4 feet. Requirements vary by municipality and HOA. We handle permit applications on your behalf."
+      },
+      {
+        "q": "How do I find my property line?",
+        "a": "We can reference your property survey or use GPS equipment to locate approximate property lines. For legal certainty, a registered land surveyor provides the definitive answer."
+      },
+      {
+        "q": "How long does fence installation take?",
+        "a": "Most residential fence projects are completed in 1–3 days. Large projects or those with concrete curing requirements may take longer. We'll give you an accurate timeline upfront."
+      },
+      {
+        "q": "Do you offer a warranty?",
+        "a": "Yes. We provide a 10-year workmanship warranty on all fence installations. Materials carry manufacturer warranties that vary by product."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": ""
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "Your property deserves a fence built to last.",
+    "subtext": "Free measurements, written quotes, and a 10-year workmanship warranty. Schedule your free estimate today.",
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "Wood Fence Installation", "href": "/services/wood-fence-installation" },
+      { "label": "Vinyl Fence Installation", "href": "/services/vinyl-fence-installation" },
+      { "label": "Chain Link Fence", "href": "/services/chain-link-fence" },
+      { "label": "Aluminum & Steel Fence", "href": "/services/aluminum-steel-fence" },
+      { "label": "Fence Repair & Replacement", "href": "/services/fence-repair-replacement" },
+      { "label": "Gate & Automation", "href": "/services/gate-automation" }
+    ]
+  }
+}

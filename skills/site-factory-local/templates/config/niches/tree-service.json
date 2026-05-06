@@ -1,0 +1,306 @@
+{
+  "niche": "tree-service",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "Tree Service",
+    "emergency": "24/7 Storm Emergency"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Storm damage or dangerous tree?",
+    "linkText": "Emergency service available",
+    "linkHref": "#contact",
+    "suffix": "— ISA Certified Arborists on every job."
+  },
+
+  "hero": {
+    "h1": ["Expert Tree Service", "From Certified", "Arborists."],
+    "h1Highlight": 1,
+    "badges": ["ISA Certified Arborist", "24/7 Emergency", "Fully Insured"],
+    "bgImage": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "stat": "3,000+", "label": "Trees Removed" },
+      { "stat": "15+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "$2M", "label": "Liability Coverage" }
+    ],
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "trustBadges": [
+    { "name": "ISA Certified Arborist", "icon": "🏆" },
+    { "name": "TCIA Member", "icon": "⭐" },
+    { "name": "$2M Liability Coverage", "icon": "🛡️" },
+    { "name": "24/7 Emergency Service", "icon": "⚡" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Free Estimates", "icon": "💰" }
+  ],
+
+  "services": [
+    {
+      "title": "Tree Removal",
+      "slug": "tree-removal",
+      "href": "/services/tree-removal",
+      "description": "Safe, efficient tree removal for dead, diseased, hazardous, and unwanted trees of all sizes.",
+      "intro": "Tree removal is the highest-risk residential service homeowners hire out. An improperly removed tree can destroy a home, injure a worker, or leave you with a massive liability claim. We use ISA-certified arborists, rigging systems, and crane services for complex removals — and carry $2M in liability coverage.",
+      "features": [
+        "ISA Certified Arborist assessment on every removal",
+        "Full rigging system for controlled, section-by-section removal",
+        "Crane service available for large or difficult trees",
+        "Stump grinding included or available as add-on",
+        "Complete debris cleanup and chip removal",
+        "Rope access techniques for trees near structures",
+        "Dead wood and widow maker removal",
+        "$2M liability and workers' compensation coverage"
+      ],
+      "process": [
+        { "step": "1", "title": "Arborist Assessment", "desc": "A certified arborist evaluates the tree's condition, fall zone risks, and access constraints before quoting." },
+        { "step": "2", "title": "Rigging Plan", "desc": "We plan the cut sequence and rigging to control every section's descent — especially near structures and utilities." },
+        { "step": "3", "title": "Safe Removal", "desc": "Sections are cut, rigged, and lowered or craned to the ground. No uncontrolled drops near your property." },
+        { "step": "4", "title": "Full Cleanup", "desc": "All debris is chipped or hauled. Stump is ground below grade if included. Lawn is raked clean." }
+      ],
+      "materials": ["Stihl and Husqvarna chainsaws", "Yale rigging rope and hardware", "Grapple truck and crane services", "Bandit and Morbark wood chippers"],
+      "faqs": [
+        { "q": "How much does tree removal cost?", "a": "Small trees under 30 feet typically run $300–$700. Medium trees (30–60 feet) run $700–$1,500. Large trees over 60 feet can exceed $2,000. Price depends on size, location, and access. We always provide a free written estimate." },
+        { "q": "Do I need a permit to remove a tree?", "a": "Many municipalities require permits for tree removal, especially for protected species or trees above a certain diameter. We check local requirements and can assist with permit applications." },
+        { "q": "Who is responsible if a tree falls on my neighbor's property?", "a": "If a tree was dead, diseased, or clearly hazardous and you were notified, you may be liable. A certified arborist assessment and prompt removal protects you legally. We provide written condition reports." }
+      ]
+    },
+    {
+      "title": "Tree Trimming & Pruning",
+      "slug": "tree-trimming-pruning",
+      "href": "/services/tree-trimming-pruning",
+      "description": "ISA-standard pruning for health, structure, and clearance — not just aesthetics.",
+      "intro": "Improper trimming — topping, flush cuts, over-pruning — weakens trees and creates long-term decline. Our certified arborists prune to ANSI A300 standards: removing dead, crossing, and structurally weak wood while preserving the tree's natural form and vascular system.",
+      "features": [
+        "Deadwood removal from crown and canopy",
+        "Crown cleaning — crossing, rubbing, and weak branches",
+        "Crown raising for clearance over structures and walkways",
+        "Crown reduction to reduce wind load and weight",
+        "Vista pruning for views",
+        "Structural pruning for young tree development",
+        "ANSI A300 pruning standards followed",
+        "Pruning wound treatment when appropriate"
+      ],
+      "process": [
+        { "step": "1", "title": "Arborist Consultation", "desc": "A certified arborist walks your property, identifies pruning objectives, and explains what will and won't be cut — and why." },
+        { "step": "2", "title": "Written Quote", "desc": "You receive a written quote specifying the work scope. No vague hourly estimates for trimming jobs." },
+        { "step": "3", "title": "Precision Pruning", "desc": "All cuts are made outside the branch collar to maximize callus formation and healing. No stubs or flush cuts." },
+        { "step": "4", "title": "Debris Cleanup", "desc": "All cuttings are chipped or hauled. Lawn and beds are blown clean before we leave." }
+      ],
+      "materials": ["Silky and Fanno hand saws", "Stihl pole saws", "Disinfected cutting tools between trees", "Arborjet wound treatment"],
+      "faqs": [
+        { "q": "What's wrong with tree topping?", "a": "Topping removes the main leader and most of the canopy, causing a massive stress response — rapid regrowth of weak, poorly attached water sprouts that are more hazardous than the original crown. No ISA-certified arborist will top a tree." },
+        { "q": "How often should trees be trimmed?", "a": "Most mature trees benefit from pruning every 3–5 years. Young trees should be structurally pruned every 2–3 years to develop good form. Storm-damaged trees should be assessed immediately." },
+        { "q": "When is the best time of year to trim trees?", "a": "Late dormancy (late winter through early spring) is ideal for most deciduous trees — minimal stress, no leaf canopy to work through, and diseases are inactive. Many trees can be safely pruned any time of year." }
+      ]
+    },
+    {
+      "title": "Stump Grinding & Removal",
+      "slug": "stump-grinding-removal",
+      "href": "/services/stump-grinding-removal",
+      "description": "Stump grinding below grade — trip hazards eliminated, area ready to plant or sod.",
+      "intro": "Leftover stumps attract wood-boring insects, create mowing obstacles, and make replanting impossible. We grind stumps 12 inches below grade — deep enough to fill, sod, or replant — and haul the grindings or mix them back into the hole.",
+      "features": [
+        "Grinding to 12+ inches below grade",
+        "All stump sizes from small ornamentals to large hardwoods",
+        "Grindings removed or worked back into hole",
+        "Multiple stumps discounted — per-stump pricing",
+        "Root flare grinding available",
+        "Backfill with topsoil for replanting",
+        "Access with tracked machine for tight yards",
+        "Root barrier installation available after grinding"
+      ],
+      "process": [
+        { "step": "1", "title": "Utility Locate", "desc": "We call 811 before any grinding to mark underground utilities — water, gas, electric, irrigation." },
+        { "step": "2", "title": "Surface Clearance", "desc": "Rock, mulch, and debris are cleared from the stump perimeter to prevent damage to the grinder." },
+        { "step": "3", "title": "Grinding to Depth", "desc": "The stump is ground in a grid pattern to 12 inches below grade — enough for sod, planting, or fill." },
+        { "step": "4", "title": "Cleanup & Fill", "desc": "Grindings are removed or raked back into the hole. We can backfill with topsoil for an additional charge." }
+      ],
+      "materials": ["Vermeer SC352 stump grinder", "Tracked mini stump grinder (tight access)", "Topsoil fill mix", "Root barrier sheeting"],
+      "faqs": [
+        { "q": "How deep do you grind stumps?", "a": "We grind to 12 inches below grade as standard. This is sufficient for lawn, sod, and most replanting. Deeper grinding (18+ inches) is available for structural fill areas." },
+        { "q": "Will the stump grow back?", "a": "Grinding doesn't kill remaining roots, so sprouts may emerge from some species (oaks, maples, elms). We can apply a stump killer to remaining root material to prevent regrowth." },
+        { "q": "How long does stump grinding take?", "a": "A single average stump takes 30–60 minutes. Multiple stumps are done sequentially and often completed in a few hours. We quote a time estimate with the price." }
+      ]
+    },
+    {
+      "title": "Emergency Storm Damage",
+      "slug": "emergency-storm-damage",
+      "href": "/services/emergency-storm-damage",
+      "description": "24/7 emergency response for fallen trees, broken limbs, and storm damage on structures.",
+      "intro": "When a tree falls on your home or blocks a road, you need response within hours — not days. Our 24/7 emergency team is dispatched with full equipment, crane availability, and documentation for insurance claims. We stabilize the situation, remove the hazard, and document everything.",
+      "features": [
+        "24/7 emergency dispatch — nights, weekends, holidays",
+        "Crane service on call for major events",
+        "Blue tarp roof protection until roofer arrives",
+        "Insurance claim documentation and written reports",
+        "Hazard tree assessment after storm events",
+        "Utility line clearance (to within 10 feet — utility finishes)",
+        "Multiple crew deployment for major damage",
+        "Priority scheduling for customers without power or access"
+      ],
+      "process": [
+        { "step": "1", "title": "Emergency Dispatch", "desc": "Call us 24/7. A crew with the right equipment for your situation is dispatched — no answering service." },
+        { "step": "2", "title": "Hazard Stabilization", "desc": "We stabilize the immediate hazard — tarping the roof, clearing access, and securing hanging limbs." },
+        { "step": "3", "title": "Complete Removal", "desc": "The tree and all debris are removed as fast as possible. Crane deployed for large trees on structures." },
+        { "step": "4", "title": "Insurance Documentation", "desc": "We provide a written report, photos, and invoice in the format required by most insurance carriers." }
+      ],
+      "materials": ["Crane truck (24/7 availability)", "Emergency tarp kits", "Stihl 500i and 661 chainsaws", "Insurance documentation forms"],
+      "faqs": [
+        { "q": "What do I do if a tree falls on my house?", "a": "Call 911 if there's any structural collapse risk or gas line concern. Then call us. Stay out of the affected area until we assess structural safety. Document with photos for your insurance claim." },
+        { "q": "Will my insurance cover emergency tree removal?", "a": "Most homeowner's policies cover tree removal when a tree damages an insured structure. Coverage for trees that fall in the yard without hitting a structure varies by policy. We provide documentation either way." },
+        { "q": "How long does emergency response take?", "a": "Our typical emergency response time is 2–4 hours. During major storm events, we prioritize homes with damage to structures or blocked access. We'll give you an honest ETA when you call." }
+      ]
+    },
+    {
+      "title": "Land & Lot Clearing",
+      "slug": "land-lot-clearing",
+      "href": "/services/land-lot-clearing",
+      "description": "Residential and commercial lot clearing for new construction, landscaping, and site preparation.",
+      "intro": "Whether you're clearing for a new home, a driveway, or a landscaping project, we provide complete lot clearing services — from selective clearing that preserves desirable trees to full clear-and-grub for development sites.",
+      "features": [
+        "Selective clearing — preserve specific trees",
+        "Full lot clear and grub for construction sites",
+        "Brush and invasive species removal",
+        "Mulching and chipping in-place option",
+        "Haul-away of all debris",
+        "Tree marking consultation before clearing",
+        "Coordination with excavation and grading contractors",
+        "Drone assessment for large acreage"
+      ],
+      "process": [
+        { "step": "1", "title": "Site Walk & Marking", "desc": "We walk the site with you, mark trees to preserve, and develop a clearing plan that meets your project goals." },
+        { "step": "2", "title": "Permit Coordination", "desc": "We identify required tree permits and can assist with applications for regulated species or municipalities." },
+        { "step": "3", "title": "Efficient Clearing", "desc": "Our equipment clears efficiently while protecting marked trees and root zones. We work around site constraints." },
+        { "step": "4", "title": "Debris Management", "desc": "Material is mulched in-place, chipped, or hauled. We leave the site ready for the next contractor." }
+      ],
+      "materials": ["John Deere track fellers", "Bandit Beast tub grinders", "Grapple trucks for large debris", "Tree protection fencing"],
+      "faqs": [
+        { "q": "How do you price lot clearing?", "a": "Lot clearing is priced by the acre or by the scope — combining tree count, density, debris disposal method, and site access. We provide a written quote after a site visit." },
+        { "q": "Can you clear around specific trees I want to keep?", "a": "Yes. Selective clearing is our default approach. We mark trees to preserve with ribbon, protect root zones during equipment operation, and clear around them carefully." },
+        { "q": "How long does lot clearing take?", "a": "A half-acre residential lot typically takes 1–2 days. Larger or heavily wooded parcels are quoted with a timeline. We coordinate with your builder's schedule." }
+      ]
+    },
+    {
+      "title": "Arborist Consultation",
+      "slug": "arborist-consultation",
+      "href": "/services/arborist-consultation",
+      "description": "Written tree assessments, risk reports, and expert testimony from ISA Certified Arborists.",
+      "intro": "An ISA Certified Arborist consultation provides written documentation for insurance claims, real estate transactions, neighbor disputes, and long-term tree care planning. We assess tree health, structural integrity, root system condition, and provide legally defensible written reports.",
+      "features": [
+        "ISA Certified Arborist written assessment",
+        "Tree risk assessment to TRAQ standards",
+        "Disease and insect diagnosis",
+        "Soil and root zone evaluation",
+        "Pre-purchase property tree assessment",
+        "Neighbor and HOA dispute documentation",
+        "Insurance claim support reports",
+        "Long-term tree care plan and prioritization"
+      ],
+      "process": [
+        { "step": "1", "title": "Schedule Consultation", "desc": "A consultation fee applies for written reports. We discuss your needs and the appropriate scope before scheduling." },
+        { "step": "2", "title": "On-Site Assessment", "desc": "The arborist inspects trees thoroughly — crown, trunk, root zone — and notes all conditions relevant to your inquiry." },
+        { "step": "3", "title": "Written Report", "desc": "You receive a written report within 5 business days documenting findings, risk ratings, and recommendations." },
+        { "step": "4", "title": "Follow-Up", "desc": "We're available to answer questions about the report and can provide expert testimony if the matter involves litigation." }
+      ],
+      "materials": ["Resistograph micro-drill for decay detection", "Soil probe and auger", "Clinometer for height measurement", "Arboricultural reporting software"],
+      "faqs": [
+        { "q": "Do I need an arborist report for an insurance claim?", "a": "Insurance companies often request an arborist's written opinion on whether a tree was dead, diseased, or hazardous prior to a loss event. A TRAQ-standard risk assessment provides this documentation." },
+        { "q": "My neighbor says my tree is dangerous — what should I do?", "a": "Get a written arborist assessment immediately. This either confirms the concern (and documents that you acted on it) or professionally refutes it. Either outcome protects you legally." },
+        { "q": "What is a TRAQ assessment?", "a": "Tree Risk Assessment Qualification (TRAQ) is the ISA's standard framework for evaluating tree risk. A TRAQ assessment is the most defensible format for insurance, legal, and municipal tree removal permit purposes." }
+      ]
+    }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Safe, professional tree service in four steps.",
+    "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
+    "ctaText": "Schedule My Free Estimate",
+    "steps": [
+      { "num": "01", "title": "Free Estimate", "desc": "A certified arborist assesses your trees and gives you a written quote — no obligation." },
+      { "num": "02", "title": "Planned Safely", "desc": "Every job is planned for your property's specific layout, utilities, and structures." },
+      { "num": "03", "title": "Professional Execution", "desc": "ISA-certified crew with $2M coverage handles every job safely and completely." },
+      { "num": "04", "title": "Clean Property", "desc": "All debris chipped or hauled. Your lawn raked clean before we leave." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Recent tree service projects near you.",
+    "projects": [
+      { "title": "Large Oak Removal", "material": "80-foot oak removed near home with crane", "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Crown Reduction", "material": "30% crown reduction — ANSI A300 standard", "image": "https://images.unsplash.com/photo-1542401886-65d6c61db217?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Storm Emergency", "material": "Pine through roof — same-day removal", "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Stump Grinding", "material": "12 stumps ground and topsoil backfilled", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "testimonials": {
+    "h2": "Real words from real neighbors."
+  },
+
+  "contact": {
+    "h2": "Request your free tree service estimate.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Schedule My Free Estimate",
+    "serviceOptions": [
+      "Tree Removal",
+      "Tree Trimming & Pruning",
+      "Stump Grinding & Removal",
+      "Emergency Storm Damage",
+      "Land & Lot Clearing",
+      "Arborist Consultation",
+      "Not Sure — I Need an Assessment"
+    ]
+  },
+
+  "faq": {
+    "h2": "Your tree service questions answered.",
+    "items": [
+      {
+        "q": "Are you ISA Certified?",
+        "a": "Yes. Our lead arborist holds ISA Certification and TRAQ (Tree Risk Assessment Qualification). All crew members are trained in ANSI Z133 safety standards and we carry $2M in liability coverage."
+      },
+      {
+        "q": "How much does tree removal cost?",
+        "a": "Pricing depends on tree size, location relative to structures, and access constraints. Small trees typically start around $300. Large trees near homes can exceed $2,000. We provide free written estimates."
+      },
+      {
+        "q": "Do you offer 24/7 emergency service?",
+        "a": "Yes. We dispatch emergency crews 24 hours a day, 7 days a week — including holidays. Emergency rates apply after business hours."
+      },
+      {
+        "q": "Do I need a permit to remove a tree?",
+        "a": "Many municipalities require permits for tree removal, especially in protected zones or for certain species. We check local requirements and assist with permit applications."
+      },
+      {
+        "q": "What insurance coverage do you carry?",
+        "a": "We carry $2M general liability insurance and full workers' compensation coverage. Certificates are available on request for any job."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": ""
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "Don't wait until a dangerous tree becomes an emergency.",
+    "subtext": "ISA Certified Arborists, $2M coverage, and 24/7 emergency service. Get your free estimate today.",
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "Tree Removal", "href": "/services/tree-removal" },
+      { "label": "Tree Trimming & Pruning", "href": "/services/tree-trimming-pruning" },
+      { "label": "Stump Grinding & Removal", "href": "/services/stump-grinding-removal" },
+      { "label": "Emergency Storm Damage", "href": "/services/emergency-storm-damage" },
+      { "label": "Land & Lot Clearing", "href": "/services/land-lot-clearing" },
+      { "label": "Arborist Consultation", "href": "/services/arborist-consultation" }
+    ]
+  }
+}

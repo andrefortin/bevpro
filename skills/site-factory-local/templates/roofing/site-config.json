@@ -1,0 +1,220 @@
+{
+  "template": "roofing-v1",
+  "niche": "roofing",
+
+  "company": {
+    "name": "Assurance Roofing",
+    "nameShort": "ASSURANCE",
+    "nameSub": "Roofing",
+    "tagline": "Charlotte's most trusted roofing contractor — delivering premium craftsmanship with a lifetime guarantee.",
+    "phone": "+17045550192",
+    "phoneFormatted": "(704) 555-0192",
+    "email": "hello@assuranceroofingus.com",
+    "city": "Charlotte",
+    "state": "NC",
+    "serviceArea": "Charlotte, NC & Surrounding Areas",
+    "license": "NC Lic. #67492",
+    "licenseNumber": "NC-67492",
+    "yearsInBusiness": "15+",
+    "yearsLabel": "Years in Charlotte",
+    "siteUrl": "https://assuranceroofingus.com",
+    "copyright": "© 2026 Assurance Roofing LLC",
+    "emergency": "24/7 Emergency Service"
+  },
+
+  "seo": {
+    "homeTitle": "Assurance Roofing — Charlotte's Most Trusted Roofer",
+    "homeDescription": "Charlotte's most trusted roofing contractor — full replacements, insurance claims, storm damage, and repairs. Free inspections. Lifetime warranty. Call (704) 555-0192.",
+    "ogImage": "https://assuranceroofingus.com/og-image.jpg"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Storm season is here —",
+    "linkText": "free roof inspections",
+    "linkHref": "#contact",
+    "suffix": "available this week across Charlotte."
+  },
+
+  "hero": {
+    "h1": ["Done in a Day.", "Built to Last", "a Lifetime."],
+    "h1Highlight": 1,
+    "subtitle": "Charlotte's most trusted roofing contractor — delivering premium craftsmanship with a lifetime guarantee. Storm damage, full replacements, or repairs, we handle it all.",
+    "badges": ["GAF Master Elite", "BBB A+ Accredited", "NC Lic. #67492"],
+    "bgImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1920&q=80",
+    "rating": "4.9",
+    "reviewCount": "200+",
+    "stats": [
+      { "stat": "500+", "label": "Roofs Replaced" },
+      { "stat": "15+", "label": "Years in Charlotte" },
+      { "stat": "4.9★", "label": "Google Rating" },
+      { "stat": "$0 Down", "label": "Financing" }
+    ],
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "trustBadges": [
+    { "name": "GAF Master Elite Contractor", "icon": "🏅" },
+    { "name": "Owens Corning Preferred", "icon": "⭐" },
+    { "name": "CertainTeed ShingleMaster", "icon": "🏆" },
+    { "name": "BBB A+", "icon": "✓" },
+    { "name": "Angi Super Service", "icon": "🔧" },
+    { "name": "Google 4.9★", "icon": "⭐" }
+  ],
+
+  "services": [
+    {
+      "title": "ReRoofs & Replacements",
+      "description": "Full tear-off and replacement with premium materials and manufacturer-backed transferable warranties.",
+      "href": "/services/reroof-replacements"
+    },
+    {
+      "title": "Insurance Claims",
+      "description": "We guide you through every step — documentation, adjuster meetings, and maximizing your settlement.",
+      "href": "/services/insurance-claims"
+    },
+    {
+      "title": "Maintenance & Repairs",
+      "description": "Seasonal tune-ups and targeted repairs to extend the life of your existing roof.",
+      "href": "/services/maintenance-repairs"
+    },
+    {
+      "title": "Storm Damage Claims",
+      "description": "After hail or wind damage, we work your claim so you only pay your deductible.",
+      "href": "/services/storm-damage"
+    },
+    {
+      "title": "Flexible Financing",
+      "description": "$0 down options with quick approvals — get the roof you need without the wait.",
+      "href": "/services/financing"
+    },
+    {
+      "title": "Roofing, Siding & Gutters",
+      "description": "Complete exterior packages — roof, siding, and gutters handled by one crew, one contract.",
+      "href": "/services/roofing-siding-gutters"
+    }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Four steps from damaged to done.",
+    "badgeStat": "15+",
+    "badgeLabel": "Years in Charlotte",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80",
+    "ctaText": "Schedule My Free Inspection",
+    "steps": [
+      { "num": "01", "title": "Free Inspection", "desc": "A certified inspector examines your roof at no charge and gives you an honest assessment." },
+      { "num": "02", "title": "We Handle Your Claim", "desc": "Our team navigates the insurance process, so you don't have to fight the paperwork alone." },
+      { "num": "03", "title": "Installation Day", "desc": "Our crew arrives on time, completes the job in a single day, and leaves your property spotless." },
+      { "num": "04", "title": "Lifetime Guarantee", "desc": "Your new roof is backed by a lifetime workmanship warranty plus manufacturer product warranties." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Our work across Charlotte.",
+    "projects": [
+      { "neighborhood": "Ballantyne", "title": "Full Roof Replacement", "material": "GAF Timberline HDZ Charcoal", "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80" },
+      { "neighborhood": "Myers Park", "title": "Storm Damage Claim", "material": "Owens Corning Duration Estate Gray", "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80" },
+      { "neighborhood": "Dilworth", "title": "Roof + Siding + Gutters", "material": "CertainTeed Landmark Weathered Wood", "image": "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?auto=format&fit=crop&w=800&q=80" },
+      { "neighborhood": "Huntersville", "title": "Insurance Claim Replacement", "material": "GAF Timberline HDZ Pewter Gray", "image": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "testimonials": {
+    "h2": "Real words from real neighbors.",
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "location": "Ballantyne",
+        "text": "After a hailstorm hit our neighborhood, Assurance was out the next morning. They handled the insurance claim entirely and the crew finished our full replacement in just 2 days. Couldn't be happier with the results.",
+        "initials": "SM"
+      },
+      {
+        "name": "James & Lisa T.",
+        "location": "Myers Park",
+        "text": "Their inspector was incredibly thorough. He found damage that two other companies completely missed. They went to bat for us with our insurance company and we got a full replacement covered.",
+        "initials": "JT"
+      },
+      {
+        "name": "Marcus R.",
+        "location": "Dilworth",
+        "text": "I called on Tuesday after noticing a leak. By Thursday morning their crew was on my roof. Fast, professional, and the price was exactly what they quoted — no surprises.",
+        "initials": "MR"
+      }
+    ]
+  },
+
+  "contact": {
+    "h2": "Request your free roof inspection.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Schedule My Free Inspection",
+    "serviceOptions": [
+      "ReRoof / Roof Replacement",
+      "Insurance Claim",
+      "Preventative Maintenance & Repairs",
+      "Storm Damage Claim",
+      "Financing",
+      "Roofing, Siding & Gutters",
+      "Not Sure — I Need an Assessment"
+    ]
+  },
+
+  "faq": {
+    "h2": "Everything you want to know.",
+    "items": [
+      {
+        "q": "How long does a full roof replacement take?",
+        "a": "Most full replacements are completed in a single day. Larger or more complex roofs may take two days. We'll give you an accurate timeline during your free inspection."
+      },
+      {
+        "q": "Will my homeowners insurance cover the damage?",
+        "a": "Storm, wind, and hail damage is typically covered by homeowners insurance. We have extensive experience working with insurance companies and can assist you throughout the claims process to ensure you receive the maximum settlement."
+      },
+      {
+        "q": "What roofing brands do you install?",
+        "a": "We are certified installers for GAF, Owens Corning, and CertainTeed — three of the most trusted names in the industry. This certification means you get full manufacturer warranties in addition to our own lifetime workmanship guarantee."
+      },
+      {
+        "q": "How do I know if I need a repair or a full replacement?",
+        "a": "Our free inspection will determine exactly what's needed. Factors like the age of the roof, the extent of damage, and the remaining life expectancy all inform that decision. We'll never recommend a replacement if a repair is the right call."
+      },
+      {
+        "q": "Are you licensed and insured?",
+        "a": "Yes. We hold NC License #NC-67492 and carry full general liability insurance and workers' compensation coverage. We're happy to provide certificates of insurance upon request."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": "We serve the greater Charlotte metro area including Ballantyne, Myers Park, Dilworth, NoDa, Huntersville, Cornelius, Concord, Mooresville, and Gastonia. Not sure if we cover your area? Give us a call."
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "Don't wait for a small leak to become a disaster.",
+    "subtext": "Get your free inspection today. No obligation, no pressure — just an honest assessment from Charlotte's most trusted roofing team.",
+    "primaryCta": "Get a Free Quote"
+  },
+
+  "footer": {
+    "tagline": "Charlotte's most trusted roofing contractor. Premium materials, expert craftsmanship, lifetime guarantee.",
+    "services": [
+      { "label": "ReRoofs & Replacements", "href": "/services/reroof-replacements" },
+      { "label": "Insurance Claims", "href": "/services/insurance-claims" },
+      { "label": "Maintenance & Repairs", "href": "/services/maintenance-repairs" },
+      { "label": "Storm Damage Claims", "href": "/services/storm-damage" },
+      { "label": "Flexible Financing", "href": "/services/financing" },
+      { "label": "Roofing, Siding & Gutters", "href": "/services/roofing-siding-gutters" }
+    ],
+    "serviceAreas": [
+      { "label": "Ballantyne", "href": "/locations/ballantyne" },
+      { "label": "Myers Park", "href": "/locations/myers-park" },
+      { "label": "Dilworth", "href": "/locations/dilworth" },
+      { "label": "Huntersville", "href": "/locations/huntersville" },
+      { "label": "Cornelius", "href": "/locations/cornelius" },
+      { "label": "Concord", "href": "/locations/concord" },
+      { "label": "Mooresville", "href": "/locations/mooresville" },
+      { "label": "Gastonia", "href": "/locations/gastonia" },
+      { "label": "NoDa", "href": "/locations/noda" }
+    ]
+  }
+}

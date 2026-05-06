@@ -1,0 +1,306 @@
+{
+  "niche": "electrician",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "Electric",
+    "emergency": "24/7 Electrical Emergency"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Flickering lights or tripping breakers?",
+    "linkText": "Call now",
+    "linkHref": "#contact",
+    "suffix": "— same-day electrical service available."
+  },
+
+  "hero": {
+    "h1": ["Licensed Electricians", "You Can Trust,", "Work Done Right."],
+    "h1Highlight": 1,
+    "badges": ["Licensed Master Electrician", "Permit-Ready", "Same-Day Available"],
+    "bgImage": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "stat": "1,200+", "label": "Homes Served" },
+      { "stat": "15+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "100%", "label": "Permit-Ready" }
+    ],
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "trustBadges": [
+    { "name": "Licensed Master Electrician", "icon": "🏅" },
+    { "name": "NFPA 70 Certified", "icon": "⭐" },
+    { "name": "Permit-Ready on Every Job", "icon": "📋" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Licensed & Insured", "icon": "🛡️" },
+    { "name": "Free Estimates", "icon": "💰" }
+  ],
+
+  "services": [
+    {
+      "title": "Panel Upgrade & Replacement",
+      "slug": "panel-upgrade-replacement",
+      "href": "/services/panel-upgrade-replacement",
+      "description": "Upgrade your electrical panel to meet modern capacity demands and current code requirements.",
+      "intro": "An outdated or undersized electrical panel is a safety hazard and a bottleneck for everything from EV chargers to home additions. We replace aging panels with modern, code-compliant units backed by a full workmanship warranty.",
+      "features": [
+        "Full load calculation to right-size your new panel",
+        "Licensed permit pulled and inspected by local authority",
+        "200A or 400A service upgrades available",
+        "Replacement of Federal Pacific, Zinsco, or other recalled brands",
+        "New breakers, bus bars, and grounding electrode system",
+        "Arc-fault and ground-fault breakers installed per current NEC",
+        "Utility coordination for meter base upgrades",
+        "Final inspection walk-through and certificate of completion"
+      ],
+      "process": [
+        { "step": "1", "title": "Free Assessment", "desc": "We evaluate your current panel, load demand, and code deficiencies — no charge, no obligation." },
+        { "step": "2", "title": "Permit & Scheduling", "desc": "We pull the permit and coordinate with the utility so there are no surprises on installation day." },
+        { "step": "3", "title": "Same-Day Install", "desc": "Most panel upgrades are completed in a single day. We schedule the inspector so you're cleared before we leave." },
+        { "step": "4", "title": "Final Inspection", "desc": "We meet the inspector on-site, handle any punch-list items, and hand you a copy of your certificate." }
+      ],
+      "materials": ["Square D QO Series", "Eaton BR Series", "Siemens PL Series", "Leviton Load Centers", "Copper wiring & grounding"],
+      "faqs": [
+        { "q": "How do I know if I need a panel upgrade?", "a": "Signs include frequently tripping breakers, flickering lights, inability to add new circuits, or a panel older than 25–30 years. Federal Pacific or Zinsco panels should be replaced regardless of age due to known safety defects." },
+        { "q": "Will I need to be home all day?", "a": "Power will be off for 4–8 hours during the upgrade. We try to schedule inspections for the same day so your power is restored before the inspector leaves." },
+        { "q": "Is a permit required?", "a": "Yes, always. A permit ensures the work is inspected and documented — protecting your homeowner's insurance and your home's resale value." }
+      ]
+    },
+    {
+      "title": "EV Charger Installation",
+      "slug": "ev-charger-installation",
+      "href": "/services/ev-charger-installation",
+      "description": "Level 2 home EV charger installation with permit — charge overnight, drive every day.",
+      "intro": "A Level 2 home charger adds 20–30 miles of range per hour — compared to 4–5 miles from a standard outlet. We handle the full installation including panel assessment, dedicated circuit, and utility rebate documentation.",
+      "features": [
+        "Panel capacity assessment before any work begins",
+        "Dedicated 240V/50A circuit installed to code",
+        "NEMA 14-50 outlet or hardwired charger per your preference",
+        "All major charger brands supported (ChargePoint, Tesla, Wallbox, JuiceBox)",
+        "Permit pulled and inspected in every jurisdiction",
+        "Outdoor GFCI-rated installations available",
+        "Utility rebate documentation provided",
+        "Future-ready wiring for second charger if needed"
+      ],
+      "process": [
+        { "step": "1", "title": "Site Assessment", "desc": "We check your panel capacity, garage layout, and preferred charger location to plan the cleanest, safest install." },
+        { "step": "2", "title": "Equipment Selection", "desc": "We recommend the best charger for your vehicle and usage — and can supply it or work with one you've already purchased." },
+        { "step": "3", "title": "Permitted Installation", "desc": "We run the circuit, mount the charger, and schedule the inspection — all in one visit for most homes." },
+        { "step": "4", "title": "Test & Document", "desc": "We verify charge rate, hand over your rebate paperwork, and show you how to use the app if applicable." }
+      ],
+      "materials": ["ChargePoint Home Flex", "Tesla Wall Connector", "Wallbox Pulsar Plus", "JuiceBox Pro 40", "10-gauge copper wiring"],
+      "faqs": [
+        { "q": "Can my existing panel handle an EV charger?", "a": "Most 200A panels can accommodate a Level 2 charger without an upgrade. We'll confirm this in our free assessment before any work begins." },
+        { "q": "How long does the installation take?", "a": "Most installations are completed in 2–4 hours. Runs through finished walls or long conduit runs may take longer." },
+        { "q": "Are there rebates available?", "a": "Yes. Many utilities and some states offer rebates of $200–$1,000 for home EV charger installation. We provide all documentation needed to claim them." }
+      ]
+    },
+    {
+      "title": "Outlet & Switch Installation",
+      "slug": "outlet-switch-installation",
+      "href": "/services/outlet-switch-installation",
+      "description": "Add outlets, replace unsafe wiring, and upgrade switches throughout your home.",
+      "intro": "Whether you need a new outlet in the kitchen, USB ports at the nightstand, or GFCI protection in the bathroom, we handle any outlet and switch project — cleanly, correctly, and to code.",
+      "features": [
+        "GFCI outlet installation in kitchens, bathrooms, and garages",
+        "USB-A and USB-C combination outlets",
+        "20A dedicated circuits for appliances and equipment",
+        "Smart switch installation (Lutron, Leviton, Kasa, etc.)",
+        "3-way and 4-way switch replacement",
+        "Outdoor weatherproof outlet installation",
+        "Whole-home outlet inspection and replacement of worn devices",
+        "Clean drywall patching when new circuits are required"
+      ],
+      "process": [
+        { "step": "1", "title": "Needs Assessment", "desc": "We walk your space, identify what's needed, and explain options — including smart device compatibility." },
+        { "step": "2", "title": "Upfront Quote", "desc": "You get a flat-rate price before any work starts. No surprises, no hourly billing games." },
+        { "step": "3", "title": "Same-Day Service", "desc": "Most outlet and switch work is completed in a single visit with minimal disruption." },
+        { "step": "4", "title": "Test & Clean Up", "desc": "We test every device, clean up our work area, and walk you through anything new." }
+      ],
+      "materials": ["Leviton SmartlockPro GFCI", "Lutron Caseta Smart Switches", "Decora Combination USB Outlets", "Tamper-resistant receptacles", "Commercial-grade wiring devices"],
+      "faqs": [
+        { "q": "How many outlets can you add in a day?", "a": "We can typically add 4–8 outlets in a single visit depending on location and panel availability. We'll estimate time accurately before starting." },
+        { "q": "Do I need a permit for outlet work?", "a": "Adding new circuits requires a permit in most jurisdictions. Replacing existing outlets typically does not. We handle permit requirements for every project." },
+        { "q": "What are GFCI outlets and where do I need them?", "a": "GFCI outlets interrupt power within milliseconds of detecting a ground fault. They're required by code in kitchens, bathrooms, garages, outdoors, and near water. Older homes often lack them." }
+      ]
+    },
+    {
+      "title": "Ceiling Fan & Lighting",
+      "slug": "ceiling-fan-lighting",
+      "href": "/services/ceiling-fan-lighting",
+      "description": "Fan installation, recessed lighting, and fixture replacement done in one visit.",
+      "intro": "Ceiling fans reduce energy costs year-round. Recessed lighting modernizes any room. We handle all fixture types — from basic swaps to full lighting design with dimmer controls and smart home integration.",
+      "features": [
+        "Ceiling fan installation (with or without existing box)",
+        "Fan-rated junction box upgrade where required",
+        "Recessed LED lighting layout and installation",
+        "Dimmer switch installation and smart dimmer compatibility",
+        "Chandelier and pendant light installation",
+        "Under-cabinet LED lighting",
+        "Smart lighting integration (Lutron, Philips Hue, Kasa)",
+        "Outdoor security and landscape lighting circuits"
+      ],
+      "process": [
+        { "step": "1", "title": "Design Consultation", "desc": "We discuss your lighting goals, walk the rooms, and recommend fixture placement for the best effect." },
+        { "step": "2", "title": "Flat-Rate Quote", "desc": "You receive a written quote per fixture or per project — no hourly surprises." },
+        { "step": "3", "title": "Clean Installation", "desc": "We use drop cloths, install all fixtures correctly and level, and patch any ceiling work cleanly." },
+        { "step": "4", "title": "Full Test", "desc": "Every fixture and control is tested before we leave. We show you how to use any smart controls." }
+      ],
+      "materials": ["Hunter Fan Company", "Progress Lighting", "Halo LED Recessed", "Lutron Maestro Dimmers", "Philips Hue Smart Bulbs"],
+      "faqs": [
+        { "q": "Can you install a ceiling fan where there's no existing fixture?", "a": "Yes. We can run a new circuit, install a fan-rated box, and have your fan up and running — all in one visit." },
+        { "q": "What's the difference between a regular and fan-rated electrical box?", "a": "Fan-rated boxes are braced to handle the dynamic load of a spinning fan. Installing a fan on a standard light box is a safety hazard — we always upgrade if needed." },
+        { "q": "How many recessed lights do I need per room?", "a": "A common rule is one fixture per 4–6 square feet of ceiling area for general lighting. We'll lay it out for optimal coverage and ambiance." }
+      ]
+    },
+    {
+      "title": "Whole-Home Rewiring",
+      "slug": "whole-home-rewiring",
+      "href": "/services/whole-home-rewiring",
+      "description": "Complete rewiring of older homes to eliminate knob-and-tube, aluminum wiring, and fire hazards.",
+      "intro": "Homes built before 1970 often contain knob-and-tube or aluminum wiring that modern appliances and insurance companies won't tolerate. A full rewire gives you safe, grounded circuits throughout — and may be required before your insurer will renew your policy.",
+      "features": [
+        "Complete replacement of knob-and-tube or aluminum wiring",
+        "New grounded circuits throughout the home",
+        "Panel upgrade included where needed",
+        "Smoke and CO detector installation to current code",
+        "Arc-fault protection on all bedroom and living area circuits",
+        "Staged work to minimize disruption to occupied homes",
+        "All permits pulled and inspections scheduled",
+        "Insurance documentation letter provided after completion"
+      ],
+      "process": [
+        { "step": "1", "title": "Full Home Evaluation", "desc": "We assess all accessible wiring, note hazard locations, and build a complete scope before pricing." },
+        { "step": "2", "title": "Phased Plan", "desc": "We sequence the work to keep your home livable — typically room by room over several days." },
+        { "step": "3", "title": "Permitted Rewire", "desc": "All new wiring is run to NEC standards with inspections at rough-in and completion." },
+        { "step": "4", "title": "Final Documentation", "desc": "You receive a completion letter for your insurance company and a copy of all permits and inspection records." }
+      ],
+      "materials": ["Romex NM-B copper wiring", "Square D QO arc-fault breakers", "Leviton tamper-resistant receptacles", "Kidde smoke/CO combo detectors", "Steel and plastic nail plates"],
+      "faqs": [
+        { "q": "How long does a whole-home rewire take?", "a": "Most single-family homes take 3–7 days depending on size and accessibility. We'll give you an accurate timeline in your estimate." },
+        { "q": "Will I need to move out during the rewire?", "a": "Not usually. We stage the work so you always have power to key areas. We'll discuss the schedule and any temporary disruptions upfront." },
+        { "q": "My insurance company is threatening to cancel my policy over old wiring. Can you help?", "a": "Yes. We provide a completion letter that most insurance carriers accept. We've helped many homeowners retain coverage after a rewire." }
+      ]
+    },
+    {
+      "title": "Generator Installation",
+      "slug": "generator-installation",
+      "href": "/services/generator-installation",
+      "description": "Standby and portable generator hookups with transfer switches — never lose power again.",
+      "intro": "A whole-home standby generator turns on automatically within seconds of a power outage. We handle full installation — pad, gas line coordination, transfer switch, and permit — so you're protected before the next storm hits.",
+      "features": [
+        "Generac, Kohler, or Briggs & Stratton generator installation",
+        "Automatic transfer switch (ATS) installed to code",
+        "Dedicated circuit panel for critical loads",
+        "Concrete pad or composite pad installation",
+        "Natural gas or LP fuel line coordination",
+        "Load testing and system commissioning",
+        "Manual transfer switch for portable generator hookups",
+        "Permit and utility notification handled"
+      ],
+      "process": [
+        { "step": "1", "title": "Load Assessment", "desc": "We calculate your critical loads to right-size the generator — too small fails when you need it, too large wastes money." },
+        { "step": "2", "title": "Site Planning", "desc": "We select the optimal generator location meeting code clearances from windows, doors, and gas meters." },
+        { "step": "3", "title": "Full Installation", "desc": "Pad, transfer switch, wiring, and gas connection are all completed in a single 1–2 day installation." },
+        { "step": "4", "title": "Test & Training", "desc": "We run a full load test, register your warranty, and walk you through startup and maintenance procedures." }
+      ],
+      "materials": ["Generac Guardian Series", "Kohler Home Generators", "Briggs & Stratton PowerProtect", "Reliance Controls transfer switches", "Square D generator-ready panels"],
+      "faqs": [
+        { "q": "What size generator do I need?", "a": "A 10–14kW generator covers most homes' critical loads (HVAC, fridge, lights, outlets). A 20–22kW unit powers nearly everything. We do a load calculation to match your needs." },
+        { "q": "Can I connect my portable generator to the house?", "a": "Yes, with a properly installed manual transfer switch. Never backfeed a generator directly into an outlet — it's illegal and can electrocute utility workers." },
+        { "q": "How often does a standby generator need maintenance?", "a": "Generac and Kohler recommend annual service — oil change, spark plugs, air filter, and battery test. Many customers sign up for our annual maintenance plan." }
+      ]
+    }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Four steps from problem to powered up.",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80",
+    "ctaText": "Schedule My Free Estimate",
+    "steps": [
+      { "num": "01", "title": "Free Estimate", "desc": "A licensed electrician assesses your project and gives you a written flat-rate quote — no hourly surprises." },
+      { "num": "02", "title": "Permit Pulled", "desc": "We handle all permit applications so your work is legal, inspected, and fully documented." },
+      { "num": "03", "title": "Clean Installation", "desc": "Our team works efficiently, protects your home, and completes most jobs in a single visit." },
+      { "num": "04", "title": "Inspected & Guaranteed", "desc": "We meet the inspector, pass the inspection, and back every job with our workmanship warranty." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Recent electrical projects in your area.",
+    "projects": [
+      { "title": "200A Panel Upgrade", "material": "Square D QO 200A with AFCI breakers", "image": "https://images.unsplash.com/photo-1607400201889-565b1ee75f8e?auto=format&fit=crop&w=800&q=80" },
+      { "title": "EV Charger Install", "material": "ChargePoint Home Flex Level 2", "image": "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Recessed Lighting", "material": "Halo LED 6-inch retrofit kit", "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Standby Generator", "material": "Generac 22kW with ATS", "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "testimonials": {
+    "h2": "Real words from real neighbors."
+  },
+
+  "contact": {
+    "h2": "Request your free electrical estimate.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Schedule My Free Estimate",
+    "serviceOptions": [
+      "Panel Upgrade & Replacement",
+      "EV Charger Installation",
+      "Outlet & Switch Installation",
+      "Ceiling Fan & Lighting",
+      "Whole-Home Rewiring",
+      "Generator Installation",
+      "Not Sure — I Need an Assessment"
+    ]
+  },
+
+  "faq": {
+    "h2": "Your electrical questions answered.",
+    "items": [
+      {
+        "q": "How do I know if my electrical panel needs to be replaced?",
+        "a": "Signs include frequently tripping breakers, a panel older than 30 years, Federal Pacific or Zinsco brand (recalled for fire risk), burning smell, or inability to add circuits for new appliances or an EV charger."
+      },
+      {
+        "q": "Are you licensed and insured?",
+        "a": "Yes. We hold a Master Electrician license and carry full general liability and workers' compensation insurance. Certificates of insurance are available on request."
+      },
+      {
+        "q": "Do you pull permits for every job?",
+        "a": "We pull permits on all work that legally requires one — panel upgrades, new circuits, generator installs, and rewires. This protects your insurance coverage and your home's resale value."
+      },
+      {
+        "q": "How soon can you come out?",
+        "a": "We offer same-day and next-day service for most jobs. Emergency electrical service is available 24/7 for safety hazards."
+      },
+      {
+        "q": "Do you offer free estimates?",
+        "a": "Yes. We provide free written estimates for all projects before any work begins. Our quotes are flat-rate — the price you're quoted is the price you pay."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": ""
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "Electrical problems don't fix themselves.",
+    "subtext": "Get a free estimate from a licensed master electrician — same-day availability, flat-rate pricing, and work that's inspected and guaranteed.",
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "Panel Upgrade & Replacement", "href": "/services/panel-upgrade-replacement" },
+      { "label": "EV Charger Installation", "href": "/services/ev-charger-installation" },
+      { "label": "Outlet & Switch Installation", "href": "/services/outlet-switch-installation" },
+      { "label": "Ceiling Fan & Lighting", "href": "/services/ceiling-fan-lighting" },
+      { "label": "Whole-Home Rewiring", "href": "/services/whole-home-rewiring" },
+      { "label": "Generator Installation", "href": "/services/generator-installation" }
+    ]
+  }
+}

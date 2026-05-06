@@ -1,0 +1,306 @@
+{
+  "niche": "painting",
+  "template": "service-v1",
+
+  "company": {
+    "nameSub": "Painting",
+    "emergency": "Fast-Track Available"
+  },
+
+  "announcement": {
+    "enabled": true,
+    "text": "Spring refresh special —",
+    "linkText": "book your free color consultation",
+    "linkHref": "#contact",
+    "suffix": "and get a same-week estimate."
+  },
+
+  "hero": {
+    "h1": ["Professional Painting,", "Flawless Finish,", "On Time."],
+    "h1Highlight": 1,
+    "badges": ["Fully Licensed & Insured", "Free Color Consultation", "5-Star Rated"],
+    "bgImage": "https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1920&q=80",
+    "stats": [
+      { "stat": "800+", "label": "Homes Painted" },
+      { "stat": "12+", "label": "Years Experience" },
+      { "stat": "5.0★", "label": "Google Rating" },
+      { "stat": "2-Year", "label": "Workmanship Warranty" }
+    ],
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "trustBadges": [
+    { "name": "Sherwin-Williams ProPainter", "icon": "🏅" },
+    { "name": "Benjamin Moore Certified", "icon": "⭐" },
+    { "name": "EPA Lead-Safe Certified", "icon": "🛡️" },
+    { "name": "BBB Accredited", "icon": "✓" },
+    { "name": "Licensed & Insured", "icon": "📋" },
+    { "name": "2-Year Warranty", "icon": "💰" }
+  ],
+
+  "services": [
+    {
+      "title": "Interior House Painting",
+      "slug": "interior-house-painting",
+      "href": "/services/interior-house-painting",
+      "description": "Full interior painting with premium prep, professional-grade paints, and a 2-year warranty.",
+      "intro": "A professional interior paint job is 80% prep and 20% paint. We fill every hole, sand every rough edge, tape every surface, and apply premium paint — so the finish looks right from day one and holds up for years.",
+      "features": [
+        "Full furniture moving and room protection with drop cloths",
+        "Patching and sanding of nail holes, cracks, and imperfections",
+        "Caulking of trim gaps and baseboards for a clean line",
+        "Premium primer on all bare surfaces and stain-blocking where needed",
+        "Two full coats of Sherwin-Williams or Benjamin Moore paint",
+        "Crisp cut-in lines at all trim, ceilings, and transitions",
+        "Final touch-up walkthrough before leaving",
+        "2-year workmanship warranty on all interior work"
+      ],
+      "process": [
+        { "step": "1", "title": "Free Estimate & Color Consult", "desc": "We measure, discuss your color vision, and give you a written quote — often same week." },
+        { "step": "2", "title": "Prep Day", "desc": "We protect your floors and furniture, fill imperfections, caulk gaps, and prime problem areas." },
+        { "step": "3", "title": "Painting", "desc": "Two full coats applied in the correct order — walls, ceilings, trim — for a professional finish." },
+        { "step": "4", "title": "Walkthrough & Touch-Up", "desc": "We walk every room with you and address any touch-ups before we call the job complete." }
+      ],
+      "materials": ["Sherwin-Williams Emerald Interior", "Benjamin Moore Aura", "Sherwin-Williams Duration", "Zinsco Bulls Eye 1-2-3 Primer", "3M ScotchBlue Painter's Tape"],
+      "faqs": [
+        { "q": "How long does interior painting take?", "a": "A single room is typically done in one day. A full home of 1,500–2,500 sq ft usually takes 2–4 days depending on the number of rooms and prep needed." },
+        { "q": "Do I need to move my furniture?", "a": "We move most furniture as part of the job. We ask that you clear personal items and valuables from shelves and surfaces before we arrive." },
+        { "q": "What paint brands do you use?", "a": "We use Sherwin-Williams Emerald and Benjamin Moore Aura as our standard — both are low-VOC, washable, and self-priming in most applications. We don't cut costs with builder-grade paints." }
+      ]
+    },
+    {
+      "title": "Exterior House Painting",
+      "slug": "exterior-house-painting",
+      "href": "/services/exterior-house-painting",
+      "description": "Complete exterior paint job — pressure wash, prep, prime, and two coats for lasting curb appeal.",
+      "intro": "Your home's exterior takes a beating from sun, rain, and temperature swings. A quality exterior paint job starts with thorough surface prep — pressure washing, scraping, sanding, and priming — before a single drop of paint goes on.",
+      "features": [
+        "Full pressure washing of all painted surfaces",
+        "Scraping and feathering of peeling paint",
+        "Caulking of all siding gaps, trim joints, and penetrations",
+        "Spot priming on bare wood and stain-blocking on problem areas",
+        "Two full coats of exterior paint on all siding",
+        "Separate coat on all trim, fascia, soffits, and shutters",
+        "Masking and protection of windows, doors, and landscaping",
+        "5-year exterior workmanship warranty"
+      ],
+      "process": [
+        { "step": "1", "title": "Free Estimate", "desc": "We walk the exterior, note all prep needs, and give you a detailed written quote with paint specs." },
+        { "step": "2", "title": "Prep & Prime", "desc": "We power wash, scrape, caulk, and prime — the most important step for a lasting exterior finish." },
+        { "step": "3", "title": "Two-Coat Application", "desc": "Siding is painted first, then all trim. We work methodically to avoid laps and ensure full coverage." },
+        { "step": "4", "title": "Final Inspection", "desc": "We walk the entire exterior with you and touch up anything that doesn't meet our standard." }
+      ],
+      "materials": ["Sherwin-Williams Emerald Exterior", "Benjamin Moore Aura Exterior", "Duration Exterior by Sherwin-Williams", "Zinsco Bullseye Exterior Primer", "DAP Dynaflex 230 Caulk"],
+      "faqs": [
+        { "q": "How long does exterior painting last?", "a": "A properly prepped and painted exterior with a premium product lasts 7–10 years. Our 5-year warranty covers any peeling or adhesion failures." },
+        { "q": "What weather conditions are needed for exterior painting?", "a": "We paint when temperatures are between 50°F and 90°F and no rain is forecast for 24 hours. We schedule around weather and reschedule at no charge for rain delays." },
+        { "q": "Do I need to be home during the exterior paint job?", "a": "Not necessarily. We just need access to your water spigot and a way to confirm the color. Most customers drop off a key or leave us a code." }
+      ]
+    },
+    {
+      "title": "Cabinet Painting & Refinishing",
+      "slug": "cabinet-painting-refinishing",
+      "href": "/services/cabinet-painting-refinishing",
+      "description": "Factory-smooth cabinet finishes that transform your kitchen for a fraction of replacement cost.",
+      "intro": "Cabinet painting is the highest-ROI kitchen upgrade available. At 20–30% of the cost of new cabinets, you get a fresh color, a durable factory-like finish, and zero construction dust. We spray every door off-site for a smooth, brush-mark-free result.",
+      "features": [
+        "All doors and drawer fronts removed and sprayed off-site",
+        "Full degreasing and scuff sanding of all surfaces",
+        "Bonding primer on all cabinet surfaces",
+        "Spray application for brush-mark-free finish",
+        "2–3 coats of cabinet-specific enamel or urethane",
+        "Box painting in-place with professional brushwork",
+        "New hinges installed if upgrading hardware",
+        "Durable finish rated for moisture and kitchen use"
+      ],
+      "process": [
+        { "step": "1", "title": "Free Cabinet Assessment", "desc": "We evaluate your cabinet material, condition, and layout to confirm they're good candidates for painting." },
+        { "step": "2", "title": "Prep & Prime", "desc": "Doors go to our shop. Boxes are degreased, sanded, and primed in your kitchen with containment." },
+        { "step": "3", "title": "Spray Finish", "desc": "Doors receive 2–3 spray coats for a factory-smooth finish. Box interiors and frames are rolled and brushed." },
+        { "step": "4", "title": "Reinstall & Adjust", "desc": "We rehang every door, adjust for level and alignment, and clean up completely." }
+      ],
+      "materials": ["Benjamin Moore Advance Waterborne Alkyd", "Sherwin-Williams Emerald Urethane Trim", "Zinsco BIN Shellac Primer", "Milesi wood finishes", "Satin or semi-gloss topcoat"],
+      "faqs": [
+        { "q": "How long do painted cabinets last?", "a": "With proper prep and a quality enamel or urethane topcoat, painted cabinets hold up well for 5–8 years with normal use before any touch-up is needed." },
+        { "q": "Can all cabinet types be painted?", "a": "Solid wood and MDF cabinets paint beautifully. Thermofoil and laminate cabinets can be painted but require specific bonding primers. Particle board with peeling laminate is generally not a good candidate." },
+        { "q": "Will I be able to use my kitchen during the project?", "a": "We try to maintain sink and appliance access throughout. Most projects take 3–5 days. We'll walk through the schedule at your estimate." }
+      ]
+    },
+    {
+      "title": "Deck & Fence Staining",
+      "slug": "deck-fence-staining",
+      "href": "/services/deck-fence-staining",
+      "description": "Deck and fence staining and sealing that protects wood from UV, moisture, and foot traffic.",
+      "intro": "An unprotected wood deck grays, cracks, and rots within a few years. A properly cleaned and stained deck looks great and lasts twice as long. We use professional-grade stains that penetrate the wood fiber rather than sitting on top.",
+      "features": [
+        "Full deck pressure washing and brightening",
+        "Sanding of rough or splintered boards",
+        "Wood brightener applied to open grain and remove tannins",
+        "Semi-transparent or solid stain application",
+        "Two coats on horizontal surfaces for maximum protection",
+        "Separate treatment of railings, balusters, and stairs",
+        "Fence cleaning and staining or painting",
+        "3-year warranty on deck staining work"
+      ],
+      "process": [
+        { "step": "1", "title": "Assessment & Quote", "desc": "We inspect the wood condition, identify any rotten boards needing replacement, and quote the full scope." },
+        { "step": "2", "title": "Clean & Prep", "desc": "We pressure wash, apply brightener, and allow proper dry time before any stain is applied." },
+        { "step": "3", "title": "Stain Application", "desc": "We apply two coats of penetrating stain to decking surfaces and one coat to vertical elements." },
+        { "step": "4", "title": "Dry & Inspect", "desc": "We do a final inspection after the stain cures and address any thin spots or missed areas." }
+      ],
+      "materials": ["Armstrong Clark Semi-Transparent", "TWP (Total Wood Preservative)", "Defy Extreme Wood Stain", "Cabot Australian Timber Oil", "Olympic Maximum Stain & Sealant"],
+      "faqs": [
+        { "q": "How often should I restain my deck?", "a": "A quality semi-transparent stain on a well-prepped deck lasts 2–4 years on horizontal surfaces. Solid stains last longer but are harder to renew. We'll recommend the right product for your situation." },
+        { "q": "Can you stain a deck that was previously painted?", "a": "Paint must be fully stripped before stain is applied. If previous coatings are intact, we can restain with a solid-body product. We'll assess at the estimate." },
+        { "q": "What's the difference between paint and stain for a deck?", "a": "Stain penetrates wood fibers and allows moisture to escape, reducing peeling. Paint sits on the surface and is more likely to peel over time on horizontal surfaces exposed to weather." }
+      ]
+    },
+    {
+      "title": "Popcorn Ceiling Removal",
+      "slug": "popcorn-ceiling-removal",
+      "href": "/services/popcorn-ceiling-removal",
+      "description": "Remove outdated popcorn texture and leave a smooth, modern ceiling — ready to paint.",
+      "intro": "Popcorn ceilings trap dust, look dated, and can contain asbestos in homes built before 1979. We remove the texture, skim-coat a smooth finish, and prime — leaving you with a fresh ceiling ready for paint.",
+      "features": [
+        "Asbestos test kit review or referral before work begins",
+        "Full room protection with plastic sheeting and drop cloths",
+        "Water-spraying and scraping of all texture",
+        "Skim coat applied for a perfectly smooth finish",
+        "Sanding and priming of new surface",
+        "Paint-ready finish in 1–2 days per room",
+        "Furniture moving and protection included",
+        "Complete cleanup — no texture dust left behind"
+      ],
+      "process": [
+        { "step": "1", "title": "Asbestos Confirmation", "desc": "For homes built before 1979, we confirm the ceiling has been tested negative before any scraping begins." },
+        { "step": "2", "title": "Room Protection", "desc": "We fully plastic off the room — walls, floors, furniture — before wetting and scraping the texture." },
+        { "step": "3", "title": "Skim Coat & Sand", "desc": "After scraping, we apply a thin skim coat of joint compound, sand smooth, and repeat until the surface is flat." },
+        { "step": "4", "title": "Prime & Paint", "desc": "We prime the new surface and apply your chosen ceiling paint for a clean, finished result." }
+      ],
+      "materials": ["USG Sheetrock Plus 3 Joint Compound", "Zinsco Bulls Eye 1-2-3 Primer", "Sherwin-Williams Ceiling Paint", "Benjamin Moore Waterborne Ceiling Paint", "Hyde Pro Scraper Tools"],
+      "faqs": [
+        { "q": "Does popcorn ceiling contain asbestos?", "a": "Popcorn texture applied before 1979 may contain asbestos. We require a negative asbestos test before any scraping. We can refer you to a certified tester if needed." },
+        { "q": "Can I paint over popcorn ceiling instead of removing it?", "a": "Yes, painting is cheaper and easier — but it doesn't remove the dated look. If you want a smooth, modern ceiling, removal and skim coating is the only option." },
+        { "q": "How long does it take per room?", "a": "A typical bedroom takes 1 day for scraping and skim coat, plus 1 day for sanding, priming, and painting — 2 days total per room. We can often do 2–3 rooms simultaneously." }
+      ]
+    },
+    {
+      "title": "Commercial Painting",
+      "slug": "commercial-painting",
+      "href": "/services/commercial-painting",
+      "description": "Interior and exterior commercial painting for offices, retail, and multi-unit properties.",
+      "intro": "Commercial painting projects demand speed, minimal disruption, and professional results. We work nights, weekends, and phased schedules to keep your business open — and our crew is bonded, drug-tested, and OSHA-trained.",
+      "features": [
+        "Night and weekend scheduling to minimize business disruption",
+        "OSHA-trained and safety-certified crew",
+        "Bonded and fully insured for commercial properties",
+        "Airless spray application for large surfaces",
+        "Epoxy floor coatings for warehouses and garages",
+        "Parking lot line striping and stenciling",
+        "Multi-unit and apartment complex programs",
+        "Commercial-grade low-VOC products for occupied spaces"
+      ],
+      "process": [
+        { "step": "1", "title": "Walkthrough & Scope", "desc": "We assess the full project, note surface conditions, and develop a work schedule around your business hours." },
+        { "step": "2", "title": "Proposal & Timeline", "desc": "You receive a detailed written proposal with start date, phase schedule, and completion target." },
+        { "step": "3", "title": "Phased Execution", "desc": "We work in phases or during off-hours to keep your space operational throughout the project." },
+        { "step": "4", "title": "Final Sign-Off", "desc": "We walk every area with your facility manager and address any items before invoicing." }
+      ],
+      "materials": ["Sherwin-Williams A-100 Exterior", "Benjamin Moore Ultra Spec 500", "Carboline Sanitile epoxy", "PPG Speedhide Interior", "Rust-Oleum EpoxyShield"],
+      "faqs": [
+        { "q": "Can you work without disrupting our business operations?", "a": "Yes. We routinely schedule nights, weekends, and phased work to keep businesses open. We'll build a custom schedule around your operating hours." },
+        { "q": "Are your workers bonded?", "a": "Yes. All crew members are background-checked, bonded, and covered under our commercial general liability policy. We can provide certificates of insurance with your property listed." },
+        { "q": "Do you handle multi-unit apartment communities?", "a": "Yes. We have ongoing relationships with property management companies and can handle unit turns, common areas, and full building exteriors on a scheduled program." }
+      ]
+    }
+  ],
+
+  "howItWorks": {
+    "sectionLabel": "How It Works",
+    "h2": "Four steps to a freshly painted home.",
+    "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80",
+    "ctaText": "Schedule My Free Estimate",
+    "steps": [
+      { "num": "01", "title": "Free Estimate", "desc": "We measure your space, discuss colors, and give you a detailed written quote — often the same week." },
+      { "num": "02", "title": "Professional Prep", "desc": "We protect your home, fill all imperfections, and prime before any paint goes on." },
+      { "num": "03", "title": "Flawless Paint", "desc": "Two coats of premium paint applied by experienced painters — clean lines, full coverage, no shortcuts." },
+      { "num": "04", "title": "Walkthrough & Warranty", "desc": "We inspect every surface with you and back the job with our 2-year workmanship warranty." }
+    ]
+  },
+
+  "gallery": {
+    "h2": "Recent painting projects near you.",
+    "projects": [
+      { "title": "Full Interior Repaint", "material": "Sherwin-Williams Emerald Accessible Beige", "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Exterior Paint Job", "material": "Benjamin Moore Hale Navy with White Trim", "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Kitchen Cabinet Refinishing", "material": "Benjamin Moore Advance White Dove", "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80" },
+      { "title": "Deck Staining", "material": "Armstrong Clark Cedar Naturaltone", "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" }
+    ]
+  },
+
+  "testimonials": {
+    "h2": "Real words from real neighbors."
+  },
+
+  "contact": {
+    "h2": "Request your free painting estimate.",
+    "sectionLabel": "Contact Us",
+    "ctaButtonText": "Schedule My Free Estimate",
+    "serviceOptions": [
+      "Interior House Painting",
+      "Exterior House Painting",
+      "Cabinet Painting & Refinishing",
+      "Deck & Fence Staining",
+      "Popcorn Ceiling Removal",
+      "Commercial Painting",
+      "Not Sure — I Need an Assessment"
+    ]
+  },
+
+  "faq": {
+    "h2": "Painting questions, answered.",
+    "items": [
+      {
+        "q": "What paint brands do you use?",
+        "a": "We use Sherwin-Williams Emerald, Duration, and SuperPaint, and Benjamin Moore Aura and Advance as our primary product lines. These are professional-grade paints with better coverage, washability, and durability than big-box store brands."
+      },
+      {
+        "q": "Do I need to move furniture before the painters arrive?",
+        "a": "We move most furniture as part of the job. We ask that you remove personal items, valuables, and wall décor before we arrive. Large furniture that can't be moved will be masked and covered."
+      },
+      {
+        "q": "How long does it take to paint a whole house interior?",
+        "a": "A typical 1,500–2,000 sq ft home with 3–4 bedrooms takes 2–4 days for a full interior repaint. Homes with more prep needs or detailed trim work may take longer."
+      },
+      {
+        "q": "Are your paints low-VOC?",
+        "a": "Yes. Our standard products — Sherwin-Williams Emerald and Benjamin Moore Aura — are zero or low-VOC. We can stay on the zero-VOC selection if you have sensitivities."
+      },
+      {
+        "q": "What warranty do you offer?",
+        "a": "We provide a 2-year workmanship warranty on interior painting and a 5-year warranty on exterior painting. If anything peels or fails due to application, we fix it at no cost."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": ""
+      }
+    ]
+  },
+
+  "cta": {
+    "h2": "Your home deserves a finish it can be proud of.",
+    "subtext": "Get a free estimate from a professional painting crew — flat-rate pricing, premium paints, and a 2-year warranty on every job.",
+    "primaryCta": "Get a Free Estimate"
+  },
+
+  "footer": {
+    "services": [
+      { "label": "Interior House Painting", "href": "/services/interior-house-painting" },
+      { "label": "Exterior House Painting", "href": "/services/exterior-house-painting" },
+      { "label": "Cabinet Painting & Refinishing", "href": "/services/cabinet-painting-refinishing" },
+      { "label": "Deck & Fence Staining", "href": "/services/deck-fence-staining" },
+      { "label": "Popcorn Ceiling Removal", "href": "/services/popcorn-ceiling-removal" },
+      { "label": "Commercial Painting", "href": "/services/commercial-painting" }
+    ]
+  }
+}
