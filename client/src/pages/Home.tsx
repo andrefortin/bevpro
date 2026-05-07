@@ -182,7 +182,7 @@ export default function Home() {
                 Atlanta beverage catering &amp; mixology classes that <span style={{ color: "#C8962E" }}>feel effortless.</span>
               </h1>
               <p className="text-base text-[#6B5E4A] mb-8 max-w-lg leading-relaxed">
-                BevPro is Atlanta&apos;s premium mobile bar catering company. We specialize in alcohol catering, coffee bars, mocktail packages, wine tastings, hands-on mixology classes, and professional bartender training — all delivered with precision and care across the Atlanta metro area including Buckhead, Midtown, Decatur, Sandy Springs, Roswell, and Alpharetta.
+                BevPro is Georgia&apos;s premium mobile bar catering company. We specialize in alcohol catering, coffee bars, mocktail packages, wine tastings, and hands-on mixology classes — all delivered with precision and care nationwide.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <CtaButton href="/services" bg="#1A5632" text="Explore Services" icon={Wine} />
@@ -318,7 +318,7 @@ export default function Home() {
               Atlanta beverage services
             </div>
             <h2 style={{ color: "#1A5632" }} className="mb-3">
-              Six ways we serve Atlanta.
+              Five ways we serve.
             </h2>
             <p className="text-[#6B5E4A] max-w-xl">
               From mobile bar catering to career bartender training — every service is delivered by certified professionals who treat your event like their own. Based in Georgia, available nationwide.
@@ -364,20 +364,11 @@ export default function Home() {
               {
                 icon: GraduationCap,
                 title: "Mixology Classes",
-                desc: "Hands-on mixology classes in Atlanta. Private groups, public workshops, and Groupon deals. Learn to craft 4 signature cocktails in a 2-hour session — perfect for team building and date nights.",
+                desc: "Hands-on mixology classes — we come to your location. Private groups, public workshops, and Groupon deals. Learn to craft signature cocktails in a 2-hour session — perfect for team building and date nights.",
                 color: "#C8962E",
                 span: "md:col-span-1",
                 badge: "Most Popular",
                 href: "/services",
-              },
-              {
-                icon: Briefcase,
-                title: "Bartender Training",
-                desc: "4-week professional bartender training in Atlanta. Master 40+ recipes, earn your certification, and graduate with guaranteed job placement at a live festival. Launch your career behind the bar.",
-                color: "#1E1810",
-                span: "md:col-span-1",
-                badge: "Career Track",
-                href: "/bartender-training",
               },
             ].map((s, i) => (
               <div
@@ -560,131 +551,6 @@ export default function Home() {
               >
                 <p className="text-white font-bold text-sm">$49 per person</p>
                 <p className="text-[#FDFBF7] text-xs mt-0.5">or find us on Groupon</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </RevealSection>
-
-      {/* ── Bartender Training — Career pathway ── */}
-      <RevealSection className="section-spacing relative overflow-hidden" style={{ backgroundColor: "#1E1810" }}>
-        {/* Abstract pattern */}
-        <div className="absolute inset-0 opacity-[0.04] pointer-events-none">
-          <svg width="100%" height="100%">
-            <defs>
-              <pattern id="lines" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
-                <line x1="0" y1="0" x2="0" y2="40" stroke="#F5D77A" strokeWidth="1" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#lines)" />
-          </svg>
-        </div>
-
-        <div className="container relative z-10">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div className="reveal-up">
-              <div className="eyebrow bg-[#C8962E]/20 text-[#F5D77A] mb-6">
-                <Award className="w-3 h-3" strokeWidth={1.5} />
-                Career track
-              </div>
-              <h2 className="text-white mb-4" style={{ color: "#fff" }}>
-                Bartender training,{" "}
-                <span style={{ color: "#F5D77A" }}>with a job at the end.</span>
-              </h2>
-              <p className="text-[#B8A88A] mb-8 leading-relaxed max-w-md">
-                Not a workshop. A career accelerator. Our bartender training program prepares you with the skills to get hired and work in the industry — then places you at a live festival for real-world experience.
-              </p>
-
-              {/* Training highlights */}
-              <div className="flex flex-wrap gap-3 mb-8">
-                {[
-                  { icon: Briefcase, label: "Guaranteed job placement" },
-                  { icon: Music, label: "Festival work experience" },
-                  { icon: Award, label: "Industry certification" },
-                ].map((f, i) => (
-                  <div
-                    key={i}
-                    className="flex items-center gap-2 rounded-full px-4 py-2 text-sm font-medium"
-                    style={{ backgroundColor: "rgba(200,150,46,0.15)", color: "#F5D77A" }}
-                  >
-                    <f.icon className="w-3.5 h-3.5" strokeWidth={1.5} />
-                    {f.label}
-                  </div>
-                ))}
-              </div>
-
-              <div className="space-y-3 mb-8">
-                {[
-                  "Speed, accuracy, and recipe mastery",
-                  "Customer service and bar flow management",
-                  "Responsible alcohol service certification",
-                  "Real festival placement upon completion",
-                  "Resume prep and interview coaching",
-                ].map((item, i) => (
-                  <div key={i} className="flex items-start gap-3 text-sm">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="flex-shrink-0 mt-0.5">
-                      <circle cx="8" cy="8" r="7" stroke="#C8962E" strokeWidth="1.5" />
-                      <path d="M5 8l2 2 4-4" stroke="#C8962E" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                    <span className="text-[#D8CFB8]">{item}</span>
-                  </div>
-                ))}
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-4">
-                <CtaButton href="/bartender-training" bg="#C8962E" text="Learn more" icon={Briefcase} />
-                <Link href="/contact">
-                  <button
-                    className="group flex items-center gap-3 px-6 py-3 rounded-full font-semibold text-sm active:scale-[0.98] border"
-                    style={{ borderColor: "#F5D77A", color: "#F5D77A" }}
-                  >
-                    Apply now
-                    <span className="btn-icon-circle light">
-                      <Award className="w-3.5 h-3.5" strokeWidth={1.5} style={{ color: "#F5D77A" }} />
-                    </span>
-                  </button>
-                </Link>
-              </div>
-            </div>
-
-            {/* Stats card stack */}
-            <div className="relative reveal-up" style={{ transitionDelay: "200ms" }}>
-              <div className="card-shell">
-                <div className="card-core !p-8 text-center">
-                  <div
-                    className="text-6xl font-bold mb-3"
-                    style={{ fontFamily: "'Playfair Display', serif", color: "#F5D77A" }}
-                  >
-                    92%
-                  </div>
-                  <p className="text-[#D8CFB8] text-sm font-semibold mb-2">Job placement rate</p>
-                  <p className="text-[#8B7355] text-xs leading-relaxed">
-                    Our graduates work at festivals, bars, hotels, and private event companies across Atlanta and beyond.
-                  </p>
-                </div>
-              </div>
-              <div className="card-shell mt-4">
-                <div className="card-core !p-6">
-                  <div className="grid grid-cols-3 gap-4 text-center">
-                    {[
-                      { stat: "1", label: "Day course" },
-                      { stat: "40+", label: "Recipes mastered" },
-                      { stat: "92%", label: "Placement rate" },
-                    ].map((s, i) => (
-                      <div key={i}>
-                        <div className="text-2xl font-bold" style={{ color: "#F5D77A" }}>{s.stat}</div>
-                        <div className="text-[10px] uppercase tracking-wider text-[#8B7355] mt-1">{s.label}</div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-              <div
-                className="absolute -top-4 -right-4 rounded-2xl shadow-diffuse px-5 py-3"
-                style={{ backgroundColor: "#C8962E" }}
-              >
-                <p className="text-white font-bold text-sm">Next cohort: June 2026</p>
-                <p className="text-[#FDFBF7] text-xs mt-0.5">Atlanta, GA</p>
               </div>
             </div>
           </div>
