@@ -27,7 +27,6 @@ const intakeSchema = z.object({
   endTime: z.string().min(1, "End time is required"),
   barHours: z.string().min(1, "Bar service hours is required"),
   guestCount: z.string().min(1, "Guest count is required"),
-  permitRequired: z.enum(["yes", "no", "unsure"], { message: "Please select an option" }),
   serviceType: z.enum(["premium", "essential", "mixers", "wine", "mocktail", "coffee", "multiple", "unsure"], { message: "Service type is required" }),
   bartenders: z.string().optional(),
   barbacks: z.string().optional(),
@@ -81,7 +80,7 @@ function NavBar() {
         <Link href="/"><span className="text-lg font-bold cursor-pointer px-4 py-1.5 rounded-full" style={{ fontFamily: "'Playfair Display', serif", color: "#1A5632" }}>BevPro</span></Link>
         <div className="w-px h-6 bg-black/8 mx-1" />
         {[{ label: "Home", path: "/" }, { label: "Services", path: "/services" }, { label: "Packages", path: "/packages" }, { label: "About", path: "/about" }, { label: "Contact", path: "/contact" }].map((t) => (
-          <Link key={t.path} href={t.path}><span className={`nav-tab cursor-pointer ${loc === t.path ? "active" : ""}`}>{t.label}</span></Link>
+          <Link key={t.path} href={t.path}><span className={`nav-tab cursor-pointer ${t.label === "About" ? "nav-tab-mobile-hidden" : ""} ${loc === t.path ? "active" : ""}`}>{t.label}</span></Link>
         ))}
         <div className="w-px h-6 bg-black/8 mx-1" />
         <Link href="/contact"><button className="group flex items-center gap-2 px-4 py-1.5 rounded-full font-semibold text-sm text-white active:scale-[0.98]" style={{ backgroundColor: "#C8962E" }}>Book Now<span className="btn-icon-circle light"><ChefHat className="w-3.5 h-3.5 text-white" strokeWidth={1.5} /></span></button></Link>
@@ -116,7 +115,6 @@ export default function Intake() {
       endTime: "",
       barHours: "",
       guestCount: "",
-      permitRequired: undefined,
       serviceType: undefined,
       bartenders: "",
       barbacks: "",
@@ -209,7 +207,7 @@ export default function Intake() {
                       <FormItem>
                         <FormLabel className="text-[#1E1810] font-semibold text-sm">Please name your event <span style={{ color: "#C8962E" }}>*</span></FormLabel>
                         <FormControl>
-                          <Input {...field} placeholder="e.g., Schwarz / Malcom Wedding" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
+                          <Input {...field} placeholder="e.g., Megan Jones Wedding" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -231,7 +229,7 @@ export default function Intake() {
                       <FormItem>
                         <FormLabel className="text-[#1E1810] font-semibold text-sm">Event location <span style={{ color: "#C8962E" }}>*</span></FormLabel>
                         <FormControl>
-                          <Input {...field} placeholder="e.g., 9 Oaks Farm, Monroe GA" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
+                          <Input {...field} placeholder="e.g., 123 Main Street, Atlanta GA" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -267,7 +265,7 @@ export default function Intake() {
                           <FormControl>
                             <Input {...field} type="number" placeholder="e.g., 5" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
                           </FormControl>
-                          <p className="text-[#8B7355] text-xs mt-1">Actual serving hours only — not including setup &amp; breakdown</p>
+                          <p className="text-[#8B7355] text-xs mt-1">Actual serving hours only</p>
                           <FormMessage />
                         </FormItem>
                       )} />
@@ -282,23 +280,6 @@ export default function Intake() {
                       )} />
                     </div>
 
-                    {/* Q7: Permit */}
-                    <FormField control={form.control} name="permitRequired" render={({ field }) => (
-                      <FormItem>
-                        <FormLabel className="text-[#1E1810] font-semibold text-sm">Does your event require a local permit? <span style={{ color: "#C8962E" }}>*</span></FormLabel>
-                        <FormControl>
-                          <RadioGroup onValueChange={field.onChange} defaultValue={field.value} className="flex gap-6 mt-1">
-                            {[{ value: "yes", label: "Yes" }, { value: "no", label: "No" }, { value: "unsure", label: "Unsure" }].map((opt) => (
-                              <div key={opt.value} className="flex items-center gap-2">
-                                <RadioGroupItem value={opt.value} id={`permit-${opt.value}`} />
-                                <Label htmlFor={`permit-${opt.value}`} className="text-[#6B5E4A] text-sm cursor-pointer">{opt.label}</Label>
-                              </div>
-                            ))}
-                          </RadioGroup>
-                        </FormControl>
-                        <FormMessage />
-                      </FormItem>
-                    )} />
                   </div>
 
                   <hr className="my-8 border-[#E8DFD0]" />
@@ -416,7 +397,7 @@ export default function Intake() {
                       <FormItem>
                         <FormLabel className="text-[#1E1810] font-semibold text-sm">Full name <span style={{ color: "#C8962E" }}>*</span></FormLabel>
                         <FormControl>
-                          <Input {...field} placeholder="e.g., Jamie Schwarz" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
+                          <Input {...field} placeholder="e.g., Megan Jones" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -427,7 +408,7 @@ export default function Intake() {
                       <FormItem>
                         <FormLabel className="text-[#1E1810] font-semibold text-sm">Email <span style={{ color: "#C8962E" }}>*</span></FormLabel>
                         <FormControl>
-                          <Input {...field} type="email" placeholder="e.g., jamie@example.com" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
+                          <Input {...field} type="email" placeholder="e.g., megan@example.com" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -438,7 +419,7 @@ export default function Intake() {
                       <FormItem>
                         <FormLabel className="text-[#1E1810] font-semibold text-sm">Phone number <span style={{ color: "#C8962E" }}>*</span></FormLabel>
                         <FormControl>
-                          <Input {...field} type="tel" placeholder="e.g., 985-778-3334" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
+                          <Input {...field} type="tel" placeholder="e.g., 770-555-1234" className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -503,7 +484,7 @@ export default function Intake() {
                 <h4 className="font-bold mb-4" style={{ color: "#1A5632" }}>Direct contact</h4>
                 <div className="space-y-4 text-sm">
                   <div><p className="text-[#1E1810] font-semibold mb-0.5">Email</p><a href="mailto:hello@mybevpro.com" style={{ color: "#2D8A4E" }} className="hover:underline">hello@mybevpro.com</a></div>
-                  <div><p className="text-[#1E1810] font-semibold mb-0.5">Phone</p><a href="tel:+14045551234" style={{ color: "#2D8A4E" }} className="hover:underline">(404) 555-1234</a></div>
+                  <div><p className="text-[#1E1810] font-semibold mb-0.5">Phone</p><a href="tel:+16788881505" style={{ color: "#2D8A4E" }} className="hover:underline">(678) 888-1505</a></div>
                   <div><p className="text-[#1E1810] font-semibold mb-0.5">Location</p><p className="text-[#6B5E4A]">Atlanta, GA</p></div>
                 </div>
               </div>
@@ -519,7 +500,7 @@ export default function Intake() {
             <div><h4 className="font-bold mb-4 text-lg" style={{ fontFamily: "'Playfair Display', serif", color: "#F5D77A" }}>BevPro</h4><p className="text-[#B8A88A] text-sm">Premium beverage catering.<br />Atlanta, Georgia.</p><SocialLinks className="mt-5" /></div>
             <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Services</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li>Alcohol Catering</li><li>Coffee Catering</li><li>Mocktail Packages</li><li>Wine Tasting</li><li>Mixology Classes</li><li>Bartender Training</li></ul></div>
             <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Links</h5><ul className="space-y-2.5 text-sm"><li><Link href="/packages"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Packages</span></Link></li><li><Link href="/about"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">About</span></Link></li><li><Link href="/contact"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Contact</span></Link></li><li><Link href="/intake"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Book an Event</span></Link></li><li><Link href="/terms"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Terms</span></Link></li><li><Link href="/privacy"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Privacy</span></Link></li></ul></div>
-            <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Contact</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li><a href="mailto:hello@mybevpro.com" className="hover:text-white transition-colors duration-500">hello@mybevpro.com</a></li><li><a href="tel:+14045551234" className="hover:text-white transition-colors duration-500">(404) 555-1234</a></li><li>Atlanta, GA</li></ul></div>
+            <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Contact</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li><a href="mailto:hello@mybevpro.com" className="hover:text-white transition-colors duration-500">hello@mybevpro.com</a></li><li><a href="tel:+16788881505" className="hover:text-white transition-colors duration-500">(678) 888-1505</a></li><li>Atlanta, GA</li></ul></div>
           </div>
           <div className="border-t border-white/10 pt-8 text-center text-xs text-[#6B5E4A]"><p>&copy; 2026 BevPro LLC. All rights reserved.</p></div>
         </div>

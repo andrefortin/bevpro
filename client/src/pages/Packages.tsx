@@ -36,7 +36,7 @@ function NavBar() {
         <Link href="/"><span className="text-lg font-bold cursor-pointer px-4 py-1.5 rounded-full" style={{ fontFamily: "'Playfair Display', serif", color: "#1A5632" }}>BevPro</span></Link>
         <div className="w-px h-6 bg-black/8 mx-1" />
         {[{ label: "Home", path: "/" }, { label: "Services", path: "/services" }, { label: "Packages", path: "/packages" }, { label: "About", path: "/about" }, { label: "Contact", path: "/contact" }].map((t) => (
-          <Link key={t.path} href={t.path}><span className={`nav-tab cursor-pointer ${loc === t.path ? "active" : ""}`}>{t.label}</span></Link>
+          <Link key={t.path} href={t.path}><span className={`nav-tab cursor-pointer ${t.label === "About" ? "nav-tab-mobile-hidden" : ""} ${loc === t.path ? "active" : ""}`}>{t.label}</span></Link>
         ))}
         <div className="w-px h-6 bg-black/8 mx-1" />
         <Link href="/contact"><button className="group flex items-center gap-2 px-4 py-1.5 rounded-full font-semibold text-sm text-white active:scale-[0.98]" style={{ backgroundColor: "#C8962E" }}>Book Now<span className="btn-icon-circle light"><ChefHat className="w-3.5 h-3.5 text-white" strokeWidth={1.5} /></span></button></Link>
@@ -122,13 +122,12 @@ export default function Packages() {
           <div className="grid md:grid-cols-2 gap-5 max-w-4xl mx-auto">
             {[
               { title: "Additional Bartender", desc: "Extra bartender for larger events or extended hours", price: "$300/hr" },
-              { title: "Extended Hours", desc: "Extend service beyond standard package hours", price: "$150/hr" },
-              { title: "Coffee Bar Add-on", desc: "Full espresso bar with barista for morning or late-night service", price: "$500" },
-              { title: "Mocktail Station", desc: "Dedicated zero-proof cocktail station with premium ingredients", price: "$400" },
-              { title: "Custom Cocktail Menu Design", desc: "Signature cocktail menu tailored to your event theme", price: "$300" },
-              { title: "Wine Tasting Add-on", desc: "Guided tasting experience during cocktail hour", price: "$500" },
-              { title: "Premium Glassware Upgrade", desc: "Crystal glassware for an elevated experience", price: "$200" },
-              { title: "Branded Bar Setup", desc: "Custom signage and branded bar aesthetic", price: "$350" },
+              { title: "Coffee Bar Add-on", desc: "Full espresso bar with barista for morning or late-night service. Minimum 50 people.", price: "Starting at $15/person" },
+              { title: "Mocktail Station", desc: "Dedicated zero-proof cocktail station with premium ingredients", price: "Starting at $18/person" },
+              { title: "Custom Cocktail Menu", desc: "Simple cocktail menu and frame included with all packages. [Click here] to see custom branded event options.", price: "Included" },
+              { title: "Wine Tasting Experience", desc: "Upgrade your event experience — we bring the winery to you", price: "Starting at $20/person" },
+              { title: "Premium Glassware Upgrade", desc: "Plasticware is included with all of our packages. Upgrade to glassware for an elevated experience.", price: "$7/person" },
+              { title: "Branded Bar Setup", desc: "Custom signage and branded bar aesthetic", price: "Starting at $150" },
             ].map((a, i) => (
               <div key={i} className="card-shell reveal-up" style={{ transitionDelay: `${i * 60}ms` }}>
                 <div className="card-core !p-5 !rounded-[calc(2rem-0.5rem)]">
@@ -159,7 +158,7 @@ export default function Packages() {
             <div><h4 className="font-bold mb-4 text-lg" style={{ fontFamily: "'Playfair Display', serif", color: "#F5D77A" }}>BevPro</h4><p className="text-[#B8A88A] text-sm">Premium beverage catering.<br />Atlanta, Georgia.</p><SocialLinks className="mt-5" /></div>
             <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Services</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li>Alcohol Catering</li><li>Coffee Catering</li><li>Mocktail Packages</li><li>Wine Tasting</li><li>Mixology Classes</li><li>Bartender Training</li></ul></div>
             <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Links</h5><ul className="space-y-2.5 text-sm"><li><Link href="/packages"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Packages</span></Link></li><li><Link href="/about"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">About</span></Link></li><li><Link href="/contact"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Contact</span></Link></li><li><a href="https://www.groupon.com" target="_blank" rel="noopener noreferrer" className="text-[#B8A88A] hover:text-white transition-colors duration-500">Groupon</a></li><li><Link href="/terms"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Terms</span></Link></li><li><Link href="/privacy"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Privacy</span></Link></li></ul></div>
-            <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Contact</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li><a href="mailto:hello@mybevpro.com" className="hover:text-white transition-colors duration-500">hello@mybevpro.com</a></li><li><a href="tel:+14045551234" className="hover:text-white transition-colors duration-500">(404) 555-1234</a></li><li>Atlanta, GA</li></ul></div>
+            <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Contact</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li><a href="mailto:hello@mybevpro.com" className="hover:text-white transition-colors duration-500">hello@mybevpro.com</a></li><li><a href="tel:+16788881505" className="hover:text-white transition-colors duration-500">(678) 888-1505</a></li><li>Atlanta, GA</li></ul></div>
           </div>
           <div className="border-t border-white/10 pt-8 text-center text-xs text-[#6B5E4A]"><p>&copy; 2026 BevPro LLC. All rights reserved.</p></div>
         </div>

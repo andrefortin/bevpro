@@ -19,13 +19,13 @@
 - Active tab: forest green fill with white text
 - Gold "Book Now" CTA button
 
-### Services (Updated 2026-05-01)
-1. Alcohol Catering
-2. Coffee Catering
-3. Mocktail Packages
-4. Wine Tasting Experience
-5. Mixology Classes (Atlanta local)
-6. Bartender Training (4-week career program with festival placement)
+### Services (Updated 2026-05-07)
+1. Alcohol Catering — Dry-hire model, we accept delivery on your behalf
+2. Coffee Catering — Lattes, cappuccinos, cold brew, matchas, specialty drinks, production sets
+3. Mocktail Packages — Starting at $18/person
+4. Wine Tasting Experience — Starting at $20/person, "we bring the winery to you"
+5. Mixology Classes — We come to your location, Groupon deals available
+6. Bartender Training — Bartender in a Day (1-day intense, $499, job placement assistance)
 
 ### Mixology Classes Section
 - Fun, energetic green section (#1A5632) with dot-pattern SVG background (no emojis)
@@ -34,18 +34,25 @@
 - "What you'll learn" icon grid using Lucide icons
 - 500+ students, 4.9 rating social proof + gold avatars
 
-### Bartender Training Section
+### Bartender in a Day Section
 - Dark section (#1E1810) with gold line-pattern SVG background
-- Career pathway positioning: "with a job at the end"
-- Feature pills: Guaranteed job placement, Festival work experience, Industry certification
-- Stats cards: 92% placement rate, 4-week program, 40+ recipes, 1 festival booked
+- Career pathway positioning: "Get hired-ready fast"
+- Feature pills: Job placement assistance, Taught by hiring managers, Industry certification
+- Stats cards: 92% placement rate, 1-day course, 40+ recipes
 - CTA links to `/bartender-training` dedicated page
+- Taught by bartenders who have hired hundreds — we know what employers look for
+
+### Service Area Strategy (Updated 2026-05-07)
+- Georgia-based with nationwide availability messaging
+- County-level service area: Fulton, Gwinnett, Cobb, DeKalb, Forsyth, Cherokee, Douglas, And Beyond…
+- Map section remains as primary local anchor
+- Aggressive Atlanta-only language removed throughout site
 
 ### Design Principles
 - Colorful, vibrant imagery (not monochromatic)
 - Rounded corners everywhere (rounded-2xl, rounded-3xl)
 - Warm, inviting feel — upscale but approachable
-- Atlanta-local emphasis throughout
+- Georgia-based with nationwide reach
 
 ---
 

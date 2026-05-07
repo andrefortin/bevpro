@@ -72,11 +72,12 @@ bevpro/
 | Path | Component | Notes |
 |------|-----------|-------|
 | `/` | `Home.tsx` | Landing — hero, services, service area, FAQ, testimonials, Groupon CTA |
-| `/services` | `Services.tsx` | 5 service detail sections: Alcohol, Coffee, Mocktail, Wine, Classes |
-| `/packages` | `Packages.tsx` | 3 tiers (Essential/Premium/Grand) + add-ons + comparison table |
+| `/services` | `Services.tsx` | 5 service detail sections: Alcohol, Coffee, Mocktail, Wine, Mixology Classes |
+| `/packages` | `Packages.tsx` | 3 tiers (Essential/Premium/Grand) + 7 add-ons |
 | `/about` | `About.tsx` | Company story, core values, stats |
 | `/contact` | `Contact.tsx` | Quote request form, direct contact, trust badges, FAQ |
-| `/intake` | `Intake.tsx` | Full event planning intake — 15 questions, 3 sections, react-hook-form + zod |
+| `/intake` | `Intake.tsx` | Full event planning intake — 14 questions, 3 sections, react-hook-form + zod |
+| `/bartender-training` | `BartenderTraining.tsx` | Bartender in a Day — 1-day course details, curriculum, placement, FAQ |
 | `/terms` | `Terms.tsx` | 11-section Terms & Conditions |
 | `/privacy` | `Privacy.tsx` | 12-section Privacy Policy |
 | `/404` | `NotFound.tsx` | Explicit 404 |
@@ -136,10 +137,12 @@ bevpro/
 - **JSON-LD:** `LocalBusiness` with `OfferCatalog` (all 5 services), `GeoCircle` for Atlanta metro, `OpeningHoursSpecification`, `PostalAddress`
 
 ### Content
-- **H1:** Includes primary keywords ("Atlanta beverage catering & mixology classes")
+- **H1:** Includes primary keywords ("Beverage catering & mixology classes")
+- **Phone:** (678) 888-1505 — displayed across all pages in footer, contact, intake, and body text
 - **13 FAQ items** on Home page covering: service area, event types, dry-hire, classes, pricing, differentiation, mocktails, venues, booking, insurance, custom menus
-- **Service Area section:** 16 Atlanta neighborhoods listed with local keyword density
+- **Service Area section:** 8 Georgia counties (Fulton, Gwinnett, Cobb, DeKalb, Forsyth, Cherokee, Douglas, And Beyond…) — replaced the previous 16-neighborhood Atlanta grid
 - **Home page content:** ~3,500 words, 13 H2s
+- **Targeting:** Georgia-based with nationwide availability messaging; map section preserved as primary local anchor
 
 ### Current Limitations
 - No `sitemap.xml`
@@ -184,12 +187,12 @@ pnpm format       # prettier --write .
 
 ## Services
 
-1. Alcohol Catering
-2. Coffee Catering
-3. Mocktail Packages
-4. Wine Tasting Experience
-5. Mixology Classes (Atlanta local — Groupon deals available)
-6. Bartender Training (4-week career program — guaranteed festival placement)
+1. Alcohol Catering — Dry-hire model, we accept delivery on your behalf
+2. Coffee Catering — Professional baristas, latte art, cold brew, matchas, specialty drinks, production sets
+3. Mocktail Packages — Starting at $18/person
+4. Wine Tasting Experience — Starting at $20/person, "we bring the winery to you"
+5. Mixology Classes — We come to your location, Groupon deals available
+6. Bartender Training — Bartender in a Day (1-day intense course, $499, job placement assistance)
 
 ---
 
@@ -218,13 +221,21 @@ pnpm format       # prettier --write .
 
 ---
 
-## Current State (2026-05-05)
+## Current State (2026-05-07)
 
-- **All 8 pages:** Fully built with green/gold design system applied
+- **All 9 pages:** Fully built with green/gold design system applied
+- **Content overhaul:** De-localized from Atlanta-only to Georgia/nationwide framing. Phone number changed site-wide to (678) 888-1505. County-based service area replacing neighborhood grid.
+- **Bartender Training:** Rewritten as 1-day "Bartender in a Day" course ($499) with job placement assistance
+- **Packages pricing:** All add-ons updated — Coffee Bar $15/person, Mocktail $18/person, Wine $20/person, Glassware $7/person, Branded Bar $150 starting
+- **Wine tasting:** Removed sommelier references, new curated experience messaging
+- **Coffee:** Matcha added to all descriptions, production sets language
+- **Mixology:** Clarified classes come to client's location
+- **Intake form:** Permit question removed, all placeholder data scrubbed to Megan Jones
+- **Mobile nav:** Responsive tab sizing + About tab hidden on portrait mobile
 - **Navigation:** Floating glass pill with curved tab navigation on all pages
 - **Images:** 14 Unsplash photos, all verified working (HTTP 200), served via `@/lib/images`
 - **SEO:** JSON-LD schema, meta tags, OG/twitter cards, 13 FAQ items, service area content
 - **Legal:** `/terms` and `/privacy` pages built with full branding
-- **Footer:** Terms and Privacy links on all pages
+- **Footer:** Terms, Privacy, Bartender Training links on all pages
 - **Design skills applied:** `high-end-visual-design`, `design-taste-frontend`, `stitch-design-taste`
 - **Build:** Requires `pnpm install && pnpm dev` (dependencies not installed in this sandbox)

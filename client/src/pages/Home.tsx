@@ -76,13 +76,16 @@ function NavBar() {
           </span>
         </Link>
         <div className="w-px h-6 bg-black/8 mx-1" />
-        {tabs.map((t) => (
+        {tabs.map((t) => {
+          const isHidden = t.label === "About";
+          return (
           <Link key={t.path} href={t.path}>
-            <span className={`nav-tab cursor-pointer ${loc === t.path ? "active" : ""}`}>
+            <span className={`nav-tab cursor-pointer ${isHidden ? "nav-tab-mobile-hidden" : ""} ${loc === t.path ? "active" : ""}`}>
               {t.label}
             </span>
           </Link>
-        ))}
+          );
+        })}
         <div className="w-px h-6 bg-black/8 mx-1" />
         <Link href="/contact">
           <button
@@ -230,10 +233,10 @@ export default function Home() {
               Who we serve
             </div>
             <h2 style={{ color: "#1A5632" }} className="mb-3">
-              Atlanta event bar catering for every occasion.
+              Event bar catering for every occasion.
             </h2>
             <p className="text-[#6B5E4A] max-w-2xl mx-auto text-sm leading-relaxed">
-              From Buckhead weddings to Midtown corporate galas, Sandy Springs birthdays to Decatur team-building workshops — BevPro brings the bar to your venue. Alcohol catering, coffee bars, mocktail stations, wine tastings, and mixology classes, all delivered by certified Atlanta bartenders.
+              From weddings to corporate galas, birthdays to team-building workshops — BevPro brings the bar to your venue. Alcohol catering, coffee bars, mocktail stations, wine tastings, and mixology classes, all delivered by certified professional bartenders.
             </p>
           </div>
 
@@ -271,17 +274,15 @@ export default function Home() {
                 Service Area
               </div>
               <h2 style={{ color: "#1A5632" }} className="mb-4">
-                Serving Atlanta &amp; the metro area.
+                Based in Georgia, serving nationwide.
               </h2>
               <p className="text-[#6B5E4A] mb-6 leading-relaxed">
-                BevPro is based in Atlanta, Georgia and provides mobile bar catering, coffee catering, mocktail packages, wine tasting experiences, mixology classes, and bartender training throughout the entire metro area. We bring everything to your venue — you focus on your guests.
+                BevPro is based in Atlanta, Georgia and provides mobile bar catering, coffee catering, mocktail packages, wine tasting experiences, mixology classes, and bartender training — with nationwide availability. We bring everything to your venue — you focus on your guests.
               </p>
               <div className="grid grid-cols-2 gap-3 text-sm">
                 {[
-                  "Buckhead", "Midtown", "Downtown Atlanta", "Decatur",
-                  "Sandy Springs", "Roswell", "Alpharetta", "Marietta",
-                  "Dunwoody", "Brookhaven", "Vinings", "East Cobb",
-                  "Virginia Highland", "Inman Park", "Druid Hills", "College Park",
+                  "Fulton", "Gwinnett", "Cobb", "DeKalb",
+                  "Forsyth", "Cherokee", "Douglas", "And Beyond…",
                 ].map((area) => (
                   <div key={area} className="flex items-center gap-2 text-[#6B5E4A]">
                     <MapPin className="w-3 h-3 flex-shrink-0" style={{ color: "#2D8A4E" }} strokeWidth={1.5} />
@@ -290,7 +291,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-xs text-[#8B7355] mt-6">
-                Travel beyond metro Atlanta available on request. Call us at <a href="tel:+14045551234" className="underline" style={{ color: "#2D8A4E" }}>(404) 555-1234</a> or email <a href="mailto:hello@mybevpro.com" className="underline" style={{ color: "#2D8A4E" }}>hello@mybevpro.com</a> to confirm availability for your specific venue.
+                Nationwide travel available on request. Call us at <a href="tel:+16788881505" className="underline" style={{ color: "#2D8A4E" }}>(678) 888-1505</a> or email <a href="mailto:hello@mybevpro.com" className="underline" style={{ color: "#2D8A4E" }}>hello@mybevpro.com</a> to confirm availability for your specific venue.
               </p>
             </div>
             <div className="reveal-up" style={{ transitionDelay: "150ms" }}>
@@ -298,7 +299,7 @@ export default function Home() {
                 <div className="card-core !p-4">
                   <img
                     src="/google-maps-atlanta-ga.png"
-                    alt="Google Maps view of Atlanta Georgia metro area — BevPro beverage catering service area covering Buckhead, Midtown, Decatur, Sandy Springs, Roswell, and surrounding neighborhoods"
+                    alt="Google Maps view of Atlanta Georgia — BevPro beverage catering service area covering Fulton, Gwinnett, Cobb, DeKalb, Forsyth, Cherokee, Douglas, and beyond"
                     className="rounded-2xl w-full h-auto"
                     loading="lazy"
                   />
@@ -320,7 +321,7 @@ export default function Home() {
               Six ways we serve Atlanta.
             </h2>
             <p className="text-[#6B5E4A] max-w-xl">
-              From mobile bar catering to career bartender training — every service is delivered by certified professionals who treat your event like their own. Based in Atlanta, serving the entire metro area.
+              From mobile bar catering to career bartender training — every service is delivered by certified professionals who treat your event like their own. Based in Georgia, available nationwide.
             </p>
           </div>
 
@@ -429,9 +430,9 @@ export default function Home() {
           {/* Trust bar — local SEO + social proof */}
           <div className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {[
-              { stat: "500+", label: "Events served in Atlanta" },
+              { stat: "500+", label: "Events served" },
               { stat: "95%", label: "Client rebook rate" },
-              { stat: "16+", label: "Metro neighborhoods" },
+              { stat: "8+", label: "Georgia counties" },
               { stat: "10+", label: "Years in business" },
             ].map((item, i) => (
               <div key={i} className="reveal-up rounded-2xl bg-[#FDFBF7] border border-[#E8DFD0] px-4 py-5" style={{ transitionDelay: `${i * 80}ms` }}>
@@ -468,12 +469,12 @@ export default function Home() {
               </div>
               <h2 className="text-white mb-4" style={{ color: "#fff" }}>
                 Mixology classes,{" "}
-                <span style={{ color: "#F5D77A" }}>live in Atlanta.</span>
+                <span style={{ color: "#F5D77A" }}>we come to you.</span>
               </h2>
               <p className="text-[#D8CFB8] mb-8 leading-relaxed max-w-md">
-                Hands-on workshops where you shake, stir, and pour your way to cocktail
+                Hands-on workshops at your location. You shake, stir, and pour your way to cocktail
                 confidence. No experience required. We bring the tools, the ingredients, and
-                the energy — you bring your crew.
+                the energy to you — you just bring your crew.
               </p>
 
               {/* Class format pills */}
@@ -666,9 +667,9 @@ export default function Home() {
                 <div className="card-core !p-6">
                   <div className="grid grid-cols-3 gap-4 text-center">
                     {[
-                      { stat: "4", label: "Week program" },
+                      { stat: "1", label: "Day course" },
                       { stat: "40+", label: "Recipes mastered" },
-                      { stat: "1", label: "Festival booked" },
+                      { stat: "92%", label: "Placement rate" },
                     ].map((s, i) => (
                       <div key={i}>
                         <div className="text-2xl font-bold" style={{ color: "#F5D77A" }}>{s.stat}</div>
@@ -683,7 +684,7 @@ export default function Home() {
                 style={{ backgroundColor: "#C8962E" }}
               >
                 <p className="text-white font-bold text-sm">Next cohort: June 2026</p>
-                <p className="text-[#FDFBF7] text-xs mt-0.5">Atlanta Music Festival included</p>
+                <p className="text-[#FDFBF7] text-xs mt-0.5">Atlanta, GA</p>
               </div>
             </div>
           </div>
@@ -802,14 +803,14 @@ export default function Home() {
               Atlanta beverage catering FAQ.
             </h2>
             <p className="text-[#6B5E4A] text-sm max-w-lg mx-auto">
-              Answers to common questions about our mobile bar service, mixology classes, bartender training, and event catering across the Atlanta metro area.
+              Answers to common questions about our mobile bar service, mixology classes, bartender training, and event catering nationwide.
             </p>
           </div>
           <div className="space-y-8">
             {[
               {
                 q: "What areas does BevPro serve?",
-                a: "We are based in Atlanta and serve the entire metro area — Buckhead, Midtown, Decatur, Sandy Springs, Roswell, Alpharetta, Marietta, Dunwoody, and surrounding communities. Travel to other Georgia locations is available on request. Contact us to confirm availability for your specific venue.",
+                a: "We are based in Atlanta, Georgia and serve the metro area — Fulton, Gwinnett, Cobb, DeKalb, Forsyth, Cherokee, Douglas, and surrounding communities. Nationwide travel is available on request. Contact us to confirm availability for your specific venue.",
               },
               {
                 q: "What types of events do you cater?",
@@ -840,11 +841,11 @@ export default function Home() {
                 a: "Definitely. We design signature cocktail menus tailored to your event theme, company branding, or personal preferences. Custom menus are available as an add-on with our Premium and Grand packages, or can be added to any booking.",
               },
               {
-                q: "How much does beverage catering cost in Atlanta?",
+                q: "How much does beverage catering cost?",
                 a: "Our bar service packages start at $1,200 for the Essential tier (50–100 guests, 1 bartender) and go up to custom quotes for Grand Celebration events (250+ guests). Alcohol is purchased separately by you at retail cost — we charge only for our professional bartending and bar management service. Coffee catering, mocktail packages, wine tastings, mixology classes, and bartender training are priced individually. Request a quote for a detailed proposal tailored to your event.",
               },
               {
-                q: "What makes BevPro different from other Atlanta bar services?",
+                q: "What makes BevPro different from other bar services?",
                 a: "Three things set us apart. First, our dry-hire model — you control your alcohol budget with zero markup from us. Second, our bartenders are career professionals, not temporary gig workers. Third, we are a full-service beverage company — alcohol catering, coffee, mocktails, wine tastings, mixology classes, and bartender training all under one roof. One call, one team, one standard of excellence.",
               },
               {
@@ -857,11 +858,11 @@ export default function Home() {
               },
               {
                 q: "What is included in a mixology class?",
-                a: "Each 2-hour mixology class includes all tools (shakers, jiggers, strainers, glassware), all ingredients (spirits, mixers, fresh garnishes), printed recipe cards for every drink you learn, and hands-on instruction from a professional bartender. You will make and enjoy 4 signature cocktails during the workshop. Classes are available as private bookings for groups of 6–20, or you can join a public workshop at a partner venue. Groupon deals are available for select sessions.",
+                a: "Each 2-hour mixology class includes all tools (shakers, jiggers, strainers, glassware), all ingredients (spirits, mixers, fresh garnishes), printed recipe cards for every drink you learn, and hands-on instruction from a professional bartender. You choose how many drinks you want to learn. We come to your location — no travel on your end. Classes are available as private bookings for groups of 6–20, or you can join a public workshop at a partner venue. Groupon deals are available for select sessions.",
               },
               {
                 q: "How does the bartender training program work?",
-                a: "Our 4-week Bartender Training Program is a professional career course taught in Atlanta. Weeks 1–2 cover speed pouring, 40+ recipes, bar setup, and workflow. Week 3 is certification prep — responsible alcohol service, customer service, and POS systems. Week 4 is your guaranteed festival placement: work a live event with real guests under BevPro supervision. Tuition is $1,499 and includes a full refund guarantee if we cannot place you within 60 days of graduation.",
+                a: "Our Bartender in a Day program is a super intense 1-day course. You&apos;ll learn the top skills needed to get your foot in the door — speed, accuracy, and recipe mastery. Taught by bartenders who have hired hundreds and know exactly what employers are looking for. Job placement assistance is available upon completion.",
               },
             ].map((faq, i) => (
               <div key={i} className="reveal-up" style={{ transitionDelay: `${i * 60}ms` }}>
@@ -979,8 +980,8 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="tel:+14045551234" className="hover:text-white transition-colors duration-500">
-                    (404) 555-1234
+                  <a href="tel:+16788881505" className="hover:text-white transition-colors duration-500">
+                    (678) 888-1505
                   </a>
                 </li>
                 <li>Atlanta, GA</li>

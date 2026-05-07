@@ -31,7 +31,7 @@ function NavBar() {
         <Link href="/"><span className="text-lg font-bold cursor-pointer px-4 py-1.5 rounded-full" style={{ fontFamily: "'Playfair Display', serif", color: "#1A5632" }}>BevPro</span></Link>
         <div className="w-px h-6 bg-black/8 mx-1" />
         {[{ label: "Home", path: "/" }, { label: "Services", path: "/services" }, { label: "Packages", path: "/packages" }, { label: "About", path: "/about" }, { label: "Contact", path: "/contact" }].map((t) => (
-          <Link key={t.path} href={t.path}><span className={`nav-tab cursor-pointer ${loc === t.path ? "active" : ""}`}>{t.label}</span></Link>
+          <Link key={t.path} href={t.path}><span className={`nav-tab cursor-pointer ${t.label === "About" ? "nav-tab-mobile-hidden" : ""} ${loc === t.path ? "active" : ""}`}>{t.label}</span></Link>
         ))}
         <div className="w-px h-6 bg-black/8 mx-1" />
         <Link href="/contact"><button className="group flex items-center gap-2 px-4 py-1.5 rounded-full font-semibold text-sm text-white active:scale-[0.98]" style={{ backgroundColor: "#C8962E" }}>Book Now<span className="btn-icon-circle light"><ChefHat className="w-3.5 h-3.5 text-white" strokeWidth={1.5} /></span></button></Link>
@@ -117,7 +117,7 @@ export default function Terms() {
             <div>
               <h3 className="font-bold text-base mb-3" style={{ color: "#1A5632" }}>11. Contact</h3>
               <p>For questions about these Terms, contact us at:</p>
-              <p className="mt-1">BevPro LLC<br />Atlanta, GA<br /><a href="mailto:hello@mybevpro.com" style={{ color: "#2D8A4E" }}>hello@mybevpro.com</a><br />(404) 555-1234</p>
+              <p className="mt-1">BevPro LLC<br />Atlanta, GA<br /><a href="mailto:hello@mybevpro.com" style={{ color: "#2D8A4E" }}>hello@mybevpro.com</a><br />(678) 888-1505</p>
             </div>
           </div>
         </div>

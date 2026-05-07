@@ -33,7 +33,7 @@ function NavBar() {
         <Link href="/"><span className="text-lg font-bold cursor-pointer px-4 py-1.5 rounded-full" style={{ fontFamily: "'Playfair Display', serif", color: "#1A5632" }}>BevPro</span></Link>
         <div className="w-px h-6 bg-black/8 mx-1" />
         {[{ label: "Home", path: "/" }, { label: "Services", path: "/services" }, { label: "Packages", path: "/packages" }, { label: "About", path: "/about" }, { label: "Contact", path: "/contact" }].map((t) => (
-          <Link key={t.path} href={t.path}><span className={`nav-tab cursor-pointer ${loc === t.path ? "active" : ""}`}>{t.label}</span></Link>
+          <Link key={t.path} href={t.path}><span className={`nav-tab cursor-pointer ${t.label === "About" ? "nav-tab-mobile-hidden" : ""} ${loc === t.path ? "active" : ""}`}>{t.label}</span></Link>
         ))}
         <div className="w-px h-6 bg-black/8 mx-1" />
         <Link href="/contact"><button className="group flex items-center gap-2 px-4 py-1.5 rounded-full font-semibold text-sm text-white active:scale-[0.98]" style={{ backgroundColor: "#C8962E" }}>Book Now<span className="btn-icon-circle light"><ChefHat className="w-3.5 h-3.5 text-white" strokeWidth={1.5} /></span></button></Link>
@@ -60,7 +60,7 @@ export default function About() {
       <section className="pt-36 pb-16 md:pt-44 md:pb-24 text-center" style={{ backgroundColor: "#1A5632" }}>
         <div className="container">
           <div className="eyebrow bg-white/15 text-[#F5D77A] mx-auto w-fit mb-6"><MapPin className="w-3 h-3" strokeWidth={1.5} /> Atlanta, Georgia</div>
-          <h1 className="text-white mb-4" style={{ color: "#fff" }}>Atlanta's <span style={{ color: "#F5D77A" }}>beverage catering</span> company.</h1>
+          <h1 className="text-white mb-4" style={{ color: "#fff" }}>Atlanta's top <span style={{ color: "#F5D77A" }}>beverage catering</span> company.</h1>
           <p className="text-[#D8CFB8] max-w-xl mx-auto leading-relaxed">From craft cocktails to artisanal coffee — we bring the bar to you with precision, warmth, and a standard that speaks for itself.</p>
         </div>
       </section>
@@ -70,9 +70,9 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="reveal-up">
               <h2 style={{ color: "#1A5632" }} className="mb-6">Why we exist.</h2>
-              <p className="text-[#6B5E4A] mb-5 leading-relaxed">Atlanta deserved a beverage catering company that treats every event like it is the only one that matters. Too many services show up, pour, and disappear. We create experiences people remember.</p>
+              <p className="text-[#6B5E4A] mb-5 leading-relaxed">Georgia deserved a beverage catering company that treats every event like it is the only one that matters. Too many services show up, pour, and disappear. We create experiences people remember.</p>
               <p className="text-[#6B5E4A] mb-5 leading-relaxed">Our model puts you in control of your alcohol budget while we handle expertise, logistics, and execution. No surprises. No stress. Just exceptional service from people who care.</p>
-              <p className="text-[#6B5E4A] leading-relaxed">From weddings in Buckhead to corporate galas in Midtown — we have served hundreds of events across the metro area and built relationships that last.</p>
+              <p className="text-[#6B5E4A] leading-relaxed">From weddings to corporate galas — we have served hundreds of events across Georgia and built relationships that last.</p>
             </div>
             <div className="reveal-up" style={{ transitionDelay: "150ms" }}>
               <div className="card-shell">
@@ -142,7 +142,7 @@ export default function About() {
             <div><h4 className="font-bold mb-4 text-lg" style={{ fontFamily: "'Playfair Display', serif", color: "#F5D77A" }}>BevPro</h4><p className="text-[#B8A88A] text-sm">Premium beverage catering.<br />Atlanta, Georgia.</p><SocialLinks className="mt-5" /></div>
             <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Services</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li>Alcohol Catering</li><li>Coffee Catering</li><li>Mocktail Packages</li><li>Wine Tasting</li><li>Mixology Classes</li><li>Bartender Training</li></ul></div>
             <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Links</h5><ul className="space-y-2.5 text-sm"><li><Link href="/packages"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Packages</span></Link></li><li><Link href="/about"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">About</span></Link></li><li><Link href="/contact"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Contact</span></Link></li><li><a href="https://www.groupon.com" target="_blank" rel="noopener noreferrer" className="text-[#B8A88A] hover:text-white transition-colors duration-500">Groupon</a></li><li><Link href="/terms"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Terms</span></Link></li><li><Link href="/privacy"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Privacy</span></Link></li></ul></div>
-            <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Contact</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li><a href="mailto:hello@mybevpro.com" className="hover:text-white transition-colors duration-500">hello@mybevpro.com</a></li><li><a href="tel:+14045551234" className="hover:text-white transition-colors duration-500">(404) 555-1234</a></li><li>Atlanta, GA</li></ul></div>
+            <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Contact</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li><a href="mailto:hello@mybevpro.com" className="hover:text-white transition-colors duration-500">hello@mybevpro.com</a></li><li><a href="tel:+16788881505" className="hover:text-white transition-colors duration-500">(678) 888-1505</a></li><li>Atlanta, GA</li></ul></div>
           </div>
           <div className="border-t border-white/10 pt-8 text-center text-xs text-[#6B5E4A]"><p>&copy; 2026 BevPro LLC. All rights reserved.</p></div>
         </div>

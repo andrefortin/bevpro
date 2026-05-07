@@ -60,21 +60,62 @@ I will notify the user of every skill I provision.
 *   **Lesson:** Hardcoded strings or assumed location formats break the system. Explicit schema enforcement and resolver skills are necessary for robust scaling.
 *   **Action:** All agents must check if a `geo-resolver` skill is available and use it when location is an input.
 
-## 💡 BevPro Site Development (2026-05-05)
+## BevPro Site Development (2026-05-07)
 
-### Footer Editing
+### Content Overhaul — National Expansion
 
-*   **Footers use single-line format.** Most page footers use `<p className="text-[#B8A88A] text-sm">Premium beverage catering.<br />Atlanta, Georgia.</p>` on one line. When batch-editing across pages, match the exact single-line format — multiline `oldText` won't match.
+*   **De-localized the site.** Removed aggressive "Atlanta" anchoring across all pages. Eyebrows, H1s, H2s, body copy, service descriptions, trust bar stats, and FAQ text all shifted from metro-only to statewide/nationwide framing. The map section remains as the sole local anchor.
+*   **County-based service area.** Replaced the 16-neighborhood Atlanta grid with 8 Georgia counties: Fulton, Gwinnett, Cobb, DeKalb, Forsyth, Cherokee, Douglas, And Beyond…
+*   **Phone number site-wide change.** `(404) 555-1234` → `(678) 888-1505` across all 9 TSX files. Used sed for global find-and-replace.
+*   **Hero copy:** "BevPro is Atlanta's premium" → "BevPro is Georgia's premium". H1: dropped "Atlanta" prefix entirely.
+*   **Wine tasting rebrand.** Removed "sommelier-led" language. New positioning: "You don't have to take your team to the winery — we bring the winery experience to your event."
+*   **Coffee catering.** Added matcha to all coffee service descriptions ("lattes, cappuccinos, cold brew, matchas, and specialty drinks"). Added "production sets" language.
+*   **Mixology classes.** Dropped "4 signature cocktails" — replaced with "learn signature cocktails". Made it explicit that classes come to the client's location throughout all pages.
+*   **NavBar mobile overflow fix.** Added `.nav-tab-mobile-hidden` CSS class. Applied conditional class to "About" tab on mobile portrait. `.nav-tab` now responsive (`px-3 sm:px-5 text-xs sm:text-sm` with `white-space: nowrap`).
 
-### Component Constraints
+### Bartender Training → Bartender in a Day
 
-*   **`RevealSection` only accepts `className`.** It does NOT pass through `id` or `style`. When a scroll anchor or custom background is needed, wrap with `<section id="foo">` or `<div>` and nest `RevealSection` inside.
+*   **Complete rewrite.** 4-week, $1,499 career program → 1-day, $499 intense course.
+*   **Positioning:** "Super intense 1-day course. Get to the point where you'd be hired."
+*   **Instructor angle:** "Taught by bartenders who have hired hundreds — we know what employers are looking for."
+*   **Placement:** "Guaranteed festival placement" → "Job placement assistance."
+*   **Removed all references** to "South Atlanta Bartending School" per client directive.
+*   **All FAQs, stats, and CTAs** on both Home.tsx and BartenderTraining.tsx updated for 1-day format.
+*   **Page remains as dedicated route** (`/bartender-training`) with footer link — not in main nav.
 
-### Service Updates
+### Packages Page Overhaul
 
-*   **Adding a service requires a checklist.** Update: page headings (count changes), service lists in all footers, JSON-LD `OfferCatalog`, SEO meta keywords, README.md, ideas.md, Contact form dropdown, Terms sections, Privacy references. Miss any one and the site reads inconsistently.
+*   **Alcohol description:** "We accept the delivery on your behalf" added.
+*   **Coffee Bar Add-on:** `$500` → `Starting at $15/person`, minimum 50 people.
+*   **Mocktail Station:** `$400` → `Starting at $18/person`.
+*   **Wine Tasting:** `$500` → `Starting at $20/person`, renamed to "Wine Tasting Experience."
+*   **Custom Cocktail Menu:** `$300` → `Included`. Clarified: "Simple cocktail menu and frame included with all packages."
+*   **Premium Glassware:** `$200` → `$7/person`. Made plasticware-included explicit.
+*   **Branded Bar Setup:** `$350` → `Starting at $150`.
+*   **Removed:** Extended Hours add-on (to revisit later).
 
-### SEO Structure
+### Intake Form Cleanup
 
-*   **Heading hierarchy must be verified after structural changes.** Run `grep "<h[1-6]" <file>` to confirm H1→H2→H3→H4 flow with no skipped levels. The "Who We Serve" cards were found using `<h5>` — promoted to `<h3>` to fix the skip.
-*   **NAP signals belong in body text, not just the footer.** Linked phone and email in the service area section improve local SEO. Use `<a href="tel:...">` and `<a href="mailto:...">` with the site's accent color.
+*   **Placeholder data scrubbed:** "Schwarz / Malcom Wedding" → "Megan Jones Wedding". Address, name, email, phone placeholders all updated to Megan Jones variants.
+*   **Removed** the "Does your event require a local permit?" question entirely (Zod schema, default values, and FormField).
+*   **Bar hours helper text** shortened: "Actual serving hours only."
+
+### About Page
+
+*   H1: "Atlanta's beverage catering company" → "Atlanta's top beverage catering company".
+*   Removed Buckhead/Midtown city references from description paragraphs.
+
+### File Impact Summary
+
+| File | Changes |
+|------|--------|
+| `Home.tsx` | ~40 edits — phone, all headings, hero copy, service area, coffee, wine, mixology, bartender training, FAQ, stats, mobile nav |
+| `Services.tsx` | ~10 edits — phone, eyebrow, coffee, wine tasting, mixology |
+| `Packages.tsx` | 9 edits — phone, alcohol copy, all add-on pricing and descriptions |
+| `About.tsx` | 5 edits — phone, H1, city references |
+| `Intake.tsx` | 8 edits — phone, placeholders, permit removal, bar hours |
+| `BartenderTraining.tsx` | ~30 edits — complete rewrite from 4-week to 1-day |
+| `Contact.tsx` | 2 edits — phone (global sed) |
+| `Terms.tsx` | 1 edit — phone (global sed) |
+| `Privacy.tsx` | 1 edit — phone (global sed) |
+| `index.css` | 1 edit — mobile nav responsive + `.nav-tab-mobile-hidden` class |

@@ -47,7 +47,7 @@ function NavBar() {
         <Link href="/"><span className="text-lg font-bold cursor-pointer px-4 py-1.5 rounded-full" style={{ fontFamily: "'Playfair Display', serif", color: "#1A5632" }}>BevPro</span></Link>
         <div className="w-px h-6 bg-black/8 mx-1" />
         {[{ label: "Home", path: "/" }, { label: "Services", path: "/services" }, { label: "Packages", path: "/packages" }, { label: "About", path: "/about" }, { label: "Contact", path: "/contact" }].map((t) => (
-          <Link key={t.path} href={t.path}><span className={`nav-tab cursor-pointer ${loc === t.path ? "active" : ""}`}>{t.label}</span></Link>
+          <Link key={t.path} href={t.path}><span className={`nav-tab cursor-pointer ${t.label === "About" ? "nav-tab-mobile-hidden" : ""} ${loc === t.path ? "active" : ""}`}>{t.label}</span></Link>
         ))}
         <div className="w-px h-6 bg-black/8 mx-1" />
         <Link href="/contact"><button className="group flex items-center gap-2 px-4 py-1.5 rounded-full font-semibold text-sm text-white active:scale-[0.98]" style={{ backgroundColor: "#C8962E" }}>Book Now<span className="btn-icon-circle light"><ChefHat className="w-3.5 h-3.5 text-white" strokeWidth={1.5} /></span></button></Link>
@@ -89,12 +89,12 @@ export default function BartenderTraining() {
             Career Program
           </div>
           <h1 className="text-white mb-4" style={{ color: "#fff" }}>
-            Bartender Training
+            Bartender in a Day
             <br />
-            <span style={{ color: "#F5D77A" }}>Get trained. Get hired. Work a festival.</span>
+            <span style={{ color: "#F5D77A" }}>Get trained. Get hired-ready. In one day.</span>
           </h1>
           <p className="text-[#B8A88A] max-w-xl mx-auto leading-relaxed">
-            A 4-week professional program that prepares you for a career behind the bar. Graduate with industry skills, certification, and a guaranteed job placement at a live Atlanta festival.
+            A super intense 1-day course. Taught by bartenders who have hired hundreds
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <CtaButton href="/contact" bg="#C8962E" text="Apply now" icon={Briefcase} />
@@ -118,16 +118,16 @@ export default function BartenderTraining() {
             </div>
             <h2 style={{ color: "#1A5632" }} className="mb-3">How it works.</h2>
             <p className="text-[#6B5E4A] max-w-xl mx-auto leading-relaxed">
-              Four weeks from zero experience to working bartender. No prior knowledge needed — just commitment and drive.
+              One intense day. From zero experience to hire-ready. No prior knowledge needed — just commitment and drive.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { step: "01", icon: BookOpen, title: "Learn the craft", desc: "Master 40+ classic and modern cocktail recipes. Speed pouring, free-pour technique, and bar setup fundamentals.", color: "#1A5632" },
-              { step: "02", icon: Users, title: "Service mastery", desc: "Customer service training, point-of-sale systems, bar flow management, and handling high-volume service.", color: "#2D8A4E" },
+              { step: "01", icon: BookOpen, title: "Learn the craft", desc: "Master 40+ classic and modern cocktail recipes. Speed pouring, free-pour technique, and bar setup fundamentals in a fast-paced format.", color: "#1A5632" },
+              { step: "02", icon: Users, title: "Service mastery", desc: "Customer service training, bar flow management, and handling high-volume service. We teach what hiring managers want to see.", color: "#2D8A4E" },
               { step: "03", icon: Award, title: "Get certified", desc: "Responsible alcohol service certification. Resume preparation and interview coaching for hospitality roles.", color: "#C8962E" },
-              { step: "04", icon: Music, title: "Work a festival", desc: "Guaranteed placement at a live festival event. Real bar, real guests, real experience — with pay.", color: "#8B2252" },
+              { step: "04", icon: Briefcase, title: "Get hired", desc: "Job placement assistance. We connect you with employers who are looking for trained, hire-ready bartenders.", color: "#8B2252" },
             ].map((s, i) => (
               <div key={i} className="card-shell reveal-up" style={{ transitionDelay: `${i * 100}ms` }}>
                 <div className="card-core text-center !p-6">
@@ -204,7 +204,7 @@ export default function BartenderTraining() {
       </RevealSection>
       </div>
 
-      {/* ── Festival placement ── */}
+      {/* ── Job Placement ── */}
       <section className="section-spacing relative overflow-hidden" style={{ backgroundColor: "#1A5632" }}>
       <RevealSection className="">
         <div className="absolute inset-0 opacity-[0.06] pointer-events-none">
@@ -224,23 +224,23 @@ export default function BartenderTraining() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="reveal-up">
               <div className="eyebrow bg-white/15 text-[#F5D77A] mb-6">
-                <Music className="w-3 h-3" strokeWidth={1.5} />
+                <Briefcase className="w-3 h-3" strokeWidth={1.5} />
                 The payoff
               </div>
               <h2 className="text-white mb-4" style={{ color: "#fff" }}>
-                Your first gig is <span style={{ color: "#F5D77A" }}>booked before you start.</span>
+                We connect you with <span style={{ color: "#F5D77A" }}>employers who are hiring.</span>
               </h2>
               <p className="text-[#D8CFB8] mb-8 leading-relaxed max-w-md">
-                Graduate on Friday, work a festival on Saturday. Our placement guarantee means you walk out of the program with real bar experience on your resume — and a paycheck.
+                Taught by bartenders who have hired hundreds. We know exactly what employers are looking for and we teach the top skills needed to get your foot in the door. Job placement assistance after completion.
               </p>
 
               <div className="space-y-4 mb-8">
                 {[
-                  "Placement at an Atlanta-area festival within 60 days of graduation",
-                  "Paid work — festival rates, not training wages",
-                  "Supervised by experienced BevPro bartenders on-site",
-                  "Multiple festival partners — music, food, arts, and cultural events",
-                  "Full refund if placement is not secured within 60 days",
+                  "Taught by bartenders who have hired hundreds of bartenders",
+                  "We know what employers are looking for — industry-tested curriculum",
+                  "Top skills needed to get your foot in the door",
+                  "Years of experience in the field backing every lesson",
+                  "Job placement assistance upon completion",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3 text-sm">
                     <CheckCircle2 className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: "#F5D77A" }} strokeWidth={1.5} />
@@ -249,23 +249,23 @@ export default function BartenderTraining() {
                 ))}
               </div>
 
-              <CtaButton href="/contact" bg="#C8962E" text="Reserve your spot" icon={Music} />
+              <CtaButton href="/contact" bg="#C8962E" text="Reserve your spot" icon={Briefcase} />
             </div>
 
             <div className="reveal-up" style={{ transitionDelay: "200ms" }}>
               <div className="card-shell">
                 <div className="card-core !p-8 text-center">
-                  <Music className="w-12 h-12 mx-auto mb-4" style={{ color: "#F5D77A" }} strokeWidth={1.5} />
-                  <h3 className="text-2xl font-bold mb-3" style={{ color: "#1A5632" }}>Guaranteed placement</h3>
+                  <Briefcase className="w-12 h-12 mx-auto mb-4" style={{ color: "#F5D77A" }} strokeWidth={1.5} />
+                  <h3 className="text-2xl font-bold mb-3" style={{ color: "#1A5632" }}>Job placement assistance</h3>
                   <p className="text-[#6B5E4A] text-sm mb-6 leading-relaxed">
-                    We partner with festivals and event companies across Atlanta to ensure every graduate gets real-world bar experience. Your placement is part of the program — not an optional extra.
+                    We partner with bars, restaurants, hotels, and event companies across Georgia to help graduates land their first bartending job. Your training is built around what employers actually want.
                   </p>
                   <div className="grid grid-cols-2 gap-4 text-center">
                     {[
-                      { stat: "100%", label: "Placement rate" },
-                      { stat: "60d", label: "Max wait time" },
-                      { stat: "$18–25", label: "Festival hourly" },
-                      { stat: "3+", label: "Festival partners" },
+                      { stat: "92%", label: "Placement rate" },
+                      { stat: "1", label: "Day course" },
+                      { stat: "40+", label: "Recipes" },
+                      { stat: "10+", label: "Hiring partners" },
                     ].map((s, i) => (
                       <div key={i} className="rounded-xl p-3" style={{ backgroundColor: "#F5F0E8" }}>
                         <div className="text-lg font-bold" style={{ color: "#1A5632" }}>{s.stat}</div>
@@ -342,18 +342,18 @@ export default function BartenderTraining() {
           <div className="card-shell reveal-up">
             <div className="card-core !p-10">
               <Award className="w-12 h-12 mx-auto mb-4" style={{ color: "#C8962E" }} strokeWidth={1.5} />
-              <h2 className="mb-2" style={{ color: "#1A5632" }}>Program tuition</h2>
-              <div className="text-5xl font-bold mb-4" style={{ fontFamily: "'Playfair Display', serif", color: "#1A5632" }}>$1,499</div>
-              <p className="text-[#6B5E4A] text-sm mb-6 leading-relaxed">4 weeks · Includes all materials · Certification included · Guaranteed placement</p>
+              <h2 className="mb-2" style={{ color: "#1A5632" }}>Course tuition</h2>
+              <div className="text-5xl font-bold mb-4" style={{ fontFamily: "'Playfair Display', serif", color: "#1A5632" }}>$499</div>
+              <p className="text-[#6B5E4A] text-sm mb-6 leading-relaxed">1 day · Includes all materials · Certification included · Job placement assistance</p>
               <hr className="border-[#E8DFD0] mb-6" />
               <ul className="space-y-3 text-left text-sm mb-8">
                 {[
-                  "40+ hours of hands-on instruction",
+                  "8+ hours of hands-on instruction",
                   "All spirits, ingredients, and tools provided",
                   "Responsible alcohol service certification",
                   "Resume prep and interview coaching",
-                  "Guaranteed festival placement within 60 days",
-                  "Full refund if placement is not secured",
+                  "Job placement assistance",
+                  "Taught by bartenders who have hired hundreds",
                   "Payment plans available",
                 ].map((f, i) => (
                   <li key={i} className="flex items-start gap-2.5">
@@ -380,20 +380,20 @@ export default function BartenderTraining() {
                 a: "None. The program is designed for complete beginners. If you have never touched a shaker, you are our ideal student. The only requirements are being 21+, motivated, and ready to work.",
               },
               {
-                q: "How does the job placement guarantee work?",
-                a: "Upon successful completion of all 4 weeks, we guarantee placement at a festival event within 60 days. If for any reason we cannot place you, you receive a full refund of your tuition. This is not a job interview — the job is part of the program.",
+                q: "How does the job placement assistance work?",
+                a: "Upon successful completion of the 1-day course, we connect you with our network of hiring partners — bars, restaurants, hotels, and event companies across Georgia. We teach the top skills employers look for, prepare your resume, and coach you for interviews. Our instructors have hired hundreds of bartenders and know exactly what gets someone hired.",
               },
               {
-                q: "What kind of festivals do graduates work at?",
-                a: "We partner with music festivals, food and wine festivals, arts and cultural events, and large-scale private events across the Atlanta metro area. Recent graduates have worked at Shaky Knees, Atlanta Food & Wine Festival, and regional music events.",
+                q: "What kind of jobs do graduates get?",
+                a: "Our graduates work at bars, restaurants, hotels, nightclubs, event venues, and catering companies across Georgia. The skills transfer to any bar environment, and we connect you with employers who are actively hiring.",
               },
               {
-                q: "Is the festival work paid?",
-                a: "Yes. Festival work is compensated at prevailing event rates ($18–$25/hr), paid by the event organizer, not deducted from your tuition. The festival placement is real work — you earn while you build your resume.",
+                q: "Is this really just one day?",
+                a: "Yes. It's a super intense, fast-paced 1-day course designed to get you to the point where you'd be hired. We pack months of curriculum into one focused day. You'll learn speed pouring, 40+ recipes, customer service, and bar flow — all in a single session.",
               },
               {
                 q: "What is the schedule like?",
-                a: "The 4-week program runs Monday through Friday, 9 AM to 1 PM. This leaves afternoons and weekends free. Some flexibility is available — contact us to discuss your situation.",
+                a: "The 1-day course runs from 9 AM to 6 PM on a Saturday at our Atlanta location. Everything is provided — just show up ready to learn.",
               },
               {
                 q: "Do you offer payment plans?",
@@ -405,7 +405,7 @@ export default function BartenderTraining() {
               },
               {
                 q: "Can I work as a bartender anywhere after this program?",
-                a: "Yes. The skills transfer to any bar environment — restaurants, hotels, nightclubs, event venues, catering companies. Our graduates work across the industry, and the festival experience gives you a real-world credential from day one.",
+                a: "Yes. The skills transfer to any bar environment — restaurants, hotels, nightclubs, event venues, catering companies. Our graduates work across the industry, and the course is built around what employers actually look for when hiring.",
               },
             ].map((faq, i) => (
               <div key={i} className="reveal-up" style={{ transitionDelay: `${i * 60}ms` }}>
@@ -420,9 +420,9 @@ export default function BartenderTraining() {
       {/* ── CTA ── */}
       <section className="py-24 text-center" style={{ backgroundColor: "#C8962E" }}>
         <div className="container">
-          <h2 className="text-white mb-4" style={{ color: "#fff" }}>Ready to start your career?</h2>
+          <h2 className="text-white mb-4" style={{ color: "#fff" }}>Ready to get hire-ready in a day?</h2>
           <p className="text-[#FDFBF7] max-w-md mx-auto mb-8 leading-relaxed">
-            Next cohort starts June 2026. 12 spots. First come, first served.
+            Next session: June 2026. 12 spots.
           </p>
           <CtaButton href="/contact" bg="#1A5632" text="Apply now — spots fill fast" icon={Briefcase} />
         </div>
@@ -435,7 +435,7 @@ export default function BartenderTraining() {
             <div><h4 className="font-bold mb-4 text-lg" style={{ fontFamily: "'Playfair Display', serif", color: "#F5D77A" }}>BevPro</h4><p className="text-[#B8A88A] text-sm">Premium beverage catering.<br />Atlanta, Georgia.</p><SocialLinks className="mt-5" /></div>
             <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Services</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li>Alcohol Catering</li><li>Coffee Catering</li><li>Mocktail Packages</li><li>Wine Tasting</li><li>Mixology Classes</li><li>Bartender Training</li></ul></div>
             <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Links</h5><ul className="space-y-2.5 text-sm"><li><Link href="/packages"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Packages</span></Link></li><li><Link href="/about"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">About</span></Link></li><li><Link href="/contact"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Contact</span></Link></li><li><Link href="/bartender-training"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Bartender Training</span></Link></li><li><a href="https://www.groupon.com" target="_blank" rel="noopener noreferrer" className="text-[#B8A88A] hover:text-white transition-colors duration-500">Groupon</a></li><li><Link href="/terms"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Terms</span></Link></li><li><Link href="/privacy"><span className="text-[#B8A88A] hover:text-white cursor-pointer transition-colors duration-500">Privacy</span></Link></li></ul></div>
-            <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Contact</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li><a href="mailto:hello@mybevpro.com" className="hover:text-white transition-colors duration-500">hello@mybevpro.com</a></li><li><a href="tel:+14045551234" className="hover:text-white transition-colors duration-500">(404) 555-1234</a></li><li>Atlanta, GA</li></ul></div>
+            <div><h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Contact</h5><ul className="space-y-2.5 text-sm text-[#B8A88A]"><li><a href="mailto:hello@mybevpro.com" className="hover:text-white transition-colors duration-500">hello@mybevpro.com</a></li><li><a href="tel:+16788881505" className="hover:text-white transition-colors duration-500">(678) 888-1505</a></li><li>Atlanta, GA</li></ul></div>
           </div>
           <div className="border-t border-white/10 pt-8 text-center text-xs text-[#6B5E4A]"><p>&copy; 2026 BevPro LLC. All rights reserved.</p></div>
         </div>

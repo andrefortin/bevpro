@@ -226,6 +226,11 @@
     color: #FDFBF7;
   }
 
+  /* Hide less-critical nav tabs on small portrait screens */
+  .nav-tab-mobile-hidden {
+    @apply hidden sm:inline;
+  }
+
   /* ── Double-Bezel (Doppelrand) card architecture ── */
   .card-shell {
     @apply p-1.5 rounded-[2rem];

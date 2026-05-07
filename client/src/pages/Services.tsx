@@ -71,7 +71,7 @@ function NavBar() {
         <div className="w-px h-6 bg-black/8 mx-1" />
         {tabs.map((t) => (
           <Link key={t.path} href={t.path}>
-            <span className={`nav-tab cursor-pointer ${loc === t.path ? "active" : ""}`}>{t.label}</span>
+            <span className={`nav-tab cursor-pointer ${t.label === "About" ? "nav-tab-mobile-hidden" : ""} ${loc === t.path ? "active" : ""}`}>{t.label}</span>
           </Link>
         ))}
         <div className="w-px h-6 bg-black/8 mx-1" />
@@ -119,7 +119,7 @@ export default function Services() {
           </div>
           <h1 style={{ color: "#1A5632" }} className="mb-4">Everything we do.</h1>
           <p className="text-[#6B5E4A] max-w-xl mx-auto leading-relaxed">
-            Five services, one standard. Every bar, every pour, every class — run by professionals who care about the details.
+            Five services, one standard. Every bar, every pour, every class — run by professionals who care about the details. We come to your location.
           </p>
         </div>
       </section>
@@ -182,14 +182,14 @@ export default function Services() {
               <IconDot icon={Coffee} color="#6F4E37" />
               <h2 style={{ color: "#1A5632" }} className="mt-6 mb-4">Coffee Catering</h2>
               <p className="text-[#6B5E4A] mb-8 leading-relaxed max-w-md">
-                Artisanal espresso bar with professional baristas. From morning meetings to late-night wedding sendoffs — lattes, cappuccinos, cold brew, and specialty drinks, served beautifully.
+                Artisanal espresso bar with professional baristas. From morning meetings to late-night wedding sendoffs — lattes, cappuccinos, cold brew, matchas, and specialty drinks, served beautifully. Full production sets available.
               </p>
               <div className="space-y-4 mb-8">
                 {[
                   "Professional baristas with specialty coffee training",
-                  "Espresso, lattes, cappuccinos, cold brew, drip",
+                  "Espresso, lattes, cappuccinos, cold brew, matchas, drip",
                   "Flavor syrups, alternative milks, custom drink menus",
-                  "Commercial-grade equipment — full setup included",
+                  "Commercial-grade equipment — full production sets included",
                   "Perfect for breakfast events, break service, and night caps",
                 ].map((f, i) => (
                   <div key={i} className="flex items-start gap-3 text-sm">
@@ -262,7 +262,7 @@ export default function Services() {
               <IconDot icon={GlassWater} color="#8B2252" />
               <h2 style={{ color: "#1A5632" }} className="mt-6 mb-4">Wine Tasting Experience</h2>
               <p className="text-[#6B5E4A] mb-8 leading-relaxed max-w-md">
-                Guided tastings led by knowledgeable hosts. Curated flights, pairing notes, and a memorable experience for your guests — corporate events, private parties, celebrations.
+                Excited to reveal our new curated wine tasting experience. You don&apos;t have to take your team to the winery — we bring the winery experience to your event. Curated flights, pairing notes, and a memorable experience for your guests.
               </p>
               <div className="space-y-4 mb-8">
                 {[
@@ -503,7 +503,7 @@ export default function Services() {
               <h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Contact</h5>
               <ul className="space-y-2.5 text-sm text-[#B8A88A]">
                 <li><a href="mailto:hello@mybevpro.com" className="hover:text-white transition-colors duration-500">hello@mybevpro.com</a></li>
-                <li><a href="tel:+14045551234" className="hover:text-white transition-colors duration-500">(404) 555-1234</a></li>
+                <li><a href="tel:+16788881505" className="hover:text-white transition-colors duration-500">(678) 888-1505</a></li>
                 <li>Atlanta, GA</li>
               </ul>
             </div>
