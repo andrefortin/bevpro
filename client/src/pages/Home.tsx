@@ -63,7 +63,7 @@ function NavBar() {
   ];
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 flex justify-center pt-5">
-      <div className="flex items-center gap-1 bg-white/85 backdrop-blur-xl rounded-full px-1.5 py-1.5 border border-black/5 shadow-diffuse">
+      <div className="nav-pill">
         <Link href="/">
           <span
             className="text-lg font-bold cursor-pointer px-4 py-1.5 rounded-full"
