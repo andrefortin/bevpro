@@ -373,95 +373,6 @@ export default function Services() {
         </div>
       </RevealSection>
 
-      {/* ── Bartender Training ── */}
-      <RevealSection className="section-spacing relative overflow-hidden" style={{ backgroundColor: "#1E1810" }}>
-        <div className="absolute inset-0 opacity-[0.04] pointer-events-none">
-          <svg width="100%" height="100%">
-            <defs>
-              <pattern id="lines2" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
-                <line x1="0" y1="0" x2="0" y2="40" stroke="#F5D77A" strokeWidth="1" />
-              </pattern>
-            </defs>
-            <rect width="100%" height="100%" fill="url(#lines2)" />
-          </svg>
-        </div>
-
-        <div className="container relative z-10">
-          <div className="text-center mb-14">
-            <div className="eyebrow bg-[#C8962E]/20 text-[#F5D77A] mx-auto w-fit mb-6">
-              <Award className="w-3 h-3" strokeWidth={1.5} />
-              Career Track
-            </div>
-            <h2 className="text-white mb-4" style={{ color: "#fff" }}>
-              Bartender Training
-              <br />
-              <span style={{ color: "#F5D77A" }}>Get trained. Get hired. Get behind the bar.</span>
-            </h2>
-            <p className="text-[#B8A88A] max-w-xl mx-auto leading-relaxed">
-              A 4-week professional program that teaches you everything you need to work as a bartender — speed, accuracy, recipes, service flow, and certification. Graduate with a guaranteed job placement at a live festival.
-            </p>
-          </div>
-
-          {/* Program structure */}
-          <div className="grid md:grid-cols-3 gap-6 mb-14">
-            {[
-              { icon: BookOpen, title: "Week 1–2: Skills", desc: "Speed pouring, classic recipes, mixology fundamentals, bar setup and breakdown.", color: "#1A5632" },
-              { icon: Award, title: "Week 3: Certification", desc: "Responsible alcohol service cert, customer service training, point-of-sale systems.", color: "#C8962E" },
-              { icon: Music, title: "Week 4: Festival Placement", desc: "Work a live festival under supervision. Real bar, real guests, real experience.", color: "#8B2252" },
-            ].map((card, i) => (
-              <div key={i} className="reveal-up h-full" style={{ transitionDelay: `${i * 100}ms` }}>
-                <div className="h-full rounded-2xl p-8" style={{ backgroundColor: "rgba(255,255,255,0.08)", backdropFilter: "blur(4px)" }}>
-                  <div className="w-12 h-12 rounded-2xl flex items-center justify-center mb-5" style={{ backgroundColor: card.color }}>
-                    <card.icon className="w-5 h-5 text-white" strokeWidth={1.5} />
-                  </div>
-                  <h4 className="text-white font-bold mb-2">{card.title}</h4>
-                  <p className="text-[#D8CFB8] text-sm leading-relaxed">{card.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          {/* What you'll master */}
-          <div className="max-w-3xl mx-auto">
-            <h4 className="text-white text-center font-semibold mb-8">What you will master</h4>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-              {[
-                { icon: Martini, label: "40+ classic recipes" },
-                { icon: Beer, label: "Speed pouring" },
-                { icon: Citrus, label: "Garnish artistry" },
-                { icon: GlassWater, label: "Layering & free-pour" },
-                { icon: Briefcase, label: "Bar management" },
-                { icon: Users, label: "Customer service" },
-                { icon: Award, label: "Certification prep" },
-                { icon: Music, label: "Festival experience" },
-              ].map((item, i) => (
-                <div
-                  key={i}
-                  className="rounded-xl px-4 py-3 text-center transition-transform hover:scale-105 duration-500"
-                  style={{ backgroundColor: "rgba(255,255,255,0.07)" }}
-                >
-                  <item.icon className="w-4 h-4 mx-auto mb-2" style={{ color: "#F5D77A" }} strokeWidth={1.5} />
-                  <span className="text-[#D8CFB8] text-xs font-medium">{item.label}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Price + CTA */}
-          <div className="mt-12 text-center">
-            <div className="inline-block rounded-2xl px-8 py-5 mb-8" style={{ backgroundColor: "rgba(255,255,255,0.08)" }}>
-              <p className="text-[#B8A88A] text-sm mb-1">Program tuition</p>
-              <p className="text-4xl font-bold" style={{ fontFamily: "'Playfair Display', serif", color: "#F5D77A" }}>$1,499</p>
-              <p className="text-[#8B7355] text-xs mt-2">4 weeks · Includes certification · Guaranteed placement</p>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <CtaButton href="/bartender-training" bg="#C8962E" text="View program details" icon={Briefcase} />
-              <CtaButton href="/contact" bg="#1A5632" text="Apply for next cohort" icon={Award} />
-            </div>
-          </div>
-        </div>
-      </RevealSection>
-
       {/* ── CTA ── */}
       <section className="py-24 bg-[#FDFBF7] text-center">
         <div className="container">
@@ -485,7 +396,7 @@ export default function Services() {
             <div>
               <h5 className="font-semibold mb-4 text-xs uppercase tracking-widest text-[#8B7355]">Services</h5>
               <ul className="space-y-2.5 text-sm text-[#B8A88A]">
-                <li>Alcohol Catering</li><li>Coffee Catering</li><li>Mocktail Packages</li><li>Wine Tasting</li><li>Mixology Classes</li><li>Bartender Training</li>
+                <li>Alcohol Catering</li><li>Coffee Catering</li><li>Mocktail Packages</li><li>Wine Tasting</li><li>Mixology Classes</li>
               </ul>
             </div>
             <div>

@@ -907,7 +907,7 @@ export default function Home() {
                 <li>Mocktail Packages</li>
                 <li>Wine Tasting</li>
                 <li>Mixology Classes</li>
-                <li>Bartender Training</li>
+                
               </ul>
             </div>
             <div>
