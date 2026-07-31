@@ -1,0 +1,43 @@
+{
+  "defaultProvider": "openrouter",
+  "defaultModel": "deepseek/deepseek-v4-flash",
+  "model": {
+    "provider": "openrouter",
+    "id": "deepseek/deepseek-v4-flash",
+    "name": "DeepSeek V4 Flash (OpenRouter)"
+  },
+  "defaultThinkingLevel": "high",
+  "compaction": {
+    "enabled": true,
+    "reserveTokens": 22000,
+    "keepRecentTokens": 8000
+  },
+  "retry": {
+    "provider": {
+      "maxRetries": 3
+    }
+  },
+  "httpIdleTimeoutMs": 30000,
+  "agent": {
+    "maxTurns": 40,
+    "maxToolCalls": 12
+  },
+  "completion": {
+    "temperature": 0.2,
+    "top_p": 0.95
+  },
+  "packages": [],
+  "skills": [
+    "../.pi/skills"
+  ],
+  "enableSkillCommands": true,
+  "extensions": [
+    ".pi/extensions/cost-tracker.ts",
+    ".pi/extensions/model-fallback.ts"
+  ],
+  "outputPad": {
+    "user": 0,
+    "assistant": 0,
+    "thinking": 4
+  }
+}

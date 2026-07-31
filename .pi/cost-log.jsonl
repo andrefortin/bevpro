@@ -1,0 +1,11 @@
+{"type":"agent_run","model":"deepseek-v4-flash","turns":4,"totalCost":0.003706,"totalInputTokens":17618,"totalOutputTokens":2064,"timestamp":"2026-07-31T21:00:25.077Z"}
+{"type":"agent_run","model":"deepseek/deepseek-v4-flash","turns":1,"totalCost":0,"totalInputTokens":0,"totalOutputTokens":0,"timestamp":"2026-07-31T22:18:37.835Z"}
+{"type":"agent_run","model":"deepseek/deepseek-v4-flash","turns":3,"totalCost":0.001861,"totalInputTokens":6891,"totalOutputTokens":1281,"timestamp":"2026-07-31T22:19:19.023Z"}
+{"type":"agent_run","model":"deepseek/deepseek-v4-flash","turns":31,"totalCost":0.028107,"totalInputTokens":19566,"totalOutputTokens":24879,"timestamp":"2026-07-31T22:30:38.987Z"}
+{"type":"agent_run","model":"deepseek-v4-flash","turns":35,"totalCost":0.031402,"totalInputTokens":41157,"totalOutputTokens":26457,"timestamp":"2026-07-31T22:32:05.293Z"}
+{"type":"agent_run","model":"deepseek-v4-flash","turns":3,"totalCost":0.001761,"totalInputTokens":7642,"totalOutputTokens":1111,"timestamp":"2026-07-31T22:32:31.454Z"}
+{"type":"agent_run","model":"deepseek-v4-flash","turns":1,"totalCost":0.000173,"totalInputTokens":102,"totalOutputTokens":18,"timestamp":"2026-07-31T22:32:59.567Z"}
+{"type":"agent_run","model":"deepseek-v4-flash","turns":3,"totalCost":0.000741,"totalInputTokens":1016,"totalOutputTokens":571,"timestamp":"2026-07-31T22:34:43.704Z"}
+{"type":"agent_run","model":"deepseek/deepseek-v4-flash","turns":18,"totalCost":0.020902,"totalInputTokens":5087,"totalOutputTokens":10424,"timestamp":"2026-07-31T22:36:09.130Z"}
+{"type":"agent_run","model":"deepseek-v4-flash","turns":2,"totalCost":0.000442,"totalInputTokens":786,"totalOutputTokens":141,"timestamp":"2026-07-31T22:36:19.575Z"}
+{"type":"agent_run","model":"deepseek/deepseek-v4-flash","turns":5,"totalCost":0.006022,"totalInputTokens":1081,"totalOutputTokens":1858,"timestamp":"2026-07-31T22:40:55.171Z"}
