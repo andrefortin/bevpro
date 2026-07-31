@@ -54,3 +54,13 @@
 - Agents: orchestrator → lead → worker-1/worker-2 → qa-agent (5 canonical)
 - Routing: default_agent worker-1, 5 model routes, 7 agent routes
 - DB: `~/.swarm/tasks.db`; ledger `~/.forge-writer/cost_ledger.jsonl`
+
+## Form → Email Pipeline (2026-07-31)
+- Both forms POST JSON to `/api/intake` + `/api/contact` → nodemailer SMTP → **info@mybevpro.com**
+- **Sender = info@mybevpro.com** (Workspace app password in Vercel env: SMTP_USER/PASS/FROM). Local dev still uses ~/.bashrc fortinmedia creds (shared with outreach — don't touch).
+- Reply-To = lead's email (reply in Gmail → goes to prospect directly)
+- Honeypot: hidden `website` input — bots get silent 200, no email
+- Code layout: `api/_form-handlers.ts` (shared logic), `api/intake.ts` + `api/contact.ts` (Vercel functions), mounted also in `server/index.ts` + Vite dev middleware
+- **Vercel rule:** with `"framework": "vite"`, function builder transpiles api/*.ts file-by-file — no sibling-dir bundling, ESM needs explicit `.js` import extensions (`./_form-handlers.js`). Cross-dir imports from api/ → runtime 500 ERR_MODULE_NOT_FOUND.
+- Debug: `vercel logs <url> --json | grep error`
+- Env vars on Vercel: SMTP_HOST/PORT/USER/PASS/FROM, LEAD_EMAIL. See `.env.example`.

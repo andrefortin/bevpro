@@ -18,3 +18,11 @@
 - [ ] Review site pages against current live production (visual regression)
 - [ ] Confirm deploy pipeline / hosting for bevpro (see EXPERTISE.md — needs real deploy docs)
 - [ ] Consider graphify code graph for bevpro (.graphify/ exists — verify it's current)
+
+## ✅ Form → Email Pipeline (2026-07-31)
+- [x] Wire Intake + Contact forms to POST /api/intake + /api/contact
+- [x] Deploy Vercel functions (fixed ERR_MODULE_NOT_FOUND — shared code in api/ with .js imports)
+- [x] Sender = info@mybevpro.com (Workspace app password in Vercel env)
+- [x] Tested: honeypot 200/no-send, validation 400, real send 200 ✅
+
+## 🚀 Next (unchanged)
