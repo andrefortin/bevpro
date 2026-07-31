@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { defineConfig, type Plugin, type ViteDevServer } from "vite";
 import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
+import { handleContact, handleIntake } from "./server/form-handlers";
 
 // =============================================================================
 // Manus Debug Collector - Vite Plugin
@@ -150,7 +151,45 @@ function vitePluginManusDebugCollector(): Plugin {
   };
 }
 
-const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector()];
+function readJsonBody(req: { on: (event: string, cb: (chunk: Buffer | string) => void) => void }): Promise<unknown> {
+  return new Promise((resolve) => {
+    let body = "";
+    req.on("data", (chunk) => { body += chunk.toString(); });
+    req.on("end", () => {
+      try { resolve(body ? JSON.parse(body) : {}); } catch { resolve({}); }
+    });
+  });
+}
+
+/**
+ * Vite plugin to serve the form API during local dev (mirrors Vercel /api functions).
+ * Production uses api/intake.ts + api/contact.ts on Vercel.
+ */
+function vitePluginFormApi(): Plugin {
+  const mount = (handler: (body: unknown) => Promise<{ status: number; json: Record<string, unknown> }>) => {
+    return async (
+      req: { method?: string } & Parameters<typeof readJsonBody>[0],
+      res: { writeHead: (status: number, headers: Record<string, string>) => void; end: (body: string) => void },
+      next: () => void,
+    ) => {
+      if (req.method !== "POST") return next();
+      const body = await readJsonBody(req);
+      const result = await handler(body);
+      res.writeHead(result.status, { "Content-Type": "application/json" });
+      res.end(JSON.stringify(result.json));
+    };
+  };
+
+  return {
+    name: "form-api",
+    configureServer(server: ViteDevServer) {
+      server.middlewares.use("/api/intake", mount(handleIntake));
+      server.middlewares.use("/api/contact", mount(handleContact));
+    },
+  };
+}
+
+const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginFormApi()];
 
 export default defineConfig({
   plugins,

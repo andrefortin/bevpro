@@ -53,17 +53,31 @@ function CtaButton({ href, bg, text, icon: Icon }: { href: string; bg: string; t
 
 export default function Contact() {
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
-  const [formData, setFormData] = useState({ eventDate: "", eventType: "", guestCount: "", duration: "", location: "", service: "", notes: "", name: "", company: "", email: "", phone: "" });
+  const [formData, setFormData] = useState({ eventDate: "", eventType: "", guestCount: "", duration: "", location: "", service: "", notes: "", name: "", company: "", email: "", phone: "", website: "" });
+  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+  const [submitError, setSubmitError] = useState("");
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form:", formData);
-    alert("Thanks for reaching out. We will respond within 1 business day.");
-    setFormData({ eventDate: "", eventType: "", guestCount: "", duration: "", location: "", service: "", notes: "", name: "", company: "", email: "", phone: "" });
+    setStatus("sending");
+    setSubmitError("");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      if (!res.ok) throw new Error("Your message didn't go through. Please try again or email us at hello@mybevpro.com.");
+      setFormData({ eventDate: "", eventType: "", guestCount: "", duration: "", location: "", service: "", notes: "", name: "", company: "", email: "", phone: "", website: "" });
+      setStatus("success");
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
+      setStatus("error");
+    }
   };
 
   const faqs = [
@@ -92,6 +106,8 @@ export default function Contact() {
           <div className="grid md:grid-cols-3 gap-12">
             <div className="md:col-span-2 reveal-up">
               <form onSubmit={handleSubmit} className="bg-white rounded-3xl border border-[#E8DFD0] p-8 md:p-10">
+                {/* Honeypot — hidden from humans, bots fill it */}
+                <input type="text" name="website" value={formData.website} onChange={handleInputChange} tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
                 <h3 className="font-bold mb-6" style={{ color: "#1A5632", fontFamily: "'Playfair Display', serif" }}>Event details</h3>
                 <div className="grid md:grid-cols-2 gap-5 mb-6">
                   <div><label className="block text-[#1E1810] font-semibold text-sm mb-1.5">Event Date *</label><input type="date" name="eventDate" value={formData.eventDate} onChange={handleInputChange} required className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl focus:outline-none focus:ring-2 text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} /></div>
@@ -117,10 +133,17 @@ export default function Contact() {
                   <div><label className="block text-[#1E1810] font-semibold text-sm mb-1.5">Email *</label><input type="email" name="email" value={formData.email} onChange={handleInputChange} required className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl focus:outline-none focus:ring-2 text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} /></div>
                   <div><label className="block text-[#1E1810] font-semibold text-sm mb-1.5">Phone *</label><input type="tel" name="phone" value={formData.phone} onChange={handleInputChange} required className="w-full px-4 py-2.5 border border-[#E8DFD0] rounded-xl focus:outline-none focus:ring-2 text-sm" style={{ "--tw-ring-color": "#2D8A4E" } as React.CSSProperties} /></div>
                 </div>
-                <button type="submit" className="w-full group flex items-center justify-center gap-3 rounded-full py-4 font-bold text-base active:scale-[0.98] text-white" style={{ backgroundColor: "#1A5632" }}>
-                  Send inquiry
+                <button type="submit" disabled={status === "sending"} className="w-full group flex items-center justify-center gap-3 rounded-full py-4 font-bold text-base active:scale-[0.98] text-white disabled:opacity-60 disabled:cursor-not-allowed" style={{ backgroundColor: "#1A5632" }}>
+                  {status === "sending" ? "Sending..." : "Send inquiry"}
                   <span className="btn-icon-circle light"><BookOpen className="w-3.5 h-3.5 text-white" strokeWidth={1.5} /></span>
                 </button>
+
+                {status === "success" && (
+                  <p className="text-[#1A5632] font-semibold text-sm text-center mt-4">Thanks for reaching out. We'll respond within 1 business day.</p>
+                )}
+                {status === "error" && submitError && (
+                  <p className="text-red-600 text-sm text-center mt-4">{submitError}</p>
+                )}
               </form>
             </div>
             <div className="reveal-up" style={{ transitionDelay: "200ms" }}>

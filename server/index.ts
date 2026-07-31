@@ -2,6 +2,7 @@ import express from "express";
 import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
+import { handleContact, handleIntake } from "./form-handlers";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -17,6 +18,17 @@ async function startServer() {
       : path.resolve(__dirname, "..", "dist", "public");
 
   app.use(express.static(staticPath));
+
+  // Form API (used when running the Express server directly, e.g. droplet deploy)
+  app.use(express.json());
+  app.post("/api/intake", async (req, res) => {
+    const r = await handleIntake(req.body);
+    res.status(r.status).json(r.json);
+  });
+  app.post("/api/contact", async (req, res) => {
+    const r = await handleContact(req.body);
+    res.status(r.status).json(r.json);
+  });
 
   // Handle client-side routing - serve index.html for all routes
   app.get("*", (_req, res) => {

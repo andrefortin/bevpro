@@ -37,6 +37,7 @@ const intakeSchema = z.object({
   email: z.string().email("Valid email is required"),
   phone: z.string().min(1, "Phone number is required"),
   referralSource: z.enum(["returning", "referral", "search", "social", "groupon", "other"], { message: "Please select an option" }),
+  website: z.string().optional(),
 });
 
 type IntakeForm = z.infer<typeof intakeSchema>;
@@ -125,12 +126,29 @@ export default function Intake() {
       email: "",
       phone: "",
       referralSource: undefined,
+      website: "",
     },
   });
 
-  const onSubmit = (data: IntakeForm) => {
-    console.log("Intake form submitted:", data);
-    setSubmitted(true);
+  const [submitState, setSubmitState] = useState<"idle" | "sending">("idle");
+  const [submitError, setSubmitError] = useState("");
+
+  const onSubmit = async (data: IntakeForm) => {
+    setSubmitState("sending");
+    setSubmitError("");
+    try {
+      const res = await fetch("/api/intake", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error("Your request didn't go through. Please try again or email us at hello@mybevpro.com.");
+      setSubmitted(true);
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
+    } finally {
+      setSubmitState("idle");
+    }
   };
 
   if (submitted) {
@@ -173,6 +191,9 @@ export default function Intake() {
             <div className="md:col-span-2 reveal-up">
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="bg-white rounded-3xl border border-[#E8DFD0] p-8 md:p-10">
+
+                  {/* Honeypot — hidden from humans, bots fill it */}
+                  <input type="text" {...form.register("website")} tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
 
                   {/* ═══ SECTION 1: Event Logistics ═══ */}
                   <SectionHeader number={1} title="Event Logistics" icon={Calendar} />
@@ -450,10 +471,14 @@ export default function Intake() {
                   </div>
 
                   {/* ── Submit ── */}
-                  <button type="submit" className="w-full group flex items-center justify-center gap-3 rounded-full py-4 font-bold text-base active:scale-[0.98] text-white" style={{ backgroundColor: "#1A5632" }}>
-                    Submit intake form
+                  <button type="submit" disabled={submitState === "sending"} className="w-full group flex items-center justify-center gap-3 rounded-full py-4 font-bold text-base active:scale-[0.98] text-white disabled:opacity-60 disabled:cursor-not-allowed" style={{ backgroundColor: "#1A5632" }}>
+                    {submitState === "sending" ? "Sending..." : "Submit intake form"}
                     <span className="btn-icon-circle light"><Sparkles className="w-3.5 h-3.5 text-white" strokeWidth={1.5} /></span>
                   </button>
+
+                  {submitError && (
+                    <p className="text-red-600 text-sm text-center mt-4">{submitError}</p>
+                  )}
 
                   <p className="text-[#8B7355] text-xs text-center mt-4">
                     Thank you for providing this information. We'll use these details to customize your proposal.
